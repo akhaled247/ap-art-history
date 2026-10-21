@@ -15,8 +15,9 @@
     "test:quiz": "node scripts/test-artwork-quiz.js",
     "test:association": "node scripts/test-artwork-association-quiz.js",
     "test:vocab-artwork": "node scripts/test-vocab-artwork-quiz.js",
+    "test:quiz-deck": "node scripts/test-quiz-deck.js",
     "test:network": "node scripts/test-association-graph.js",
-    "test:all": "node scripts/validate-data.js && node scripts/test-artwork-quiz.js && node scripts/test-artwork-association-quiz.js && node scripts/test-vocab-artwork-quiz.js && node scripts/test-association-graph.js"
+    "test:all": "node scripts/validate-data.js && node scripts/test-artwork-quiz.js && node scripts/test-artwork-association-quiz.js && node scripts/test-vocab-artwork-quiz.js && node scripts/test-quiz-deck.js && node scripts/test-association-graph.js"
   },
   "keywords": [
     "ap-art-history",

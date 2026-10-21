@@ -14,6 +14,10 @@
   let _quizCategory = 'definitions';
   let _currentArtworkQuestionMode = 'artwork-to-term';
   let _vocabImageCarousel = null;
+  let _definitionTermDeck = null;
+  let _artworkTermDeck = null;
+  let _artworkModeDeck = null;
+  let _lastQuestionKey = null;
 
   document.addEventListener('DOMContentLoaded', async function () {
     const listEl = document.getElementById('vocab-list');
@@ -93,7 +97,10 @@
         b.classList.toggle('active', b === btn);
       });
       applyFilters();
-      if (_activeView === 'quiz') startQuizQuestion();
+      if (_activeView === 'quiz') {
+        resetQuizDecks();
+        startQuizQuestion();
+      }
     });
   }
 
@@ -126,6 +133,82 @@
     return getQuizPool().filter(shouldShowArtworkReferences);
   }
 
+  function ensureQuizDecks() {
+    if (!window.QuizDeck) return;
+    if (!_definitionTermDeck) {
+      _definitionTermDeck = window.QuizDeck.createQuizDeck({
+        getItems: function () {
+          return getQuizPool();
+        },
+        getKey: function (entry) {
+          return entry.id;
+        }
+      });
+    }
+    if (!_artworkTermDeck) {
+      _artworkTermDeck = window.QuizDeck.createQuizDeck({
+        getItems: function () {
+          return getArtworkQuizPool();
+        },
+        getKey: function (entry) {
+          return entry.id;
+        }
+      });
+    }
+    if (!_artworkModeDeck) {
+      _artworkModeDeck = window.QuizDeck.createModeDeck(['artwork-to-term', 'term-to-artwork']);
+    }
+  }
+
+  function resetQuizDecks() {
+    if (_definitionTermDeck) _definitionTermDeck.reset();
+    if (_artworkTermDeck) _artworkTermDeck.reset();
+    if (_artworkModeDeck) _artworkModeDeck.reset();
+    _lastQuestionKey = null;
+  }
+
+  function rememberQuestionKey(key) {
+    _lastQuestionKey = key;
+  }
+
+  function scheduleMissedTermRetry(termEntry) {
+    if (!termEntry) return;
+    ensureQuizDecks();
+    const deck = _quizCategory === 'definitions' ? _definitionTermDeck : _artworkTermDeck;
+    if (deck && deck.requeuePartway) {
+      deck.requeuePartway(termEntry);
+    }
+  }
+
+  function buildArtworkQuestionWithDeck(pool, mode) {
+    const builder = window.VocabArtworkQuiz;
+    if (!builder || !_artworkTermDeck) return null;
+
+    const poolSize = pool.length;
+    let attempts = Math.max(poolSize, 1);
+    while (attempts > 0) {
+      attempts -= 1;
+      const termEntry = _artworkTermDeck.next();
+      if (!termEntry) return null;
+      const preferredTermId = termEntry.id;
+      const built = mode === 'artwork-to-term'
+        ? builder.buildArtworkToTermQuestion(pool, Math.random, { preferredTermId: preferredTermId })
+        : builder.buildTermToArtworkQuestion(pool, Math.random, { preferredTermId: preferredTermId });
+      if (!built) continue;
+
+      const questionKey = mode + ':' + built.correct.id + ':' +
+        (mode === 'artwork-to-term' ? built.artworkId : built.correctArtworkId);
+      if (_lastQuestionKey && questionKey === _lastQuestionKey && attempts > 0) {
+        continue;
+      }
+      rememberQuestionKey(questionKey);
+      return built;
+    }
+    return mode === 'artwork-to-term'
+      ? builder.buildArtworkToTermQuestion(pool)
+      : builder.buildTermToArtworkQuestion(pool);
+  }
+
   function setupQuizModeTabs() {
     const categoryTabs = document.querySelectorAll('.vocab-quiz-category-tab');
     if (!categoryTabs.length) return;
@@ -140,7 +223,10 @@
           t.classList.toggle('active', active);
           t.setAttribute('aria-selected', active ? 'true' : 'false');
         });
-        if (_activeView === 'quiz') startQuizQuestion();
+        if (_activeView === 'quiz') {
+          resetQuizDecks();
+          startQuizQuestion();
+        }
       });
     });
     updateQuizPanelLayout();
@@ -365,8 +451,10 @@
   }
 
   function startQuizQuestion() {
+    ensureQuizDecks();
     if (_quizCategory === 'artworks') {
-      _currentArtworkQuestionMode = Math.random() < 0.5 ? 'artwork-to-term' : 'term-to-artwork';
+      const modePick = _artworkModeDeck ? _artworkModeDeck.next() : null;
+      _currentArtworkQuestionMode = modePick || (Math.random() < 0.5 ? 'artwork-to-term' : 'term-to-artwork');
       updateQuizPanelLayout();
       if (_currentArtworkQuestionMode === 'artwork-to-term') {
         startArtworkToTermQuizQuestion();
@@ -435,7 +523,11 @@
       return;
     }
 
-    const correct = pool[Math.floor(Math.random() * pool.length)];
+    let correct = _definitionTermDeck ? _definitionTermDeck.next() : null;
+    if (!correct) {
+      correct = pool[Math.floor(Math.random() * pool.length)];
+    }
+    rememberQuestionKey('definition:' + correct.id);
     const distractors = shuffle(pool.filter(function (e) { return e.id !== correct.id; }))
       .slice(0, 3);
     const choices = shuffle([correct].concat(distractors));
@@ -480,8 +572,7 @@
       return;
     }
 
-    const builder = window.VocabArtworkQuiz;
-    const built = builder ? builder.buildArtworkToTermQuestion(pool) : null;
+    const built = buildArtworkQuestionWithDeck(pool, 'artwork-to-term');
     if (!built) {
       clearQuizImage();
       promptEl.textContent =
@@ -531,8 +622,7 @@
 
     if (!promptEl || !optionsEl) return;
 
-    const builder = window.VocabArtworkQuiz;
-    const built = builder ? builder.buildTermToArtworkQuestion(pool) : null;
+    const built = buildArtworkQuestionWithDeck(pool, 'term-to-artwork');
     if (!built) {
       promptEl.textContent =
         'Not enough distinct artworks for a fair vocabulary quiz in this unit. Try "All" or another unit.';
@@ -587,6 +677,7 @@
     _quizScore.total += 1;
     const isCorrect = choice.id === correct.id;
     if (isCorrect) _quizScore.correct += 1;
+    else scheduleMissedTermRetry(correct);
 
     optionsEl.querySelectorAll('.vocab-quiz-option').forEach(function (opt) {
       opt.disabled = true;
@@ -613,6 +704,7 @@
     _quizScore.total += 1;
     const isCorrect = choice.id === correct.id;
     if (isCorrect) _quizScore.correct += 1;
+    else scheduleMissedTermRetry(correct);
 
     optionsEl.querySelectorAll('.vocab-quiz-option').forEach(function (opt) {
       opt.disabled = true;
@@ -644,6 +736,7 @@
     _quizScore.total += 1;
     const isCorrect = btn.getAttribute('data-correct') === 'true';
     if (isCorrect) _quizScore.correct += 1;
+    else scheduleMissedTermRetry(correctTerm);
 
     optionsEl.querySelectorAll('.vocab-quiz-option').forEach(function (opt) {
       opt.disabled = true;

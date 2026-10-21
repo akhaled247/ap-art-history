@@ -56,10 +56,23 @@ window.VocabArtworkQuiz = (function () {
     ).slice(0, DISTRACTOR_COUNT);
   }
 
-  function buildArtworkToTermQuestion(pool, rng) {
+  function orderTermsForBuild(pool, preferredTermId, random) {
+    var terms = shuffle(pool, random);
+    if (!preferredTermId) return terms;
+    var preferred = [];
+    var rest = [];
+    terms.forEach(function (entry) {
+      if (entry.id === preferredTermId) preferred.push(entry);
+      else rest.push(entry);
+    });
+    return preferred.concat(rest);
+  }
+
+  function buildArtworkToTermQuestion(pool, rng, options) {
     if (!pool || pool.length < CHOICE_COUNT) return null;
     var random = rng || Math.random;
-    var terms = shuffle(pool, random);
+    var preferredTermId = options && options.preferredTermId;
+    var terms = orderTermsForBuild(pool, preferredTermId, random);
     var t;
     var a;
     var artworkId;
@@ -82,12 +95,13 @@ window.VocabArtworkQuiz = (function () {
     return null;
   }
 
-  function buildTermToArtworkQuestion(pool, rng) {
+  function buildTermToArtworkQuestion(pool, rng, options) {
     if (!pool || pool.length < CHOICE_COUNT) return null;
     var artworkIds = getArtworkIdsInPool(pool);
     if (artworkIds.length < CHOICE_COUNT) return null;
     var random = rng || Math.random;
-    var terms = shuffle(pool, random);
+    var preferredTermId = options && options.preferredTermId;
+    var terms = orderTermsForBuild(pool, preferredTermId, random);
     var t;
     var a;
     var correctArtworkId;
