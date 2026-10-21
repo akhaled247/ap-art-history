@@ -217,16 +217,6 @@
     });
   }
 
-  function getArtworkIdsInPool(pool) {
-    const ids = [];
-    pool.forEach(function (entry) {
-      (entry.artworks || []).forEach(function (id) {
-        if (ids.indexOf(id) === -1) ids.push(id);
-      });
-    });
-    return ids;
-  }
-
   function resolveAssetPath(src) {
     if (!src || /^https?:\/\//i.test(src)) return src;
     return '../' + src.replace(/^\//, '');
@@ -490,13 +480,22 @@
       return;
     }
 
-    const correct = pool[Math.floor(Math.random() * pool.length)];
-    const artworkId = correct.artworks[Math.floor(Math.random() * correct.artworks.length)];
+    const builder = window.VocabArtworkQuiz;
+    const built = builder ? builder.buildArtworkToTermQuestion(pool) : null;
+    if (!built) {
+      clearQuizImage();
+      promptEl.textContent =
+        'Not enough distinct terms for a fair artwork quiz in this unit. Try "All" or another unit.';
+      optionsEl.innerHTML = '';
+      if (feedbackEl) feedbackEl.textContent = '';
+      if (nextBtn) nextBtn.hidden = true;
+      return;
+    }
+    const correct = built.correct;
+    const artworkId = built.artworkId;
+    const choices = built.choices;
     showQuizCarouselForArtwork(artworkId, correct);
 
-    const distractors = shuffle(pool.filter(function (e) { return e.id !== correct.id; }))
-      .slice(0, 3);
-    const choices = shuffle([correct].concat(distractors));
     const labels = ['A', 'B', 'C', 'D'];
     const paddedId = String(artworkId).padStart(3, '0');
     const workTitle = formatArtworkTitleForQuiz(artworkId, correct);
@@ -532,28 +531,20 @@
 
     if (!promptEl || !optionsEl) return;
 
-    const artworkIds = getArtworkIdsInPool(pool);
-    if (pool.length < 4 || artworkIds.length < 4) {
-      promptEl.textContent = 'Need at least 4 terms with linked artworks in this unit. Try "All" or another unit.';
+    const builder = window.VocabArtworkQuiz;
+    const built = builder ? builder.buildTermToArtworkQuestion(pool) : null;
+    if (!built) {
+      promptEl.textContent =
+        'Not enough distinct artworks for a fair vocabulary quiz in this unit. Try "All" or another unit.';
       optionsEl.innerHTML = '';
       if (feedbackEl) feedbackEl.textContent = '';
       if (nextBtn) nextBtn.hidden = true;
       return;
     }
 
-    const correct = pool[Math.floor(Math.random() * pool.length)];
-    const correctArtworkId = correct.artworks[Math.floor(Math.random() * correct.artworks.length)];
-    const distractorIds = shuffle(artworkIds.filter(function (id) { return id !== correctArtworkId; }))
-      .slice(0, 3);
-    if (distractorIds.length < 3) {
-      promptEl.textContent = 'Not enough distinct artworks in this unit for a 4-choice quiz. Try "All" or another unit.';
-      optionsEl.innerHTML = '';
-      if (feedbackEl) feedbackEl.textContent = '';
-      if (nextBtn) nextBtn.hidden = true;
-      return;
-    }
-
-    const artworkChoices = shuffle([correctArtworkId].concat(distractorIds));
+    const correct = built.correct;
+    const correctArtworkId = built.correctArtworkId;
+    const artworkChoices = built.artworkChoices;
     const labels = ['A', 'B', 'C', 'D'];
     const paddedId = String(correctArtworkId).padStart(3, '0');
 
