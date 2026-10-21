@@ -301,8 +301,7 @@
       var artwork = built.artwork;
       var linkHtml = '';
       if (artwork && artwork.id) {
-        var paddedId = window.ArtworkRender.padId(artwork.id);
-        linkHtml = ' <a href="' + escapeAttr(paddedId + '/') + '">View CED #' + artwork.id + '</a>';
+        linkHtml = ' <a href="' + escapeAttr(window.ArtworkRender.artworkPageUrl(artwork.id)) + '">View CED #' + artwork.id + '</a>';
       }
       var explain = '';
       if (built.quizType === 'association' && built.explanationLabel) {

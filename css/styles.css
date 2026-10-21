@@ -1914,6 +1914,34 @@ a.panel-image-caption.panel-detail-link:hover {
   padding: 24px;
 }
 
+.vocab-quiz-panel {
+  max-width: 800px;
+}
+
+.vocab-quiz-mode-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.vocab-quiz-image-wrap {
+  margin-bottom: 20px;
+}
+
+.vocab-quiz-image-section {
+  max-width: 100%;
+}
+
+.vocab-quiz-image-display {
+  height: min(420px, 55vh);
+}
+
+.vocab-quiz-panel--definitions .vocab-quiz-image-wrap,
+.vocab-quiz-panel--term-to-artwork .vocab-quiz-image-wrap {
+  display: none;
+}
+
 .vocab-quiz-score {
   font-size: 13px;
   font-weight: 600;

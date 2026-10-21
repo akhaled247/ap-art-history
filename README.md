@@ -26,7 +26,8 @@ This website is a fully static client-side web application deployable directly t
 
 ```text
 /
-├── index.html                  # Main application entry point
+├── index.html                  # Browse list (home)
+├── map/index.html              # Interactive map & timeline
 ├── package.json                # Project metadata and validation scripts
 ├── LICENSE                     # MIT License
 ├── README.md                   # Project documentation
@@ -212,7 +213,7 @@ python -m http.server 8000
 npx serve .
 ```
 
-Then open `http://localhost:8000` in your browser.
+Then open `http://localhost:8000` for the browse list, or `http://localhost:8000/map/` for the interactive map.
 
 ---
 

@@ -11,18 +11,27 @@
   let _activeView = 'glossary';
   let _quizScore = { correct: 0, total: 0 };
   let _quizAnswered = false;
+  let _quizCategory = 'definitions';
+  let _currentArtworkQuestionMode = 'artwork-to-term';
+  let _vocabImageCarousel = null;
 
   document.addEventListener('DOMContentLoaded', async function () {
     const listEl = document.getElementById('vocab-list');
     if (!listEl) return;
 
     try {
-      await window.DataLoader.loadVocabulary();
+      await Promise.all([
+        window.DataLoader.loadVocabulary(),
+        window.DataLoader.loadImages(),
+        window.DataLoader.loadArtworks()
+      ]);
       _allTerms = window.DataLoader.getVocabulary().slice().sort(function (a, b) {
         return a.term.localeCompare(b.term, undefined, { sensitivity: 'base' });
       });
 
       setupViewTabs();
+      setupQuizModeTabs();
+      setupVocabQuizCarousel();
       setupUnitTabs();
       setupSearch();
       setupQuizNext();
@@ -111,6 +120,129 @@
   function getQuizPool() {
     if (_selectedUnit === 'all') return _allTerms;
     return window.DataLoader.filterVocabularyByUnit(_selectedUnit);
+  }
+
+  function getArtworkQuizPool() {
+    return getQuizPool().filter(shouldShowArtworkReferences);
+  }
+
+  function setupQuizModeTabs() {
+    const categoryTabs = document.querySelectorAll('.vocab-quiz-category-tab');
+    if (!categoryTabs.length) return;
+
+    categoryTabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        const category = tab.getAttribute('data-quiz-category') || 'definitions';
+        if (category === _quizCategory) return;
+        _quizCategory = category;
+        categoryTabs.forEach(function (t) {
+          const active = t === tab;
+          t.classList.toggle('active', active);
+          t.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
+        if (_activeView === 'quiz') startQuizQuestion();
+      });
+    });
+    updateQuizPanelLayout();
+  }
+
+  function updateQuizPanelLayout() {
+    const panel = document.getElementById('vocab-quiz-panel');
+    if (!panel) return;
+    const mode = _quizCategory === 'definitions' ? 'definitions' : _currentArtworkQuestionMode;
+    panel.classList.toggle('vocab-quiz-panel--definitions', mode === 'definitions');
+    panel.classList.toggle('vocab-quiz-panel--term-to-artwork', mode === 'term-to-artwork');
+  }
+
+  function setupVocabQuizCarousel() {
+    if (!window.ArtworkRender || !window.ArtworkRender.bindImageCarousel) return;
+    const imgEl = document.getElementById('vocab-quiz-image');
+    if (!imgEl) return;
+    _vocabImageCarousel = window.ArtworkRender.bindImageCarousel({
+      imgEl: imgEl,
+      captionEl: document.getElementById('vocab-quiz-image-caption'),
+      controlsEl: document.getElementById('vocab-quiz-image-controls'),
+      prevBtn: document.getElementById('vocab-quiz-img-prev'),
+      nextBtn: document.getElementById('vocab-quiz-img-next')
+    });
+  }
+
+  function getArtworkTitle(artworkId) {
+    const artwork = window.DataLoader.getArtworkById(artworkId);
+    if (artwork && artwork.title) return artwork.title;
+    return 'CED #' + String(artworkId).padStart(3, '0');
+  }
+
+  function formatArtworkTitleForQuiz(artworkId, promptEntry) {
+    return censorQuizChoiceText(getArtworkTitle(artworkId), promptEntry);
+  }
+
+  function formatArtworkChoiceLabel(artworkId, promptEntry) {
+    const padded = String(artworkId).padStart(3, '0');
+    return padded + ' — ' + formatArtworkTitleForQuiz(artworkId, promptEntry);
+  }
+
+  function formatArtworkChoiceLabelPlain(artworkId) {
+    const padded = String(artworkId).padStart(3, '0');
+    return padded + ' — ' + getArtworkTitle(artworkId);
+  }
+
+  function setQuizOptionButton(btn, labelLetter, displayHtml, plainText) {
+    btn.innerHTML = '<span class="vocab-quiz-label">' + labelLetter + '</span> ' + displayHtml;
+    btn.setAttribute('data-choice-label', labelLetter);
+    btn._quizChoicePlain = plainText;
+  }
+
+  function revealQuizChoices(optionsEl) {
+    if (!optionsEl) return;
+    optionsEl.querySelectorAll('.vocab-quiz-option').forEach(function (opt) {
+      const label = opt.getAttribute('data-choice-label');
+      const text = opt._quizChoicePlain;
+      if (!label || text == null) return;
+      opt.innerHTML = '<span class="vocab-quiz-label">' + label + '</span> ' + escapeHtml(text);
+    });
+  }
+
+  function mapImagesForQuiz(artworkId, promptEntry) {
+    return window.DataLoader.getImagesForArtwork(artworkId).map(function (img) {
+      const alt = img.alt
+        ? censorQuizChoiceText(img.alt, promptEntry)
+        : formatArtworkTitleForQuiz(artworkId, promptEntry);
+      return {
+        src: resolveAssetPath(img.src),
+        alt: alt,
+        source: img.source,
+        local: img.local
+      };
+    });
+  }
+
+  function getArtworkIdsInPool(pool) {
+    const ids = [];
+    pool.forEach(function (entry) {
+      (entry.artworks || []).forEach(function (id) {
+        if (ids.indexOf(id) === -1) ids.push(id);
+      });
+    });
+    return ids;
+  }
+
+  function resolveAssetPath(src) {
+    if (!src || /^https?:\/\//i.test(src)) return src;
+    return '../' + src.replace(/^\//, '');
+  }
+
+  function censorQuizChoiceText(text, promptEntry) {
+    if (!text || !window.VocabLinker || !window.VocabLinker.censorVocabularyInText) {
+      return text;
+    }
+    return window.VocabLinker.censorVocabularyInText(text, _allTerms, {
+      promptEntry: promptEntry
+    });
+  }
+
+  function formatDefinitionChoice(definition, promptEntry) {
+    return escapeHtml(censorQuizChoiceText(definition, promptEntry));
   }
 
   function applyFilters() {
@@ -243,7 +375,59 @@
   }
 
   function startQuizQuestion() {
+    if (_quizCategory === 'artworks') {
+      _currentArtworkQuestionMode = Math.random() < 0.5 ? 'artwork-to-term' : 'term-to-artwork';
+      updateQuizPanelLayout();
+      if (_currentArtworkQuestionMode === 'artwork-to-term') {
+        startArtworkToTermQuizQuestion();
+      } else {
+        startTermToArtworkQuizQuestion();
+      }
+      return;
+    }
+    _currentArtworkQuestionMode = 'artwork-to-term';
+    updateQuizPanelLayout();
+    startDefinitionQuizQuestion();
+  }
+
+  function clearQuizImage() {
+    const wrap = document.getElementById('vocab-quiz-image-wrap');
+    const imgEl = document.getElementById('vocab-quiz-image');
+    if (_vocabImageCarousel) {
+      _vocabImageCarousel.setImages([]);
+    } else if (imgEl) {
+      imgEl.removeAttribute('src');
+      imgEl.alt = '';
+    }
+    const captionEl = document.getElementById('vocab-quiz-image-caption');
+    if (captionEl) captionEl.textContent = '';
+    if (wrap) wrap.hidden = true;
+  }
+
+  function showQuizCarouselForArtwork(artworkId, promptEntry) {
+    const wrap = document.getElementById('vocab-quiz-image-wrap');
+    if (!wrap) return;
+
+    const images = mapImagesForQuiz(artworkId, promptEntry);
+    if (!images.length) {
+      wrap.hidden = true;
+      return;
+    }
+    if (_vocabImageCarousel) {
+      _vocabImageCarousel.setImages(images);
+    } else {
+      const imgEl = document.getElementById('vocab-quiz-image');
+      if (imgEl) {
+        imgEl.src = images[0].src;
+        imgEl.alt = images[0].alt || 'Artwork image';
+      }
+    }
+    wrap.hidden = false;
+  }
+
+  function startDefinitionQuizQuestion() {
     _quizAnswered = false;
+    clearQuizImage();
     const pool = getQuizPool();
     const promptEl = document.getElementById('vocab-quiz-prompt');
     const optionsEl = document.getElementById('vocab-quiz-options');
@@ -276,39 +460,223 @@
       btn.className = 'vocab-quiz-option';
       btn.setAttribute('data-correct', choice.id === correct.id ? 'true' : 'false');
       btn.setAttribute('data-id', choice.id);
-      btn.innerHTML = '<span class="vocab-quiz-label">' + labels[idx] + '</span> ' + escapeHtml(choice.definition);
+      setQuizOptionButton(btn, labels[idx], formatDefinitionChoice(choice.definition, correct), choice.definition);
       btn.addEventListener('click', function () {
-        if (_quizAnswered) return;
-        _quizAnswered = true;
-        _quizScore.total += 1;
-        const isCorrect = choice.id === correct.id;
-        if (isCorrect) _quizScore.correct += 1;
-
-        optionsEl.querySelectorAll('.vocab-quiz-option').forEach(function (opt) {
-          opt.disabled = true;
-          if (opt.getAttribute('data-id') === correct.id) {
-            opt.classList.add('vocab-quiz-option--correct');
-          } else if (opt === btn && !isCorrect) {
-            opt.classList.add('vocab-quiz-option--wrong');
-          }
-        });
-
-        if (feedbackEl) {
-          feedbackEl.textContent = isCorrect ? 'Correct!' : 'Incorrect. The right answer is highlighted.';
-        }
-        if (scoreEl) {
-          scoreEl.textContent = 'Score: ' + _quizScore.correct + ' / ' + _quizScore.total;
-        }
-        if (nextBtn) nextBtn.hidden = false;
+        onDefinitionQuizAnswer(btn, correct, choice, optionsEl, feedbackEl, nextBtn, scoreEl);
       });
       optionsEl.appendChild(btn);
     });
 
+    resetQuizChrome(feedbackEl, nextBtn, scoreEl);
+  }
+
+  function startArtworkToTermQuizQuestion() {
+    _quizAnswered = false;
+    const pool = getArtworkQuizPool();
+    const promptEl = document.getElementById('vocab-quiz-prompt');
+    const optionsEl = document.getElementById('vocab-quiz-options');
+    const feedbackEl = document.getElementById('vocab-quiz-feedback');
+    const nextBtn = document.getElementById('vocab-quiz-next');
+    const scoreEl = document.getElementById('vocab-quiz-score');
+
+    if (!promptEl || !optionsEl) return;
+
+    if (pool.length < 4) {
+      clearQuizImage();
+      promptEl.textContent = 'Need at least 4 terms with linked artworks in this unit. Try "All" or another unit.';
+      optionsEl.innerHTML = '';
+      if (feedbackEl) feedbackEl.textContent = '';
+      if (nextBtn) nextBtn.hidden = true;
+      return;
+    }
+
+    const correct = pool[Math.floor(Math.random() * pool.length)];
+    const artworkId = correct.artworks[Math.floor(Math.random() * correct.artworks.length)];
+    showQuizCarouselForArtwork(artworkId, correct);
+
+    const distractors = shuffle(pool.filter(function (e) { return e.id !== correct.id; }))
+      .slice(0, 3);
+    const choices = shuffle([correct].concat(distractors));
+    const labels = ['A', 'B', 'C', 'D'];
+    const paddedId = String(artworkId).padStart(3, '0');
+    const workTitle = formatArtworkTitleForQuiz(artworkId, correct);
+
+    promptEl.innerHTML = 'Which vocabulary term is associated with <strong>' + escapeHtml(workTitle) + '</strong>?';
+    optionsEl.innerHTML = '';
+
+    choices.forEach(function (choice, idx) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'vocab-quiz-option';
+      btn.setAttribute('data-correct', choice.id === correct.id ? 'true' : 'false');
+      btn.setAttribute('data-id', choice.id);
+      setQuizOptionButton(btn, labels[idx], escapeHtml(choice.term), choice.term);
+      btn.addEventListener('click', function () {
+        onWorkToTermQuizAnswer(btn, correct, choice, paddedId, optionsEl, feedbackEl, nextBtn, scoreEl);
+      });
+      optionsEl.appendChild(btn);
+    });
+
+    resetQuizChrome(feedbackEl, nextBtn, scoreEl);
+  }
+
+  function startTermToArtworkQuizQuestion() {
+    _quizAnswered = false;
+    clearQuizImage();
+    const pool = getArtworkQuizPool();
+    const promptEl = document.getElementById('vocab-quiz-prompt');
+    const optionsEl = document.getElementById('vocab-quiz-options');
+    const feedbackEl = document.getElementById('vocab-quiz-feedback');
+    const nextBtn = document.getElementById('vocab-quiz-next');
+    const scoreEl = document.getElementById('vocab-quiz-score');
+
+    if (!promptEl || !optionsEl) return;
+
+    const artworkIds = getArtworkIdsInPool(pool);
+    if (pool.length < 4 || artworkIds.length < 4) {
+      promptEl.textContent = 'Need at least 4 terms with linked artworks in this unit. Try "All" or another unit.';
+      optionsEl.innerHTML = '';
+      if (feedbackEl) feedbackEl.textContent = '';
+      if (nextBtn) nextBtn.hidden = true;
+      return;
+    }
+
+    const correct = pool[Math.floor(Math.random() * pool.length)];
+    const correctArtworkId = correct.artworks[Math.floor(Math.random() * correct.artworks.length)];
+    const distractorIds = shuffle(artworkIds.filter(function (id) { return id !== correctArtworkId; }))
+      .slice(0, 3);
+    if (distractorIds.length < 3) {
+      promptEl.textContent = 'Not enough distinct artworks in this unit for a 4-choice quiz. Try "All" or another unit.';
+      optionsEl.innerHTML = '';
+      if (feedbackEl) feedbackEl.textContent = '';
+      if (nextBtn) nextBtn.hidden = true;
+      return;
+    }
+
+    const artworkChoices = shuffle([correctArtworkId].concat(distractorIds));
+    const labels = ['A', 'B', 'C', 'D'];
+    const paddedId = String(correctArtworkId).padStart(3, '0');
+
+    promptEl.innerHTML = 'What artwork is associated with the vocabulary term <strong>' +
+      escapeHtml(correct.term) + '</strong>?';
+    optionsEl.innerHTML = '';
+
+    artworkChoices.forEach(function (artworkId, idx) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'vocab-quiz-option';
+      btn.setAttribute('data-correct', artworkId === correctArtworkId ? 'true' : 'false');
+      btn.setAttribute('data-artwork-id', String(artworkId));
+      setQuizOptionButton(
+        btn,
+        labels[idx],
+        escapeHtml(formatArtworkChoiceLabel(artworkId, correct)),
+        formatArtworkChoiceLabelPlain(artworkId)
+      );
+      btn.addEventListener('click', function () {
+        onTermToArtworkQuizAnswer(btn, correct, correctArtworkId, paddedId, optionsEl, feedbackEl, nextBtn, scoreEl);
+      });
+      optionsEl.appendChild(btn);
+    });
+
+    resetQuizChrome(feedbackEl, nextBtn, scoreEl);
+  }
+
+  function resetQuizChrome(feedbackEl, nextBtn, scoreEl) {
     if (feedbackEl) feedbackEl.textContent = '';
     if (nextBtn) nextBtn.hidden = true;
     if (scoreEl && _quizScore.total === 0) {
       scoreEl.textContent = 'Score: 0 / 0';
     }
+  }
+
+  function onDefinitionQuizAnswer(btn, correct, choice, optionsEl, feedbackEl, nextBtn, scoreEl) {
+    if (_quizAnswered) return;
+    _quizAnswered = true;
+    _quizScore.total += 1;
+    const isCorrect = choice.id === correct.id;
+    if (isCorrect) _quizScore.correct += 1;
+
+    optionsEl.querySelectorAll('.vocab-quiz-option').forEach(function (opt) {
+      opt.disabled = true;
+      if (opt.getAttribute('data-id') === correct.id) {
+        opt.classList.add('vocab-quiz-option--correct');
+      } else if (opt === btn && !isCorrect) {
+        opt.classList.add('vocab-quiz-option--wrong');
+      }
+    });
+    revealQuizChoices(optionsEl);
+
+    if (feedbackEl) {
+      feedbackEl.textContent = isCorrect ? 'Correct!' : 'Incorrect. The right answer is highlighted.';
+    }
+    if (scoreEl) {
+      scoreEl.textContent = 'Score: ' + _quizScore.correct + ' / ' + _quizScore.total;
+    }
+    if (nextBtn) nextBtn.hidden = false;
+  }
+
+  function onWorkToTermQuizAnswer(btn, correct, choice, paddedId, optionsEl, feedbackEl, nextBtn, scoreEl) {
+    if (_quizAnswered) return;
+    _quizAnswered = true;
+    _quizScore.total += 1;
+    const isCorrect = choice.id === correct.id;
+    if (isCorrect) _quizScore.correct += 1;
+
+    optionsEl.querySelectorAll('.vocab-quiz-option').forEach(function (opt) {
+      opt.disabled = true;
+      if (opt.getAttribute('data-id') === correct.id) {
+        opt.classList.add('vocab-quiz-option--correct');
+      } else if (opt === btn && !isCorrect) {
+        opt.classList.add('vocab-quiz-option--wrong');
+      }
+    });
+    revealQuizChoices(optionsEl);
+
+    if (feedbackEl) {
+      const detailUrl = '../list/' + paddedId + '/';
+      if (isCorrect) {
+        feedbackEl.innerHTML = 'Correct! <a href="' + escapeAttr(detailUrl) + '">View ' + escapeHtml(getArtworkTitle(parseInt(paddedId, 10))) + '</a>';
+      } else {
+        feedbackEl.innerHTML = 'Incorrect. The right answer is highlighted. <a href="' + escapeAttr(detailUrl) + '">View ' + escapeHtml(getArtworkTitle(parseInt(paddedId, 10))) + '</a>';
+      }
+    }
+    if (scoreEl) {
+      scoreEl.textContent = 'Score: ' + _quizScore.correct + ' / ' + _quizScore.total;
+    }
+    if (nextBtn) nextBtn.hidden = false;
+  }
+
+  function onTermToArtworkQuizAnswer(btn, correctTerm, correctArtworkId, paddedId, optionsEl, feedbackEl, nextBtn, scoreEl) {
+    if (_quizAnswered) return;
+    _quizAnswered = true;
+    _quizScore.total += 1;
+    const isCorrect = btn.getAttribute('data-correct') === 'true';
+    if (isCorrect) _quizScore.correct += 1;
+
+    optionsEl.querySelectorAll('.vocab-quiz-option').forEach(function (opt) {
+      opt.disabled = true;
+      if (opt.getAttribute('data-correct') === 'true') {
+        opt.classList.add('vocab-quiz-option--correct');
+      } else if (opt === btn && !isCorrect) {
+        opt.classList.add('vocab-quiz-option--wrong');
+      }
+    });
+    revealQuizChoices(optionsEl);
+
+    if (feedbackEl) {
+      const detailUrl = '../list/' + paddedId + '/';
+      const workLabel = escapeHtml(formatArtworkChoiceLabelPlain(correctArtworkId));
+      if (isCorrect) {
+        feedbackEl.innerHTML = 'Correct! <a href="' + escapeAttr(detailUrl) + '">' + workLabel + '</a>';
+      } else {
+        feedbackEl.innerHTML = 'Incorrect. The right answer is highlighted. <a href="' + escapeAttr(detailUrl) + '">' + workLabel + '</a>';
+      }
+    }
+    if (scoreEl) {
+      scoreEl.textContent = 'Score: ' + _quizScore.correct + ' / ' + _quizScore.total;
+    }
+    if (nextBtn) nextBtn.hidden = false;
   }
 
   function setupQuizNext() {
@@ -325,5 +693,9 @@
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
+  }
+
+  function escapeAttr(str) {
+    return escapeHtml(str).replace(/'/g, '&#39;');
   }
 })();

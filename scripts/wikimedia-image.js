@@ -81,15 +81,15 @@ const WIKIPEDIA_BY_CED = {
 
 /** Direct Commons filenames when Wikipedia pageimages is unavailable. */
 const COMMONS_FILE_BY_CED = {
-  62: 'Roettgen Pieta, c. 1300-25 (CH Foto RDB) (4426080453).jpg',
+  62: 'Pietà Roettgen.jpg',
   83: 'Pieter Bruegel the Elder - Hunters in the Snow (Winter) - Google Art Project.jpg',
   84: 'Selimiye Mosque, Edirne, Turkey.jpg',
   85: 'Calling-of-st-matthew.jpg',
-  86: 'Peter Paul Rubens - Henri IV recevant le portrait de Marie de Medicis - WGA20336.jpg',
-  87: 'Rembrandt - Self-portrait with Saskia, 1636.jpg',
-  90: 'Angel with Arquebus, Asiel Timor Dei.jpg',
-  96: 'Rachel Ruysch - Fruit and Insects - WGA20378.jpg',
-  97: 'De español e india produce mestizo.jpg'
+  87: 'Rembrandt - Self-Portrait with Saskia - WGA19077.jpg',
+  90: 'Anónimo - Asiel Timor Dei. Arcángel arcabucero, c. 1680.jpg',
+  96: 'Rachel Ruysch - Still-Life with Fruit and Insects - WGA20557.jpg',
+  97: 'Spaniard and Indian Produce a Mestizo.jpg',
+  250: 'Saint Luke Drawing the Virgin MFA Boston.jpg'
 };
 
 function commonsFilePathUrl(filename) {

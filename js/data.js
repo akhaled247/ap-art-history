@@ -22,12 +22,42 @@ window.DataLoader = (function () {
     return String(id).padStart(3, '0');
   }
 
-  function resolveSitePath(relativePath) {
+  function getSiteBaseUrl() {
     const script = document.querySelector('script[src*="js/data.js"]');
-    const base = script && script.src
+    let base = script && script.src
       ? new URL('../', script.src)
       : new URL('./', window.location.href);
-    return new URL(relativePath, base).href;
+    const path = base.pathname.replace(/\/$/, '');
+    if (path.endsWith('/map')) {
+      base = new URL('../', base);
+    }
+    return base;
+  }
+
+  function resolveSitePath(relativePath) {
+    return new URL(relativePath, getSiteBaseUrl()).href;
+  }
+
+  function resolveSiteHref(relativePath) {
+    const url = new URL(relativePath, getSiteBaseUrl());
+    return url.pathname + url.search + url.hash;
+  }
+
+  async function loadImages() {
+    if (_imagesMap.size > 0) return _imagesMap;
+    const imagesRes = await fetch(resolveSitePath('data/images.json'));
+    if (!imagesRes.ok) throw new Error('Failed to load images.json');
+    const imagesList = await imagesRes.json();
+    _imagesMap = new Map(imagesList.map(img => [img.id, img.images]));
+    return _imagesMap;
+  }
+
+  async function loadArtworks() {
+    if (_artworks.length > 0) return _artworks;
+    const artworksRes = await fetch(resolveSitePath('data/artworks.json'));
+    if (!artworksRes.ok) throw new Error('Failed to load artworks.json');
+    _artworks = await artworksRes.json();
+    return _artworks;
   }
 
   async function loadAll() {
@@ -260,7 +290,12 @@ window.DataLoader = (function () {
   }
 
   return {
+    getSiteBaseUrl,
+    resolveSitePath,
+    resolveSiteHref,
     loadAll,
+    loadImages,
+    loadArtworks,
     getArtworks,
     getArtworkById,
     getUnits,

@@ -72,6 +72,174 @@ window.VocabLinker = (function () {
     _cachedLength = 0;
   }
 
+  function escapeRegExp(str) {
+    return String(str).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function termToRegExp(term) {
+    const parts = String(term).trim().split(/\s+/).map(escapeRegExp);
+    if (parts.length === 0) return null;
+    if (parts.length === 1) {
+      return new RegExp('\\b' + parts[0] + '\\b', 'gi');
+    }
+    return new RegExp('\\b' + parts.join('\\s+') + '\\b', 'gi');
+  }
+
+  function maskMatch(match) {
+    return '\u2588'.repeat(Math.max(1, match.length));
+  }
+
+  function levenshtein(a, b) {
+    const m = a.length;
+    const n = b.length;
+    if (m === 0) return n;
+    if (n === 0) return m;
+    const row = new Array(n + 1);
+    for (let j = 0; j <= n; j++) row[j] = j;
+    for (let i = 1; i <= m; i++) {
+      let prev = row[0];
+      row[0] = i;
+      for (let j = 1; j <= n; j++) {
+        const tmp = row[j];
+        const cost = a.charCodeAt(i - 1) === b.charCodeAt(j - 1) ? 0 : 1;
+        row[j] = Math.min(
+          row[j] + 1,
+          row[j - 1] + 1,
+          prev + cost
+        );
+        prev = tmp;
+      }
+    }
+    return row[n];
+  }
+
+  function tokenizeTermParts(term) {
+    return String(term || '')
+      .split(/[\s\-/]+/)
+      .map(function (part) { return part.trim(); })
+      .filter(Boolean);
+  }
+
+  function addPromptTarget(targets, seen, phrase) {
+    const raw = String(phrase || '').trim();
+    if (!raw || raw.length < 3) return;
+    const key = normalizeWord(raw);
+    if (!key || seen.has(key)) return;
+    seen.add(key);
+    targets.push(raw);
+    const lower = key;
+    if (lower.length > 3 && lower.endsWith('es')) {
+      addPromptTarget(targets, seen, lower.slice(0, -2));
+    } else if (lower.length > 2 && lower.endsWith('s')) {
+      addPromptTarget(targets, seen, lower.slice(0, -1));
+    }
+  }
+
+  function extractSpellingVariants(definition) {
+    const variants = [];
+    if (!definition) return variants;
+    const text = String(definition);
+    const patterns = [
+      /([A-Za-z][A-Za-z0-9'-]*)\s*,\s*also spelled\s+([A-Za-z][A-Za-z0-9'-]*)/gi,
+      /also spelled\s+([A-Za-z][A-Za-z0-9'-]*)/gi,
+      /also known as\s+([A-Za-z][A-Za-z0-9'-]*)/gi,
+      /\baka\s+([A-Za-z][A-Za-z0-9'-]*)/gi
+    ];
+    patterns.forEach(function (re) {
+      let match;
+      while ((match = re.exec(text)) !== null) {
+        for (let i = 1; i < match.length; i++) {
+          if (match[i]) variants.push(match[i]);
+        }
+      }
+    });
+    return variants;
+  }
+
+  function collectPromptCensorTargets(promptEntry) {
+    const targets = [];
+    const seen = new Set();
+    if (!promptEntry) return targets;
+
+    addPromptTarget(targets, seen, promptEntry.term);
+    (promptEntry.aliases || []).forEach(function (alias) {
+      addPromptTarget(targets, seen, alias);
+    });
+    tokenizeTermParts(promptEntry.term).forEach(function (part) {
+      addPromptTarget(targets, seen, part);
+    });
+    extractSpellingVariants(promptEntry.definition).forEach(function (variant) {
+      addPromptTarget(targets, seen, variant);
+    });
+
+    return targets;
+  }
+
+  function isSimilarToPromptWord(word, promptTargets) {
+    const w = normalizeWord(word);
+    if (!w || w.length < 3) return false;
+
+    for (let i = 0; i < promptTargets.length; i++) {
+      const p = normalizeWord(promptTargets[i]);
+      if (!p) continue;
+      if (w === p) return true;
+
+      const minLen = 4;
+      if (w.length >= minLen && p.length >= minLen) {
+        if (w.indexOf(p) !== -1 || p.indexOf(w) !== -1) return true;
+      }
+      if (w.length >= 5 && p.length >= 5 && levenshtein(w, p) <= 2) return true;
+    }
+    return false;
+  }
+
+  function applyPhraseCensoring(result, phrases) {
+    phrases.sort(function (a, b) { return b.length - a.length; });
+    phrases.forEach(function (phrase) {
+      if (!phrase || phrase.length < 2) return;
+      const re = termToRegExp(phrase);
+      if (!re) return;
+      result = result.replace(re, maskMatch);
+    });
+    return result;
+  }
+
+  /**
+   * Replace vocabulary terms (and inflected single-word forms) with block characters.
+   * options.promptEntry — also masks words similar to the term being quizzed.
+   */
+  function censorVocabularyInText(text, vocabulary, options) {
+    if (!text) return '';
+    options = options || {};
+    let result = String(text);
+    const phrases = [];
+    (vocabulary || []).forEach(function (entry) {
+      if (entry.term) phrases.push(entry.term);
+      (entry.aliases || []).forEach(function (alias) {
+        if (alias) phrases.push(alias);
+      });
+    });
+    result = applyPhraseCensoring(result, phrases);
+
+    const promptTargets = collectPromptCensorTargets(options.promptEntry);
+    result = applyPhraseCensoring(result, promptTargets);
+
+    const wordMap = getWordMap(vocabulary);
+    const parts = result.split(WORD_SPLIT);
+    result = parts.map(function (part) {
+      if (!part) return part;
+      if (/^[a-zA-Z][a-zA-Z0-9'-]*$/.test(part)) {
+        if (lookupWord(part, wordMap)) return maskMatch(part);
+        if (promptTargets.length && isSimilarToPromptWord(part, promptTargets)) {
+          return maskMatch(part);
+        }
+      }
+      return part;
+    }).join('');
+
+    return result;
+  }
+
   function appendLinkedText(parentEl, text, options) {
     if (!parentEl || !text) return;
     options = options || {};
@@ -117,6 +285,7 @@ window.VocabLinker = (function () {
     getWordMap: getWordMap,
     appendLinkedText: appendLinkedText,
     getPatterns: getPatterns,
-    resetCache: resetCache
+    resetCache: resetCache,
+    censorVocabularyInText: censorVocabularyInText
   };
 })();

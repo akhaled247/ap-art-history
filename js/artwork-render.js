@@ -107,8 +107,20 @@ window.ArtworkRender = (function () {
     return String(id).padStart(3, '0');
   }
 
+  function resolveImageSrc(src) {
+    if (!src || /^https?:\/\//i.test(src) || src.startsWith('//')) return src;
+    if (window.DataLoader && typeof window.DataLoader.resolveSitePath === 'function') {
+      return window.DataLoader.resolveSitePath(src);
+    }
+    return src;
+  }
+
   function artworkPageUrl(id) {
-    return `list/${padId(id)}/`;
+    const rel = `list/${padId(id)}/`;
+    if (window.DataLoader && typeof window.DataLoader.resolveSiteHref === 'function') {
+      return window.DataLoader.resolveSiteHref(rel);
+    }
+    return rel;
   }
 
   function formatArtistCulture(artwork) {
@@ -272,7 +284,7 @@ window.ArtworkRender = (function () {
       if (images.length === 0) return;
       const current = images[index];
       if (imgEl) {
-        imgEl.src = current.src;
+        imgEl.src = resolveImageSrc(current.src);
         imgEl.alt = current.alt || 'Artwork image';
       }
       if (captionEl) {

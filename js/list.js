@@ -31,7 +31,7 @@
             applyFilters(listContainer);
           },
           onSelect: function (artworkId) {
-            window.location.href = `${window.ArtworkRender.padId(artworkId)}/`;
+            window.location.href = window.ArtworkRender.artworkPageUrl(artworkId);
           }
         });
       }
@@ -87,8 +87,11 @@
   }
 
   function resolveAssetPath(src) {
-    if (!src || /^https?:\/\//i.test(src)) return src;
-    return `../${src.replace(/^\//, '')}`;
+    if (!src || /^https?:\/\//i.test(src) || src.startsWith('//')) return src;
+    if (window.DataLoader && typeof window.DataLoader.resolveSitePath === 'function') {
+      return window.DataLoader.resolveSitePath(src);
+    }
+    return src;
   }
 
   function renderList(container, artworks) {
@@ -108,7 +111,7 @@
       card.className = 'artwork-list-card';
       card.id = `ced-${paddedId}`;
 
-      const link = `${paddedId}/`;
+      const link = window.ArtworkRender.artworkPageUrl(artwork.id);
 
       card.innerHTML = `
         <a class="list-card-thumb" href="${link}" aria-label="View ${artwork.title}">

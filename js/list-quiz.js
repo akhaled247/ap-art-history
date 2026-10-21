@@ -179,8 +179,7 @@
     });
 
     if (feedbackEl) {
-      var paddedId = window.ArtworkRender.padId(built.artwork.id);
-      var detailUrl = paddedId + '/';
+      var detailUrl = window.ArtworkRender.artworkPageUrl(built.artwork.id);
       if (isCorrect) {
         feedbackEl.innerHTML = 'Correct! <a href="' + escapeAttr(detailUrl) + '">View CED #' + built.artwork.id + '</a>';
       } else {

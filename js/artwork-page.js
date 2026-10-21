@@ -110,7 +110,7 @@
         <div class="list-error">
           <h2>Error</h2>
           <p>${message}</p>
-          <p><a href="list/">Back to artwork list</a></p>
+          <p><a href="./">Back to artwork list</a></p>
         </div>
       `;
     }

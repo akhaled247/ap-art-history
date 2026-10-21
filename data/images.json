@@ -1306,9 +1306,9 @@
     "title": "Röttgen Pietà",
     "images": [
       {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Roettgen_Pieta%2C_c._1300-25_(CH_Foto_RDB)_(4426080453).jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Piet%C3%A0_Roettgen.jpg",
         "alt": "Röttgen Pietà (c. 1300–1325 CE)",
-        "source": "Wikimedia Commons: Roettgen Pieta, c. 1300-25 (CH Foto RDB) (4426080453).jpg",
+        "source": "LVR-LandesMuseum Bonn / J. Vogel (via Wikimedia Commons, CC BY-SA 4.0): https://commons.wikimedia.org/wiki/File:Piet%C3%A0_Roettgen.jpg; Smarthistory guide: https://smarthistory.org/roettgen-pieta/",
         "local": false
       }
     ]
@@ -1768,9 +1768,21 @@
     "title": "Mosque of Selim II",
     "images": [
       {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Selimiye_Mosque%2C_Edirne%2C_Turkey.jpg",
-        "alt": "Mosque of Selim II (1568–1575 CE)",
-        "source": "Wikimedia Commons: Selimiye Mosque, Edirne, Turkey.jpg",
+        "src": "https://smarthistory.org/wp-content/uploads/2021/11/selimiye-full-1536x1152.jpg",
+        "alt": "Mosque of Selim II (Selimiye Mosque), exterior view (1568–1575 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/mimar-sinan-mosque-of-selim-ii-edirne/",
+        "local": false
+      },
+      {
+        "src": "https://smarthistory.org/wp-content/uploads/2021/11/salimiye-dome-1536x1024.jpg",
+        "alt": "Mosque of Selim II (Selimiye Mosque), interior dome (1568–1575 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/mimar-sinan-mosque-of-selim-ii-edirne/",
+        "local": false
+      },
+      {
+        "src": "https://smarthistory.org/wp-content/uploads/2021/11/selimiye-altar-1536x1021.jpg",
+        "alt": "Mosque of Selim II (Selimiye Mosque), mihrab (1568–1575 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/mimar-sinan-mosque-of-selim-ii-edirne/",
         "local": false
       }
     ]
@@ -1792,9 +1804,9 @@
     "title": "Henri IV Receives the Portrait of Marie de' Medici, from the Marie de' Medici Cycle",
     "images": [
       {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter_Paul_Rubens_-_Henri_IV_recevant_le_portrait_de_Marie_de_Medicis_-_WGA20336.jpg",
+        "src": "https://live.staticflickr.com/2909/14582410965_9052ed1131_b.jpg",
         "alt": "Henri IV Receives the Portrait of Marie de' Medici, from the Marie de' Medici Cycle (1621–1625 CE)",
-        "source": "Wikimedia Commons: Peter Paul Rubens - Henri IV recevant le portrait de Marie de Medicis - WGA20336.jpg",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/14582410965; Smarthistory guide: https://smarthistory.org/rubens-the-presentation-of-the-portrait-of-marie-de-medici/",
         "local": false
       }
     ]
@@ -1804,9 +1816,9 @@
     "title": "Self-Portrait with Saskia",
     "images": [
       {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_-_Self-portrait_with_Saskia%2C_1636.jpg",
+        "src": "https://smarthistory.org/wp-content/uploads/2018/07/Rembrandt-Self-portrait-with-Saskia-thumb.jpg",
         "alt": "Self-Portrait with Saskia (1636 CE)",
-        "source": "Wikimedia Commons: Rembrandt - Self-portrait with Saskia, 1636.jpg",
+        "source": "Smarthistory guide: https://smarthistory.org/rembrandt-self-portrait-with-saskia/",
         "local": false
       }
     ]
@@ -1870,9 +1882,9 @@
     "title": "Angel with Arquebus, Asiel Timor Dei",
     "images": [
       {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Angel_with_Arquebus%2C_Asiel_Timor_Dei.jpg",
+        "src": "https://smarthistory.org/wp-content/uploads/2018/08/Master-of-Calamarca-Angel-with-Arquebus.jpg",
         "alt": "Angel with Arquebus, Asiel Timor Dei (c. 17th century CE)",
-        "source": "Wikimedia Commons: Angel with Arquebus, Asiel Timor Dei.jpg",
+        "source": "Smarthistory guide: https://smarthistory.org/master-of-calamarca-angel-with-arquebus/",
         "local": false
       }
     ]
@@ -1954,9 +1966,9 @@
     "title": "Fruit and Insects",
     "images": [
       {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Rachel_Ruysch_-_Fruit_and_Insects_-_WGA20378.jpg",
+        "src": "https://live.staticflickr.com/7341/13953706999_c4a9047501_b.jpg",
         "alt": "Fruit and Insects (c. 1711 CE)",
-        "source": "Wikimedia Commons: Rachel Ruysch - Fruit and Insects - WGA20378.jpg",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/13953706999; Smarthistory guide: https://smarthistory.org/rachel-ruysch-fruit-and-insects/",
         "local": false
       }
     ]
@@ -1966,9 +1978,9 @@
     "title": "Spaniard and Indian Produce a Mestizo",
     "images": [
       {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/De_espa%C3%B1ol_e_india_produce_mestizo.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Spaniard_and_Indian_Produce_a_Mestizo.jpg",
         "alt": "Spaniard and Indian Produce a Mestizo (c. 1715 CE)",
-        "source": "Wikimedia Commons: De español e india produce mestizo.jpg",
+        "source": "Wikimedia Commons: Spaniard and Indian Produce a Mestizo.jpg; Smarthistory guide: https://smarthistory.org/spaniard-and-indian-produce-a-mestizo-attributed-to-juan-rodriguez/",
         "local": false
       }
     ]
@@ -3802,10 +3814,16 @@
     "title": "St. Luke Drawing the Virgin",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/65535/51365325403_221f6824d6_b.jpg",
         "alt": "St. Luke Drawing the Virgin (c. 1435–1440 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/rogier-van-der-weyden-saint-luke-drawing-the-virgin/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/51365325403; Smarthistory guide: https://smarthistory.org/rogier-van-der-weyden-saint-luke-drawing-the-virgin/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/51365107106_36dfde5d9c_b.jpg",
+        "alt": "St. Luke Drawing the Virgin (c. 1435–1440 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/51365107106; Smarthistory guide: https://smarthistory.org/rogier-van-der-weyden-saint-luke-drawing-the-virgin/",
+        "local": false
       }
     ]
   }

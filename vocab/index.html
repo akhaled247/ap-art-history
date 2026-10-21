@@ -24,8 +24,8 @@
       </div>
 
       <div class="header-controls">
-        <a href="../" class="btn btn-subtle header-nav-link">Map</a>
-        <a href="../list/" class="btn btn-subtle header-nav-link">Browse List</a>
+        <a href="../map/" class="btn btn-subtle header-nav-link">Map</a>
+        <a href="../" class="btn btn-subtle header-nav-link">Browse List</a>
         <a href="./" class="btn btn-subtle header-nav-link active" aria-current="page">Vocabulary</a>
         <a href="../network/" class="btn btn-subtle header-nav-link">Network</a>
       </div>
@@ -67,7 +67,23 @@
       </div>
     </div>
 
-    <div id="vocab-quiz-panel" class="vocab-panel vocab-quiz" role="tabpanel" hidden>
+    <div id="vocab-quiz-panel" class="vocab-panel vocab-quiz vocab-quiz-panel" role="tabpanel" hidden>
+      <div class="vocab-quiz-mode-tabs" role="tablist" aria-label="Quiz question type">
+        <button type="button" id="vocab-quiz-category-definitions" class="vocab-quiz-category-tab unit-tab active" role="tab" aria-selected="true" data-quiz-category="definitions">Definitions</button>
+        <button type="button" id="vocab-quiz-category-artworks" class="vocab-quiz-category-tab unit-tab" role="tab" aria-selected="false" data-quiz-category="artworks">Artworks</button>
+      </div>
+      <div id="vocab-quiz-image-wrap" class="vocab-quiz-image-wrap" hidden>
+        <div class="panel-image-section vocab-quiz-image-section">
+          <div class="panel-image-display vocab-quiz-image-display">
+            <img id="vocab-quiz-image" class="vocab-quiz-image" src="" alt="">
+          </div>
+          <div class="panel-image-controls" id="vocab-quiz-image-controls">
+            <button type="button" id="vocab-quiz-img-prev" class="panel-image-btn" aria-label="Previous image">&lt;</button>
+            <button type="button" id="vocab-quiz-img-next" class="panel-image-btn" aria-label="Next image">&gt;</button>
+          </div>
+          <div id="vocab-quiz-image-caption" class="panel-image-caption"></div>
+        </div>
+      </div>
       <div id="vocab-quiz-score" class="vocab-quiz-score">Score: 0 / 0</div>
       <p id="vocab-quiz-prompt" class="vocab-quiz-prompt">Loading quiz...</p>
       <div id="vocab-quiz-options" class="vocab-quiz-options" role="group" aria-label="Answer choices"></div>
@@ -78,6 +94,8 @@
 
   <script src="../js/sticky-header.js"></script>
   <script src="../js/data.js"></script>
+  <script src="../js/artwork-render.js"></script>
+  <script src="../js/vocab-linker.js"></script>
   <script src="../js/vocab.js"></script>
 </body>
 </html>

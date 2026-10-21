@@ -1,206 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="list-page-html">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="images/favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="images/favicon.png">
-  <title>AP Art History: Interactive Map & Timeline</title>
-  
-  <!-- Vendor Stylesheets -->
-  <link rel="stylesheet" href="css/vendor/leaflet.css">
-  <link rel="stylesheet" href="css/vendor/MarkerCluster.css">
-  
-  <!-- Main Academic Stylesheet -->
+  <title>AP Art History — CED Artwork List</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="list-page">
 
-  <!-- Top Navigation & Controls Header -->
-  <header class="app-header" role="banner">
+  <header class="app-header app-header--page" role="banner">
     <div class="header-top">
       <div class="brand-title">
         <h1>AP Art History</h1>
-        <!-- Note: Displays "X/250 Required Works" where X is the number of works that have been updated -->
-        <span class="badge">98/250 Required Works</span>
+        <span class="badge">250 Required Works</span>
       </div>
 
-      <!-- Search Bar -->
       <div class="search-container" role="search">
         <label for="artwork-search-input" class="sr-only">Search artworks by CED number, title, artist, culture, or location</label>
-        <input 
-          type="text" 
-          id="artwork-search-input" 
-          class="search-input" 
-          placeholder="Search by title, artist, CED #, culture..." 
-          autocomplete="off" 
-          aria-expanded="false" 
+        <input
+          type="text"
+          id="artwork-search-input"
+          class="search-input"
+          placeholder="Search by title, artist, CED #, culture..."
+          autocomplete="off"
+          aria-expanded="false"
           aria-haspopup="listbox"
         >
         <button id="search-clear-btn" class="search-clear" aria-label="Clear search input">&times;</button>
         <div id="search-dropdown" class="search-dropdown" role="listbox"></div>
       </div>
 
-      <!-- Global Actions -->
       <div class="header-controls">
-        <a href="list/" class="btn btn-subtle header-nav-link">Browse List</a>
+        <a href="map/" class="btn btn-subtle header-nav-link">Map</a>
+        <a href="./" class="btn btn-subtle header-nav-link active" aria-current="page">Browse List</a>
         <a href="vocab/" class="btn btn-subtle header-nav-link">Vocabulary</a>
         <a href="network/" class="btn btn-subtle header-nav-link">Network</a>
-        <button id="random-artwork-btn" class="btn btn-primary" title="Explore a random artwork from the filtered set">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>
-          Random Artwork
-        </button>
-        <button id="reset-filters-btn" class="btn btn-subtle" title="Reset timeline and all filters">
-          Reset All
-        </button>
       </div>
     </div>
 
-    <!-- Unit Presets Bar -->
     <div class="header-bottom">
-      <nav class="unit-presets" id="unit-presets-nav" aria-label="AP Art History Unit Presets">
+      <nav class="unit-presets" id="list-unit-nav" aria-label="AP Art History Unit Presets">
         <button class="unit-tab active" data-unit="all">All Works (1–250)</button>
         <button class="unit-tab" data-unit="1" title="Global Prehistory (30,000–500 BCE)">Unit 1: Prehistory</button>
         <button class="unit-tab" data-unit="2" title="Ancient Mediterranean (3,500 BCE–300 CE)">Unit 2: Ancient Med</button>
-        <button class="unit-tab" data-unit="3" title="Early Europe & Colonial Americas (200–1750 CE)">Unit 3: Early Europe</button>
-        <button class="unit-tab" data-unit="4" title="Later Europe & Americas (1750–1980 CE)">Unit 4: Later Europe</button>
+        <button class="unit-tab" data-unit="3" title="Early Europe &amp; Colonial Americas (200–1750 CE)">Unit 3: Early Europe</button>
+        <button class="unit-tab" data-unit="4" title="Later Europe &amp; Americas (1750–1980 CE)">Unit 4: Later Europe</button>
         <button class="unit-tab" data-unit="5" title="Indigenous Americas (1000 BCE–1980 CE)">Unit 5: Indigenous Americas</button>
         <button class="unit-tab" data-unit="6" title="Africa (1100–1980 CE)">Unit 6: Africa</button>
-        <button class="unit-tab" data-unit="7" title="West & Central Asia (500 BCE–1980 CE)">Unit 7: W & C Asia</button>
-        <button class="unit-tab" data-unit="8" title="South, East & SE Asia (300 BCE–1980 CE)">Unit 8: Asia</button>
+        <button class="unit-tab" data-unit="7" title="West &amp; Central Asia (500 BCE–1980 CE)">Unit 7: W & C Asia</button>
+        <button class="unit-tab" data-unit="8" title="South, East &amp; SE Asia (300 BCE–1980 CE)">Unit 8: Asia</button>
         <button class="unit-tab" data-unit="9" title="The Pacific (700–1980 CE)">Unit 9: Pacific</button>
         <button class="unit-tab" data-unit="10" title="Global Contemporary (1980 CE–Present)">Unit 10: Contemporary</button>
       </nav>
 
-      <div class="status-counter" id="status-counter" aria-live="polite">
-        Showing 250 of 250 works
-      </div>
+      <div class="status-counter" id="list-status-counter" aria-live="polite">Showing 250 of 250 works</div>
     </div>
   </header>
 
-  <!-- Main Map & Artwork Panel Area -->
-  <main class="app-workspace" role="main">
-    <section class="map-container" aria-label="Interactive World Map of Artworks">
-      <div id="map"></div>
-
-      <!-- Hover Image Preview Card -->
-      <div id="hover-preview-card" class="hover-preview-card" role="dialog" aria-hidden="true">
-        <div class="hover-image-container">
-          <img id="hover-img" src="images/placeholder/artwork-placeholder.svg" alt="Artwork Preview">
-          <button id="hover-prev-btn" class="hover-carousel-btn prev" aria-label="Previous image">&lt;</button>
-          <button id="hover-next-btn" class="hover-carousel-btn next" aria-label="Next image">&gt;</button>
-        </div>
-        <div class="hover-footer-hint">Click marker or card for study details &rarr;</div>
+  <main class="list-page-main" role="main">
+    <div class="vocab-toolbar">
+      <div class="vocab-view-tabs" role="tablist" aria-label="List views">
+        <button type="button" id="list-view-browse" class="vocab-view-tab unit-tab active" role="tab" aria-selected="true" aria-controls="list-browse-panel">Browse</button>
+        <button type="button" id="list-view-quiz" class="vocab-view-tab unit-tab" role="tab" aria-selected="false" aria-controls="list-quiz-panel">Attribution</button>
+        <button type="button" id="list-view-connect" class="vocab-view-tab unit-tab" role="tab" aria-selected="false" aria-controls="list-connect-panel">Connect</button>
       </div>
-    </section>
+    </div>
 
-    <!-- Side Artwork Details Panel -->
-    <aside id="artwork-panel" class="artwork-panel" aria-label="Artwork Information and Study Analysis" aria-hidden="true">
-      <div class="panel-header">
-        <div class="panel-title-group">
-          <a id="panel-ced-tag" class="panel-ced-tag panel-detail-link" href="#">CED #5</a>
-          <h2><a id="panel-title" class="panel-detail-link" href="#">Artwork Title</a></h2>
-        </div>
-        <button id="panel-close-btn" class="panel-close-btn" aria-label="Close artwork details panel">&times;</button>
+    <div id="list-browse-panel" class="list-panel" role="tabpanel">
+      <div id="artwork-list" class="artwork-list" aria-label="CED artwork list">
+        <div class="loading-note">Loading artworks...</div>
       </div>
+    </div>
 
-      <div class="panel-body">
-        <!-- Image & Carousel -->
-        <div class="panel-image-section">
-          <a id="panel-image-link" class="panel-image-link panel-detail-link" href="#">
-            <div class="panel-image-display">
-              <img id="panel-image" src="images/placeholder/artwork-placeholder.svg" alt="Artwork Detail">
-            </div>
-          </a>
-          <div class="panel-image-controls" id="panel-image-controls">
-            <button id="panel-img-prev" class="panel-image-btn" aria-label="Previous image">&lt;</button>
-            <button id="panel-img-next" class="panel-image-btn" aria-label="Next image">&gt;</button>
+    <div id="list-quiz-panel" class="list-panel vocab-quiz list-quiz-panel" role="tabpanel" hidden>
+      <div id="list-quiz-image-wrap" class="list-quiz-image-wrap">
+        <img id="list-quiz-image" class="list-quiz-image" src="" alt="" hidden>
+      </div>
+      <div id="list-quiz-score" class="vocab-quiz-score">Score: 0 / 0</div>
+      <p id="list-quiz-prompt" class="vocab-quiz-prompt">Loading quiz...</p>
+      <div id="list-quiz-options" class="vocab-quiz-options" role="group" aria-label="Answer choices"></div>
+      <p id="list-quiz-feedback" class="vocab-quiz-feedback" aria-live="polite"></p>
+      <button type="button" id="list-quiz-next" class="btn btn-primary vocab-quiz-next" hidden>Next Question</button>
+    </div>
+
+    <div id="list-connect-panel" class="list-panel vocab-quiz list-quiz-panel list-connect-panel" role="tabpanel" hidden>
+      <div class="list-connect-settings">
+        <fieldset class="list-connect-units-fieldset">
+          <legend class="list-connect-legend">Units for this session</legend>
+          <p class="list-connect-help">Choose which units to include. The unit bar in the header applies to <strong>Browse</strong> and <strong>Attribution</strong> only.</p>
+          <div id="list-connect-units" class="list-connect-units">
+            <label class="list-connect-unit-all"><input type="checkbox" id="list-connect-unit-all" checked> All units</label>
+            <label><input type="checkbox" data-unit="1"> Unit 1</label>
+            <label><input type="checkbox" data-unit="2"> Unit 2</label>
+            <label><input type="checkbox" data-unit="3"> Unit 3</label>
+            <label><input type="checkbox" data-unit="4"> Unit 4</label>
+            <label><input type="checkbox" data-unit="5"> Unit 5</label>
+            <label><input type="checkbox" data-unit="6"> Unit 6</label>
+            <label><input type="checkbox" data-unit="7"> Unit 7</label>
+            <label><input type="checkbox" data-unit="8"> Unit 8</label>
+            <label><input type="checkbox" data-unit="9"> Unit 9</label>
+            <label><input type="checkbox" data-unit="10"> Unit 10</label>
           </div>
-          <a id="panel-image-caption" class="panel-image-caption panel-detail-link" href="#">Image source & attribution</a>
-        </div>
-
-        <!-- Metadata Table -->
-        <table class="panel-meta-table">
-          <tbody>
-            <tr>
-              <th>Artist/Culture</th>
-              <td id="panel-meta-culture">—</td>
-            </tr>
-            <tr>
-              <th>Date</th>
-              <td id="panel-meta-date">—</td>
-            </tr>
-            <tr>
-              <th>Medium</th>
-              <td id="panel-meta-medium">—</td>
-            </tr>
-            <tr>
-              <th>Location</th>
-              <td id="panel-meta-location">—</td>
-            </tr>
-            <tr>
-              <th>Unit</th>
-              <td id="panel-meta-unit">—</td>
-            </tr>
-          </tbody>
-        </table>
-
-        <!-- AFFCC Detailed Study Sections -->
-        <div id="panel-affcc-container">
-          <!-- Dynamically populated from content/affcc/*.md -->
-        </div>
+        </fieldset>
+        <label class="list-connect-attribution-toggle">
+          <input type="checkbox" id="list-connect-include-attribution">
+          Include attribution questions (culture, date, medium, location, title)
+        </label>
       </div>
-    </aside>
+      <div id="list-connect-image-wrap" class="list-quiz-image-wrap">
+        <img id="list-connect-image" class="list-quiz-image" src="" alt="" hidden>
+      </div>
+      <div id="list-connect-score" class="vocab-quiz-score">Score: 0 / 0</div>
+      <p id="list-connect-prompt" class="vocab-quiz-prompt">Loading...</p>
+      <p id="list-connect-prompt-detail" class="list-connect-prompt-detail" aria-live="polite"></p>
+      <div id="list-connect-options" class="vocab-quiz-options" role="group" aria-label="Answer choices"></div>
+      <p id="list-connect-feedback" class="vocab-quiz-feedback" aria-live="polite"></p>
+      <button type="button" id="list-connect-next" class="btn btn-primary vocab-quiz-next" hidden>Next Question</button>
+    </div>
   </main>
 
-  <!-- Bottom Date-Range Timeline -->
-  <footer class="app-timeline" role="region" aria-label="Chronological Timeline Filter">
-    <div class="timeline-top-bar">
-      <div class="timeline-title-group">
-        <span class="timeline-title">Timeline Range</span>
-        <span id="timeline-range-label" class="timeline-range-label">30,000 BCE – Present</span>
-      </div>
-
-      <!-- Manual Date Inputs -->
-      <div class="timeline-inputs">
-        <label for="input-start-year">Start:</label>
-        <input type="text" id="input-start-year" class="year-input" placeholder="-30000" value="30,000 BCE" aria-label="Start year">
-        
-        <label for="input-end-year">End:</label>
-        <input type="text" id="input-end-year" class="year-input" placeholder="2026" value="2026 CE" aria-label="End year">
-        
-        <button id="btn-apply-years" class="btn" style="padding: 2px 8px; font-size: 11px;">Apply</button>
-      </div>
-    </div>
-
-    <!-- Dual Handle Track -->
-    <div class="timeline-track-container" id="timeline-track-container">
-      <div class="timeline-track" id="timeline-track">
-        <div class="timeline-highlight-span" id="timeline-highlight-span"></div>
-      </div>
-      <div class="timeline-handle" id="timeline-handle-start" role="slider" tabindex="0" aria-label="Start date handle" aria-valuemin="-30000" aria-valuemax="2026" aria-valuenow="-30000"></div>
-      <div class="timeline-handle" id="timeline-handle-end" role="slider" tabindex="0" aria-label="End date handle" aria-valuemin="-30000" aria-valuemax="2026" aria-valuenow="2026"></div>
-      <div class="timeline-artwork-dots" id="timeline-artwork-dots"></div>
-      <div class="timeline-ticks" id="timeline-ticks"></div>
-    </div>
-  </footer>
-
-  <!-- Application Modules -->
-  <script src="js/vendor/leaflet.js"></script>
-  <script src="js/vendor/leaflet.markercluster.js"></script>
   <script src="js/sticky-header.js"></script>
-  <script src="js/dateUtils.js"></script>
   <script src="js/data.js"></script>
-  <script src="js/state.js"></script>
   <script src="js/filters.js"></script>
-  <script src="js/map.js"></script>
-  <script src="js/timeline.js"></script>
-  <script src="js/search.js"></script>
-  <script src="js/vocab-linker.js"></script>
-  <script src="js/vocab-hovercard.js"></script>
   <script src="js/artwork-render.js"></script>
-  <script src="js/artwork-panel.js"></script>
-  <script src="js/random.js"></script>
-  <script src="js/app.js"></script>
+  <script src="js/artwork-quiz.js"></script>
+  <script src="js/artwork-association-quiz.js"></script>
+  <script src="js/mixed-list-quiz.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/list.js"></script>
+  <script src="js/list-view-tabs.js"></script>
+  <script src="js/list-quiz.js"></script>
+  <script src="js/list-association-quiz.js"></script>
 </body>
 </html>
