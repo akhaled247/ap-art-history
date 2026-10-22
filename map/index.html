@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="map-page-html">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,15 +14,18 @@
   <!-- Main Academic Stylesheet -->
   <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body>
+<body class="map-page">
 
   <!-- Top Navigation & Controls Header -->
   <header class="app-header" role="banner">
     <div class="header-top">
-      <div class="brand-title">
-        <h1>AP Art History</h1>
-        <!-- Note: Displays "X/250 Required Works" where X is the number of works that have been updated -->
-        <span class="badge">98/250 Required Works</span>
+      <div class="header-top-brand-row">
+        <div class="brand-title">
+          <h1>AP Art History</h1>
+          <!-- Note: Displays "X/250 Required Works" where X is the number of works that have been updated -->
+          <span class="badge">98/250 Required Works</span>
+        </div>
+        <button type="button" class="btn btn-subtle header-nav-menu-btn" aria-expanded="false" aria-controls="header-nav-panel">Menu</button>
       </div>
 
       <!-- Search Bar -->
@@ -42,7 +45,7 @@
       </div>
 
       <!-- Global Actions -->
-      <div class="header-controls">
+      <div class="header-controls" id="header-nav-panel">
         <a href="./" class="btn btn-subtle header-nav-link active" aria-current="page">Map</a>
         <a href="../" class="btn btn-subtle header-nav-link">Browse List</a>
         <a href="../vocab/" class="btn btn-subtle header-nav-link">Vocabulary</a>
@@ -154,7 +157,9 @@
     </aside>
   </main>
 
-  <!-- Bottom Date-Range Timeline -->
+  <!-- Bottom Date-Range Timeline (collapsible on narrow screens) -->
+  <details class="app-timeline-wrap" id="timeline-wrap" open>
+    <summary class="app-timeline-summary">Timeline filter</summary>
   <footer class="app-timeline" role="region" aria-label="Chronological Timeline Filter">
     <div class="timeline-top-bar">
       <div class="timeline-title-group">
@@ -185,10 +190,12 @@
       <div class="timeline-ticks" id="timeline-ticks"></div>
     </div>
   </footer>
+  </details>
 
   <!-- Application Modules -->
   <script src="../js/vendor/leaflet.js"></script>
   <script src="../js/vendor/leaflet.markercluster.js"></script>
+  <script src="../js/mobile-layout.js"></script>
   <script src="../js/sticky-header.js"></script>
   <script src="../js/dateUtils.js"></script>
   <script src="../js/data.js"></script>

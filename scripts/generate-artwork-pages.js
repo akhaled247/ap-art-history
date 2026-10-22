@@ -42,11 +42,14 @@ function buildPageHtml(artwork) {
 
   <header class="app-header app-header--page" role="banner">
     <div class="header-top">
-      <div class="brand-title">
-        <h1>AP Art History</h1>
-        <span class="badge">CED #${artwork.id}</span>
+      <div class="header-top-brand-row">
+        <div class="brand-title">
+          <h1>AP Art History</h1>
+          <span class="badge">CED #${artwork.id}</span>
+        </div>
+        <button type="button" class="btn btn-subtle header-nav-menu-btn" aria-expanded="false" aria-controls="header-nav-panel">Menu</button>
       </div>
-      <div class="header-controls">
+      <div class="header-controls" id="header-nav-panel">
         <a href="map/" class="btn btn-subtle header-nav-link">Map</a>
         <a href="./" class="btn btn-subtle header-nav-link active" aria-current="page">Browse List</a>
         <a href="vocab/" class="btn btn-subtle header-nav-link">Vocabulary</a>
@@ -112,6 +115,7 @@ function buildPageHtml(artwork) {
     </article>
   </main>
 
+  <script src="js/mobile-layout.js"></script>
   <script src="js/sticky-header.js"></script>
   <script src="js/data.js"></script>
   <script src="js/vocab-linker.js"></script>

@@ -27,7 +27,7 @@ window.VocabHovercard = (function () {
       _card.setAttribute('role', 'tooltip');
       _card.hidden = true;
       _card.innerHTML =
-        '<strong class="vocab-hovercard-term"></strong>' +
+        '<a class="vocab-hovercard-term" href="#"></a>' +
         '<p class="vocab-hovercard-def"></p>' +
         '<span class="vocab-hovercard-hint">Click for full entry</span>';
       document.body.appendChild(_card);
@@ -62,6 +62,7 @@ window.VocabHovercard = (function () {
 
     ensureCard();
     _termEl.textContent = entry.term;
+    _termEl.href = link.href;
     _defEl.textContent = truncate(entry.definition, 220);
     _card.hidden = false;
     _activeLink = link;
@@ -86,22 +87,46 @@ window.VocabHovercard = (function () {
 
   function init() {
     ensureCard();
+    const hoverCapable = window.matchMedia('(hover: hover)').matches;
 
-    document.addEventListener('mouseover', function (e) {
-      const link = e.target.closest('.vocab-link');
-      if (!link) return;
-      scheduleShow(link);
-    });
+    if (hoverCapable) {
+      document.addEventListener('mouseover', function (e) {
+        const link = e.target.closest('.vocab-link');
+        if (!link) return;
+        scheduleShow(link);
+      });
 
-    document.addEventListener('mouseout', function (e) {
-      const link = e.target.closest('.vocab-link');
-      if (!link) return;
-      const related = e.relatedTarget;
-      if (related && (_card.contains(related) || related.closest('.vocab-link') === link)) {
-        return;
-      }
-      hide();
-    });
+      document.addEventListener('mouseout', function (e) {
+        const link = e.target.closest('.vocab-link');
+        if (!link) return;
+        const related = e.relatedTarget;
+        if (related && (_card.contains(related) || related.closest('.vocab-link') === link)) {
+          return;
+        }
+        hide();
+      });
+    } else {
+      _card.style.pointerEvents = 'auto';
+      const hint = _card.querySelector('.vocab-hovercard-hint');
+      if (hint) hint.textContent = 'Tap again elsewhere to close';
+
+      document.addEventListener('click', function (e) {
+        const link = e.target.closest('.vocab-link');
+        if (link) {
+          e.preventDefault();
+          if (_activeLink === link && _card && !_card.hidden) {
+            hide();
+          } else {
+            if (_timer) clearTimeout(_timer);
+            show(link);
+          }
+          return;
+        }
+        if (_card && !_card.hidden && !_card.contains(e.target)) {
+          hide();
+        }
+      });
+    }
 
     document.addEventListener('focusin', function (e) {
       const link = e.target.closest('.vocab-link');

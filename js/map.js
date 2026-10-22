@@ -36,8 +36,9 @@ window.AppMap = (function () {
     }).addTo(_map);
 
     // Marker cluster group configured for expanding (spiderfying) grouped works on click
+    const clusterRadius = window.matchMedia('(max-width: 1024px)').matches ? 50 : 35;
     _markerClusterGroup = L.markerClusterGroup({
-      maxClusterRadius: 35,
+      maxClusterRadius: clusterRadius,
       spiderfyOnMaxZoom: true,
       showCoverageOnHover: false,
       zoomToBoundsOnClick: false,
@@ -106,21 +107,24 @@ window.AppMap = (function () {
         riseOnHover: true
       });
 
-      // Hover / focus interaction (spec section 11)
-      marker.on('mouseover', function (e) {
-        if (window.ArtworkPanel && window.ArtworkPanel.cancelHideHoverCard) {
-          window.ArtworkPanel.cancelHideHoverCard();
-        }
-        showHoverPreview(art, e);
-      });
+      const hoverCapable = window.matchMedia('(hover: hover)').matches;
 
-      marker.on('mouseout', function () {
-        if (window.ArtworkPanel && window.ArtworkPanel.scheduleHideHoverCard) {
-          window.ArtworkPanel.scheduleHideHoverCard();
-        } else {
-          window.AppState.setHoveredArtwork(null);
-        }
-      });
+      if (hoverCapable) {
+        marker.on('mouseover', function (e) {
+          if (window.ArtworkPanel && window.ArtworkPanel.cancelHideHoverCard) {
+            window.ArtworkPanel.cancelHideHoverCard();
+          }
+          showHoverPreview(art, e);
+        });
+
+        marker.on('mouseout', function () {
+          if (window.ArtworkPanel && window.ArtworkPanel.scheduleHideHoverCard) {
+            window.ArtworkPanel.scheduleHideHoverCard();
+          } else {
+            window.AppState.setHoveredArtwork(null);
+          }
+        });
+      }
 
       marker.on('focus', function (e) {
         showHoverPreview(art, e);
@@ -229,9 +233,16 @@ window.AppMap = (function () {
     });
   }
 
+  function invalidateSize() {
+    if (_map) {
+      _map.invalidateSize();
+    }
+  }
+
   return {
     init,
     updateMarkers,
-    highlightSelectedMarker
+    highlightSelectedMarker,
+    invalidateSize
   };
 })();

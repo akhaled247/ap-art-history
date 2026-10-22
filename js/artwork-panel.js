@@ -149,15 +149,29 @@ window.ArtworkPanel = (function () {
       _hoverNextBtn.style.display = 'none';
     }
 
-    // Position card safely near cursor / marker
-    const mapBox = document.querySelector('.map-container').getBoundingClientRect();
-    let left = point.x + 15;
-    let top = point.y - 85;
+    const mapContainer = document.querySelector('.map-container');
+    if (!mapContainer) return;
+    const mapBox = mapContainer.getBoundingClientRect();
+    const cardW = Math.min(250, mapBox.width - 20);
+    const cardH = 195;
+    const narrow = mapBox.width < 480;
 
-    if (left + 260 > mapBox.width) left = point.x - 265;
-    if (top + 180 > mapBox.height) top = mapBox.height - 185;
+    let left;
+    let top;
+    if (narrow) {
+      left = (mapBox.width - cardW) / 2;
+      top = Math.min(point.y + 12, mapBox.height - cardH - 12);
+    } else {
+      left = point.x + 15;
+      top = point.y - 85;
+      if (left + cardW + 10 > mapBox.width) left = point.x - cardW - 15;
+      if (top + cardH > mapBox.height) top = mapBox.height - cardH - 10;
+    }
     if (top < 10) top = 10;
     if (left < 10) left = 10;
+    if (left + cardW > mapBox.width - 10) left = mapBox.width - cardW - 10;
+
+    _hoverCard.style.width = cardW + 'px';
 
     _hoverCard.style.left = `${left}px`;
     _hoverCard.style.top = `${top}px`;
@@ -256,12 +270,24 @@ window.ArtworkPanel = (function () {
 
     _panel.classList.add('open');
     _panel.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('artwork-panel-open');
+    if (window.AppMap && typeof window.AppMap.invalidateSize === 'function') {
+      window.requestAnimationFrame(function () {
+        window.AppMap.invalidateSize();
+      });
+    }
   }
 
   function closePanel() {
     if (!_panel) return;
     _panel.classList.remove('open');
     _panel.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('artwork-panel-open');
+    if (window.AppMap && typeof window.AppMap.invalidateSize === 'function') {
+      window.requestAnimationFrame(function () {
+        window.AppMap.invalidateSize();
+      });
+    }
   }
 
   return {

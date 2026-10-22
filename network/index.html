@@ -12,9 +12,12 @@
 
   <header class="app-header app-header--page" role="banner">
     <div class="header-top">
-      <div class="brand-title">
-        <h1>AP Art History</h1>
-        <span class="badge">Connections</span>
+      <div class="header-top-brand-row">
+        <div class="brand-title">
+          <h1>AP Art History</h1>
+          <span class="badge">Connections</span>
+        </div>
+        <button type="button" class="btn btn-subtle header-nav-menu-btn" aria-expanded="false" aria-controls="header-nav-panel">Menu</button>
       </div>
 
       <div class="search-container" role="search">
@@ -24,7 +27,7 @@
         <div id="search-dropdown" class="search-dropdown" role="listbox"></div>
       </div>
 
-      <div class="header-controls">
+      <div class="header-controls" id="header-nav-panel">
         <a href="../map/" class="btn btn-subtle header-nav-link">Map</a>
         <a href="../" class="btn btn-subtle header-nav-link">Browse List</a>
         <a href="../vocab/" class="btn btn-subtle header-nav-link">Vocabulary</a>
@@ -162,6 +165,7 @@
     </div>
   </main>
 
+  <script src="../js/mobile-layout.js"></script>
   <script src="../js/sticky-header.js"></script>
   <script src="../js/data.js"></script>
   <script src="../js/artwork-render.js"></script>
