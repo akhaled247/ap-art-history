@@ -1,6 +1,6 @@
 # AP Art History: Interactive Map & Timeline
 
-A static, educational web visualization of the 11/250 required works in the AP Art History curriculum. Designed for classroom exploration, study, and reference, allowing students and educators to explore artworks chronologically and geographically.
+A static, educational web visualization of the 98/250 required works in the AP Art History curriculum. Designed for classroom exploration, study, and reference, allowing students and educators to explore artworks chronologically and geographically.
 
 > **Note on Progress Count (`X/250 Required Works`):** Wherever "X/250 Required Works" appears (such as in `index.html` and documentation), `X` represents the count of artworks that have been updated with complete notes/analyses out of the total 250 required works.
 
