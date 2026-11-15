@@ -1,0 +1,2362 @@
+{
+  "selected": [
+    {
+      "id": 1,
+      "title": "Apollo 11 Stones",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-1\\img\\__Unit 1 Global Prehistory_2.png",
+          "to": "images/artworks/001/01.png",
+          "bytes": 547692
+        }
+      ],
+      "source": "Unit 1 Global Prehistory PowerPoint"
+    },
+    {
+      "id": 2,
+      "title": "Great Hall of the Bulls",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-1\\img\\__Unit 1 Global Prehistory_12.png",
+          "to": "images/artworks/002/01.png",
+          "bytes": 1045210
+        }
+      ],
+      "source": "Unit 1 Global Prehistory PowerPoint"
+    },
+    {
+      "id": 3,
+      "title": "Camelid sacrum in the shape of a canine",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-1\\img\\__Unit 1 Global Prehistory_14.png",
+          "to": "images/artworks/003/01.png",
+          "bytes": 1684019
+        }
+      ],
+      "source": "Unit 1 Global Prehistory PowerPoint"
+    },
+    {
+      "id": 4,
+      "title": "Running horned woman",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-1\\img\\__Unit 1 Global Prehistory_24.png",
+          "to": "images/artworks/004/01.png",
+          "bytes": 1324983
+        }
+      ],
+      "source": "Unit 1 Global Prehistory PowerPoint"
+    },
+    {
+      "id": 5,
+      "title": "Beaker with ibex motifs",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 2,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-1\\img\\__Unit 1 Global Prehistory_32.png",
+          "to": "images/artworks/005/01.png",
+          "bytes": 2445930
+        }
+      ],
+      "source": "Unit 1 Global Prehistory PowerPoint"
+    },
+    {
+      "id": 6,
+      "title": "Anthropomorphic stele",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 0,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\_prev-cache\\006\\01.jpg",
+          "to": "images/artworks/006/01.jpg",
+          "bytes": 143366
+        }
+      ],
+      "source": "Unit 1 Global Prehistory PowerPoint"
+    },
+    {
+      "id": 7,
+      "title": "Jade cong",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-1\\img\\__Unit 1 Global Prehistory_49.png",
+          "to": "images/artworks/007/01.png",
+          "bytes": 1465953
+        }
+      ],
+      "source": "Unit 1 Global Prehistory PowerPoint"
+    },
+    {
+      "id": 8,
+      "title": "Stonehenge",
+      "needed": 2,
+      "count_source": "notes-explicit",
+      "labeled_count": 2,
+      "json_count_before": 2,
+      "chosen": 2,
+      "available": 2,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-1\\img\\__Unit 1 Global Prehistory_57.png",
+          "to": "images/artworks/008/01.png",
+          "bytes": 1288246
+        },
+        {
+          "from": "source\\pptx-md\\unit-1\\img\\__Unit 1 Global Prehistory_59.png",
+          "to": "images/artworks/008/02.png",
+          "bytes": 1936750
+        }
+      ],
+      "source": "Unit 1 Global Prehistory PowerPoint"
+    },
+    {
+      "id": 9,
+      "title": "The Ambum stone",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-1\\img\\__Unit 1 Global Prehistory_68.png",
+          "to": "images/artworks/009/01.png",
+          "bytes": 1710185
+        }
+      ],
+      "source": "Unit 1 Global Prehistory PowerPoint"
+    },
+    {
+      "id": 10,
+      "title": "Tlatilco female figurine",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-1\\img\\__Unit 1 Global Prehistory_81.png",
+          "to": "images/artworks/010/01.png",
+          "bytes": 608542
+        }
+      ],
+      "source": "Unit 1 Global Prehistory PowerPoint"
+    },
+    {
+      "id": 11,
+      "title": "Terra cotta fragment",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-1\\img\\__Unit 1 Global Prehistory_94.png",
+          "to": "images/artworks/011/01.png",
+          "bytes": 1436912
+        }
+      ],
+      "source": "Unit 1 Global Prehistory PowerPoint"
+    },
+    {
+      "id": 12,
+      "title": "White Temple and its ziggurat",
+      "needed": 2,
+      "count_source": "notes-explicit",
+      "labeled_count": 2,
+      "json_count_before": 2,
+      "chosen": 2,
+      "available": 1,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_3.png",
+          "to": "images/artworks/012/01.png",
+          "bytes": 657131
+        },
+        {
+          "from": "source\\pptx-md\\_prev-cache\\012\\01.jpg",
+          "to": "images/artworks/012/02.jpg",
+          "bytes": 270718
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 13,
+      "title": "Palette of King Narmer",
+      "needed": 2,
+      "count_source": "notes-explicit",
+      "labeled_count": 2,
+      "json_count_before": 2,
+      "chosen": 2,
+      "available": 2,
+      "prev_repo_cached": 3,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\_splits\\__UNIT 2 Ancient Mediterranean_39__L.jpg",
+          "to": "images/artworks/013/01.jpg",
+          "bytes": 597818
+        },
+        {
+          "from": "source\\pptx-md\\_splits\\__UNIT 2 Ancient Mediterranean_39__R.jpg",
+          "to": "images/artworks/013/02.jpg",
+          "bytes": 590150
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 14,
+      "title": "Statues of votive figures, from the Square Temple at Eshnunna",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 2,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_48.png",
+          "to": "images/artworks/014/01.png",
+          "bytes": 464594
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 15,
+      "title": "Seated scribe",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 3,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_57.png",
+          "to": "images/artworks/015/01.png",
+          "bytes": 395744
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 16,
+      "title": "Standard of Ur from the Royal Tombs at Ur",
+      "needed": 2,
+      "count_source": "notes-explicit",
+      "labeled_count": 2,
+      "json_count_before": 2,
+      "chosen": 2,
+      "available": 2,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_64.png",
+          "to": "images/artworks/016/01.png",
+          "bytes": 247972
+        },
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_65.png",
+          "to": "images/artworks/016/02.png",
+          "bytes": 497032
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 17,
+      "title": "Great Pyramids (Menkaura, Khafre, Khufu) and Great Sphinx",
+      "needed": 2,
+      "count_source": "notes-explicit",
+      "labeled_count": 2,
+      "json_count_before": 2,
+      "chosen": 2,
+      "available": 2,
+      "prev_repo_cached": 3,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_72.png",
+          "to": "images/artworks/017/01.png",
+          "bytes": 557179
+        },
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_81.png",
+          "to": "images/artworks/017/02.png",
+          "bytes": 1225221
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 18,
+      "title": "King Menkaura and queen",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 0,
+      "prev_repo_cached": 2,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\_prev-cache\\018\\01.jpg",
+          "to": "images/artworks/018/01.jpg",
+          "bytes": 60877
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 19,
+      "title": "The Code of Hammurabi",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_89.png",
+          "to": "images/artworks/019/01.png",
+          "bytes": 1998182
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 20,
+      "title": "Temple of Amun-Re and Hypostyle Hall",
+      "needed": 3,
+      "count_source": "notes-explicit",
+      "labeled_count": 3,
+      "json_count_before": 3,
+      "chosen": 3,
+      "available": 2,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_101.png",
+          "to": "images/artworks/020/01.png",
+          "bytes": 262309
+        },
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_102.png",
+          "to": "images/artworks/020/02.png",
+          "bytes": 847391
+        },
+        {
+          "from": "source\\pptx-md\\_prev-cache\\020\\01.jpg",
+          "to": "images/artworks/020/03.jpg",
+          "bytes": 149952
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 21,
+      "title": "Mortuary Temple of Hatshepsut",
+      "needed": 2,
+      "count_source": "notes-explicit",
+      "labeled_count": 2,
+      "json_count_before": 2,
+      "chosen": 2,
+      "available": 2,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_115.png",
+          "to": "images/artworks/021/01.png",
+          "bytes": 196892
+        },
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_116.png",
+          "to": "images/artworks/021/02.png",
+          "bytes": 955507
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 22,
+      "title": "Akhenaten, Nefertiti, and three daughters",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_131.png",
+          "to": "images/artworks/022/01.png",
+          "bytes": 1919523
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 23,
+      "title": "Tutankhamun's tomb, innermost coffin",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 0,
+      "prev_repo_cached": 2,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\_prev-cache\\023\\01.jpg",
+          "to": "images/artworks/023/01.jpg",
+          "bytes": 96062
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 24,
+      "title": "Last judgment of Hunefer, from his tomb (page from the Book of the Dead)",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_144.png",
+          "to": "images/artworks/024/01.png",
+          "bytes": 3691196
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 25,
+      "title": "Lamassu from the citadel of Sargon II, Dur Sharrukin",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 0,
+      "prev_repo_cached": 3,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\_prev-cache\\025\\01.jpg",
+          "to": "images/artworks/025/01.jpg",
+          "bytes": 180378
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 26,
+      "title": "Athenian Agora",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 0,
+      "prev_repo_cached": 3,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\_prev-cache\\026\\01.jpg",
+          "to": "images/artworks/026/01.jpg",
+          "bytes": 181283
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 27,
+      "title": "Anavysos Kouros",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 3,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_177.png",
+          "to": "images/artworks/027/01.png",
+          "bytes": 1619325
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 28,
+      "title": "Peplos Kore from the Acropolis",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 0,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\_prev-cache\\028\\01.jpg",
+          "to": "images/artworks/028/01.jpg",
+          "bytes": 47150
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 29,
+      "title": "Sarcophagus of the Spouses",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_201.png",
+          "to": "images/artworks/029/01.png",
+          "bytes": 291649
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 30,
+      "title": "Audience Hall (apadana) of Darius and Xerxes",
+      "needed": 2,
+      "count_source": "notes-explicit",
+      "labeled_count": 2,
+      "json_count_before": 2,
+      "chosen": 2,
+      "available": 2,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\_splits\\__UNIT 2 Ancient Mediterranean_214__L.jpg",
+          "to": "images/artworks/030/01.jpg",
+          "bytes": 114630
+        },
+        {
+          "from": "source\\pptx-md\\_splits\\__UNIT 2 Ancient Mediterranean_214__R.jpg",
+          "to": "images/artworks/030/02.jpg",
+          "bytes": 139145
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 31,
+      "title": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo",
+      "needed": 3,
+      "count_source": "notes-explicit",
+      "labeled_count": 3,
+      "json_count_before": 3,
+      "chosen": 3,
+      "available": 1,
+      "prev_repo_cached": 4,
+      "site_plan_included": true,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_222.png",
+          "to": "images/artworks/031/01.png",
+          "bytes": 411502
+        },
+        {
+          "from": "source\\pptx-md\\_prev-cache\\031\\01.jpg",
+          "to": "images/artworks/031/02.jpg",
+          "bytes": 146986
+        },
+        {
+          "from": "source\\pptx-md\\_prev-cache\\031\\02.jpg",
+          "to": "images/artworks/031/03.jpg",
+          "bytes": 147032
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 32,
+      "title": "Tomb of the Triclinium",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_230.png",
+          "to": "images/artworks/032/01.png",
+          "bytes": 994058
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 33,
+      "title": "Niobides Krater",
+      "needed": 2,
+      "count_source": "notes-explicit",
+      "labeled_count": 2,
+      "json_count_before": 2,
+      "chosen": 2,
+      "available": 2,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_238.png",
+          "to": "images/artworks/033/01.png",
+          "bytes": 434388
+        },
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_239.png",
+          "to": "images/artworks/033/02.png",
+          "bytes": 444171
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 34,
+      "title": "Doryphoros (Spear Bearer)",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 0,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\_prev-cache\\034\\01.jpg",
+          "to": "images/artworks/034/01.jpg",
+          "bytes": 247530
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 35,
+      "title": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal)",
+      "needed": 6,
+      "count_source": "notes-explicit",
+      "labeled_count": 6,
+      "json_count_before": 6,
+      "chosen": 6,
+      "available": 3,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_264.png",
+          "to": "images/artworks/035/01.png",
+          "bytes": 373642
+        },
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_265.png",
+          "to": "images/artworks/035/02.png",
+          "bytes": 315320
+        },
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_266.png",
+          "to": "images/artworks/035/03.png",
+          "bytes": 596402
+        },
+        {
+          "from": "source\\pptx-md\\_prev-cache\\035\\01.jpg",
+          "to": "images/artworks/035/04.jpg",
+          "bytes": 238784
+        },
+        {
+          "from": "source\\pptx-md\\_prev-cache\\035\\02.jpg",
+          "to": "images/artworks/035/05.jpg",
+          "bytes": 260211
+        },
+        {
+          "from": "source\\pptx-md\\_prev-cache\\035\\03.jpg",
+          "to": "images/artworks/035/06.jpg",
+          "bytes": 187594
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 36,
+      "title": "Grave stele of Hegeso",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 2,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_304.png",
+          "to": "images/artworks/036/01.png",
+          "bytes": 347736
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 37,
+      "title": "Winged Victory of Samothrace",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 0,
+      "prev_repo_cached": 3,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\_prev-cache\\037\\01.jpg",
+          "to": "images/artworks/037/01.jpg",
+          "bytes": 138982
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 38,
+      "title": "Great Altar of Zeus and Athena at Pergamon",
+      "needed": 3,
+      "count_source": "notes-explicit",
+      "labeled_count": 3,
+      "json_count_before": 3,
+      "chosen": 3,
+      "available": 2,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_324.png",
+          "to": "images/artworks/038/01.png",
+          "bytes": 410682
+        },
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_325.png",
+          "to": "images/artworks/038/02.png",
+          "bytes": 490015
+        },
+        {
+          "from": "source\\pptx-md\\_prev-cache\\038\\01.jpg",
+          "to": "images/artworks/038/03.jpg",
+          "bytes": 44083
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 39,
+      "title": "House of the Vettii",
+      "needed": 3,
+      "count_source": "notes-explicit",
+      "labeled_count": 3,
+      "json_count_before": 3,
+      "chosen": 3,
+      "available": 2,
+      "prev_repo_cached": 3,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_339.png",
+          "to": "images/artworks/039/01.png",
+          "bytes": 351456
+        },
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_341.png",
+          "to": "images/artworks/039/02.png",
+          "bytes": 528272
+        },
+        {
+          "from": "source\\pptx-md\\_prev-cache\\039\\01.jpg",
+          "to": "images/artworks/039/03.jpg",
+          "bytes": 37231
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 40,
+      "title": "Alexander Mosaic from the House of the Faun, Pompeii",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_350.png",
+          "to": "images/artworks/040/01.png",
+          "bytes": 416310
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 41,
+      "title": "Seated boxer (Boxer at Rest)",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_355.png",
+          "to": "images/artworks/041/01.png",
+          "bytes": 316269
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 42,
+      "title": "Head of a Roman patrician",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_371.png",
+          "to": "images/artworks/042/01.png",
+          "bytes": 398042
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 43,
+      "title": "Augustus of Prima Porta",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 0,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\_prev-cache\\043\\01.jpg",
+          "to": "images/artworks/043/01.jpg",
+          "bytes": 165679
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 44,
+      "title": "Colosseum (Flavian Amphitheater)",
+      "needed": 2,
+      "count_source": "notes-explicit",
+      "labeled_count": 2,
+      "json_count_before": 2,
+      "chosen": 2,
+      "available": 4,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_390.png",
+          "to": "images/artworks/044/01.png",
+          "bytes": 516169
+        },
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_393.png",
+          "to": "images/artworks/044/02.png",
+          "bytes": 407426
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 45,
+      "title": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan)",
+      "needed": 4,
+      "count_source": "notes-explicit",
+      "labeled_count": 4,
+      "json_count_before": 4,
+      "chosen": 4,
+      "available": 11,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_401.png",
+          "to": "images/artworks/045/01.png",
+          "bytes": 342669
+        },
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_403.png",
+          "to": "images/artworks/045/02.png",
+          "bytes": 457586
+        },
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_404.png",
+          "to": "images/artworks/045/03.png",
+          "bytes": 441442
+        },
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_405.png",
+          "to": "images/artworks/045/04.png",
+          "bytes": 647114
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 46,
+      "title": "Pantheon",
+      "needed": 2,
+      "count_source": "notes-explicit",
+      "labeled_count": 2,
+      "json_count_before": 2,
+      "chosen": 2,
+      "available": 8,
+      "prev_repo_cached": 3,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_421.png",
+          "to": "images/artworks/046/01.png",
+          "bytes": 546385
+        },
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_423.png",
+          "to": "images/artworks/046/02.png",
+          "bytes": 743138
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 47,
+      "title": "Ludovisi Battle Sarcophagus",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 7,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_431.png",
+          "to": "images/artworks/047/01.png",
+          "bytes": 520605
+        }
+      ],
+      "source": "Unit 2 Ancient Mediterranean PowerPoint"
+    },
+    {
+      "id": 48,
+      "title": "Catacomb of Priscilla",
+      "needed": 3,
+      "count_source": "pptx-fill",
+      "labeled_count": 3,
+      "json_count_before": 3,
+      "chosen": 3,
+      "available": 9,
+      "prev_repo_cached": 2,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_41.png",
+          "to": "images/artworks/048/01.png",
+          "bytes": 3480033
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_42.png",
+          "to": "images/artworks/048/02.png",
+          "bytes": 2064734
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_43.png",
+          "to": "images/artworks/048/03.png",
+          "bytes": 2282380
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 49,
+      "title": "Santa Sabina",
+      "needed": 3,
+      "count_source": "pptx-fill",
+      "labeled_count": 3,
+      "json_count_before": 3,
+      "chosen": 3,
+      "available": 7,
+      "prev_repo_cached": 5,
+      "site_plan_included": true,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_57.png",
+          "to": "images/artworks/049/01.png",
+          "bytes": 1795046
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_58.png",
+          "to": "images/artworks/049/02.png",
+          "bytes": 1443852
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_61.png",
+          "to": "images/artworks/049/03.png",
+          "bytes": 416094
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 50,
+      "title": "Vienna Genesis (Rebecca and Eliezer at the Well; Jacob Wrestling the Angel)",
+      "needed": 2,
+      "count_source": "pptx-fill",
+      "labeled_count": 2,
+      "json_count_before": 2,
+      "chosen": 2,
+      "available": 6,
+      "prev_repo_cached": 2,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_71.png",
+          "to": "images/artworks/050/01.png",
+          "bytes": 2591717
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_72.png",
+          "to": "images/artworks/050/02.png",
+          "bytes": 2532833
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 51,
+      "title": "San Vitale",
+      "needed": 5,
+      "count_source": "pptx-fill",
+      "labeled_count": 5,
+      "json_count_before": 5,
+      "chosen": 5,
+      "available": 6,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_88.png",
+          "to": "images/artworks/051/01.png",
+          "bytes": 1469429
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_92.png",
+          "to": "images/artworks/051/02.png",
+          "bytes": 1030662
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_93.png",
+          "to": "images/artworks/051/03.png",
+          "bytes": 2746076
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_95.png",
+          "to": "images/artworks/051/04.png",
+          "bytes": 7637848
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_96.png",
+          "to": "images/artworks/051/05.png",
+          "bytes": 6537869
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 52,
+      "title": "Hagia Sophia",
+      "needed": 3,
+      "count_source": "pptx-fill",
+      "labeled_count": 3,
+      "json_count_before": 3,
+      "chosen": 3,
+      "available": 14,
+      "prev_repo_cached": 6,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_104.png",
+          "to": "images/artworks/052/01.png",
+          "bytes": 1638249
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_105.png",
+          "to": "images/artworks/052/02.png",
+          "bytes": 451291
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_107.png",
+          "to": "images/artworks/052/03.png",
+          "bytes": 738892
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 53,
+      "title": "Merovingian looped fibulae",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 4,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_124.png",
+          "to": "images/artworks/053/01.png",
+          "bytes": 564550
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 54,
+      "title": "Virgin (Theotokos) and Child between Saints Theodore and George",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 6,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_132.png",
+          "to": "images/artworks/054/01.png",
+          "bytes": 1960583
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 55,
+      "title": "Lindisfarne Gospels (St. Matthew, cross-carpet page; St. Luke, incipit page)",
+      "needed": 3,
+      "count_source": "notes-explicit",
+      "labeled_count": 3,
+      "json_count_before": 3,
+      "chosen": 3,
+      "available": 15,
+      "prev_repo_cached": 3,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_150.png",
+          "to": "images/artworks/055/01.png",
+          "bytes": 563589
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_151.png",
+          "to": "images/artworks/055/02.png",
+          "bytes": 507203
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_152.png",
+          "to": "images/artworks/055/03.png",
+          "bytes": 521133
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 56,
+      "title": "Great Mosque of C\u00f3rdoba",
+      "needed": 5,
+      "count_source": "notes-explicit",
+      "labeled_count": 5,
+      "json_count_before": 5,
+      "chosen": 5,
+      "available": 12,
+      "prev_repo_cached": 5,
+      "site_plan_included": true,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_180.png",
+          "to": "images/artworks/056/01.png",
+          "bytes": 380762
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_181.png",
+          "to": "images/artworks/056/02.png",
+          "bytes": 627802
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_183.png",
+          "to": "images/artworks/056/03.png",
+          "bytes": 767001
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_189.png",
+          "to": "images/artworks/056/04.png",
+          "bytes": 103194
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_185.png",
+          "to": "images/artworks/056/05.png",
+          "bytes": 6555494
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 57,
+      "title": "Pyxis of al-Mughira",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 14,
+      "prev_repo_cached": 4,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_201.png",
+          "to": "images/artworks/057/01.png",
+          "bytes": 352949
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 58,
+      "title": "Church of Sainte-Foy",
+      "needed": 4,
+      "count_source": "notes-explicit",
+      "labeled_count": 4,
+      "json_count_before": 4,
+      "chosen": 4,
+      "available": 9,
+      "prev_repo_cached": 2,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_228.png",
+          "to": "images/artworks/058/01.png",
+          "bytes": 1841410
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_229.png",
+          "to": "images/artworks/058/02.png",
+          "bytes": 978162
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_232.png",
+          "to": "images/artworks/058/03.png",
+          "bytes": 511901
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_233.png",
+          "to": "images/artworks/058/04.png",
+          "bytes": 2448973
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 59,
+      "title": "Bayeux Tapestry",
+      "needed": 2,
+      "count_source": "notes-explicit",
+      "labeled_count": 2,
+      "json_count_before": 2,
+      "chosen": 2,
+      "available": 16,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_241.png",
+          "to": "images/artworks/059/01.png",
+          "bytes": 1411656
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_242.png",
+          "to": "images/artworks/059/02.png",
+          "bytes": 1328073
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 60,
+      "title": "Chartres Cathedral",
+      "needed": 6,
+      "count_source": "pptx-fill",
+      "labeled_count": 6,
+      "json_count_before": 6,
+      "chosen": 6,
+      "available": 9,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_270.png",
+          "to": "images/artworks/060/01.png",
+          "bytes": 1496398
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_271.png",
+          "to": "images/artworks/060/02.png",
+          "bytes": 2595770
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_273.png",
+          "to": "images/artworks/060/03.png",
+          "bytes": 1396643
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_281.png",
+          "to": "images/artworks/060/04.png",
+          "bytes": 2697366
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_282.png",
+          "to": "images/artworks/060/05.png",
+          "bytes": 269609
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_283.png",
+          "to": "images/artworks/060/06.png",
+          "bytes": 1760420
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 61,
+      "title": "Dedication Page with Blanche of Castile and King Louis IX of France, Scenes from the Apocalypse from Bibles moralis\u00e9es",
+      "needed": 2,
+      "count_source": "notes-explicit",
+      "labeled_count": 2,
+      "json_count_before": 2,
+      "chosen": 2,
+      "available": 9,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_294.png",
+          "to": "images/artworks/061/01.png",
+          "bytes": 1779631
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_295.png",
+          "to": "images/artworks/061/02.png",
+          "bytes": 1751609
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 62,
+      "title": "R\u00f6ttgen Piet\u00e0",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 10,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_318.png",
+          "to": "images/artworks/062/01.png",
+          "bytes": 891878
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 63,
+      "title": "Arena (Scrovegni) Chapel, including Lamentation",
+      "needed": 3,
+      "count_source": "pptx-fill",
+      "labeled_count": 3,
+      "json_count_before": 3,
+      "chosen": 3,
+      "available": 5,
+      "prev_repo_cached": 8,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_333.png",
+          "to": "images/artworks/063/01.png",
+          "bytes": 2208219
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_334.png",
+          "to": "images/artworks/063/02.png",
+          "bytes": 2165353
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_335.png",
+          "to": "images/artworks/063/03.png",
+          "bytes": 1542227
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 64,
+      "title": "Golden Haggadah (The Plagues of Egypt, Scenes of Liberation, Preparation for Passover)",
+      "needed": 3,
+      "count_source": "notes-explicit",
+      "labeled_count": 3,
+      "json_count_before": 3,
+      "chosen": 3,
+      "available": 3,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_341.png",
+          "to": "images/artworks/064/01.png",
+          "bytes": 2247437
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_342.png",
+          "to": "images/artworks/064/02.png",
+          "bytes": 2414064
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_343.png",
+          "to": "images/artworks/064/03.png",
+          "bytes": 2339589
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 65,
+      "title": "Alhambra",
+      "needed": 4,
+      "count_source": "notes-explicit",
+      "labeled_count": 4,
+      "json_count_before": 4,
+      "chosen": 4,
+      "available": 11,
+      "prev_repo_cached": 1,
+      "site_plan_included": true,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_347.png",
+          "to": "images/artworks/065/01.png",
+          "bytes": 1402973
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_349.png",
+          "to": "images/artworks/065/02.png",
+          "bytes": 2646233
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_351.png",
+          "to": "images/artworks/065/03.png",
+          "bytes": 2238489
+        },
+        {
+          "from": "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_352.png",
+          "to": "images/artworks/065/04.png",
+          "bytes": 1260015
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)"
+    },
+    {
+      "id": 66,
+      "title": "Annunciation Triptych (Merode Altarpiece)",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 2,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_0.png",
+          "to": "images/artworks/066/01.png",
+          "bytes": 3666604
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 67,
+      "title": "Pazzi Chapel",
+      "needed": 2,
+      "count_source": "notes-explicit",
+      "labeled_count": 2,
+      "json_count_before": 2,
+      "chosen": 2,
+      "available": 5,
+      "prev_repo_cached": 2,
+      "site_plan_included": true,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_17.png",
+          "to": "images/artworks/067/01.png",
+          "bytes": 3387103
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_23.png",
+          "to": "images/artworks/067/02.png",
+          "bytes": 560949
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 68,
+      "title": "The Arnolfini Portrait",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 9,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_32.png",
+          "to": "images/artworks/068/01.png",
+          "bytes": 1937331
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 69,
+      "title": "David",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 6,
+      "prev_repo_cached": 6,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_48.png",
+          "to": "images/artworks/069/01.png",
+          "bytes": 957318
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 70,
+      "title": "Palazzo Rucellai",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 11,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_59.png",
+          "to": "images/artworks/070/01.png",
+          "bytes": 1988385
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 71,
+      "title": "Madonna and Child with Two Angels",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 2,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_74.jpg",
+          "to": "images/artworks/071/01.jpg",
+          "bytes": 492884
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 72,
+      "title": "Birth of Venus",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 2,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_81.png",
+          "to": "images/artworks/072/01.png",
+          "bytes": 611426
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 73,
+      "title": "Last Supper",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 7,
+      "prev_repo_cached": 6,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_91.png",
+          "to": "images/artworks/073/01.png",
+          "bytes": 1930609
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 74,
+      "title": "Adam and Eve",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_110.png",
+          "to": "images/artworks/074/01.png",
+          "bytes": 1080719
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 75,
+      "title": "Sistine Chapel ceiling and altar wall frescoes",
+      "needed": 4,
+      "count_source": "notes-explicit",
+      "labeled_count": 4,
+      "json_count_before": 4,
+      "chosen": 4,
+      "available": 16,
+      "prev_repo_cached": 1,
+      "site_plan_included": true,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_113.png",
+          "to": "images/artworks/075/01.png",
+          "bytes": 2353710
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_114.png",
+          "to": "images/artworks/075/02.png",
+          "bytes": 2060554
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_115.png",
+          "to": "images/artworks/075/03.png",
+          "bytes": 1964653
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_125.png",
+          "to": "images/artworks/075/04.png",
+          "bytes": 1519806
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 76,
+      "title": "School of Athens",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 16,
+      "prev_repo_cached": 6,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_131.png",
+          "to": "images/artworks/076/01.png",
+          "bytes": 2161164
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 77,
+      "title": "Isenheim altarpiece",
+      "needed": 2,
+      "count_source": "notes-explicit",
+      "labeled_count": 2,
+      "json_count_before": 2,
+      "chosen": 2,
+      "available": 7,
+      "prev_repo_cached": 6,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_152.png",
+          "to": "images/artworks/077/01.png",
+          "bytes": 1622219
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_153.png",
+          "to": "images/artworks/077/02.png",
+          "bytes": 1296551
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 78,
+      "title": "Entombment of Christ",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 3,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_161.png",
+          "to": "images/artworks/078/01.png",
+          "bytes": 2049782
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 79,
+      "title": "Allegory of Law and Grace",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 4,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_167.png",
+          "to": "images/artworks/079/01.png",
+          "bytes": 2362408
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 80,
+      "title": "Venus of Urbino",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 3,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_176.png",
+          "to": "images/artworks/080/01.png",
+          "bytes": 1800116
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 81,
+      "title": "Frontispiece of the Codex Mendoza",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 13,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_182.png",
+          "to": "images/artworks/081/01.png",
+          "bytes": 2149080
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 82,
+      "title": "Il Ges\u00f9, including Triumph of the Name of Jesus ceiling fresco",
+      "needed": 3,
+      "count_source": "notes-explicit",
+      "labeled_count": null,
+      "json_count_before": 3,
+      "chosen": 3,
+      "available": 7,
+      "prev_repo_cached": 6,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_199.png",
+          "to": "images/artworks/082/01.png",
+          "bytes": 1817367
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_200.jpg",
+          "to": "images/artworks/082/02.jpg",
+          "bytes": 289217
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_203.png",
+          "to": "images/artworks/082/03.png",
+          "bytes": 2099513
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 83,
+      "title": "Hunters in the Snow",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 6,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_208.png",
+          "to": "images/artworks/083/01.png",
+          "bytes": 2085148
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 84,
+      "title": "Mosque of Selim II",
+      "needed": 3,
+      "count_source": "notes-explicit",
+      "labeled_count": 3,
+      "json_count_before": 3,
+      "chosen": 3,
+      "available": 3,
+      "prev_repo_cached": 3,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_223.png",
+          "to": "images/artworks/084/01.png",
+          "bytes": 2096638
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_232.png",
+          "to": "images/artworks/084/02.png",
+          "bytes": 804052
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_233.png",
+          "to": "images/artworks/084/03.png",
+          "bytes": 2102685
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 85,
+      "title": "Calling of Saint Matthew",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 4,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_234.png",
+          "to": "images/artworks/085/01.png",
+          "bytes": 1641935
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 86,
+      "title": "Henri IV Receives the Portrait of Marie de' Medici, from the Marie de' Medici Cycle",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 6,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_242.png",
+          "to": "images/artworks/086/01.png",
+          "bytes": 2361703
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 87,
+      "title": "Self-Portrait with Saskia",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 5,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_254.png",
+          "to": "images/artworks/087/01.png",
+          "bytes": 593814
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 88,
+      "title": "San Carlo alle Quattro Fontane",
+      "needed": 3,
+      "count_source": "notes-explicit",
+      "labeled_count": 3,
+      "json_count_before": 3,
+      "chosen": 3,
+      "available": 11,
+      "prev_repo_cached": 6,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_268.png",
+          "to": "images/artworks/088/01.png",
+          "bytes": 2165480
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_269.png",
+          "to": "images/artworks/088/02.png",
+          "bytes": 2276350
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_272.png",
+          "to": "images/artworks/088/03.png",
+          "bytes": 1182334
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 89,
+      "title": "Ecstasy of Saint Teresa",
+      "needed": 3,
+      "count_source": "notes-explicit",
+      "labeled_count": 3,
+      "json_count_before": 3,
+      "chosen": 3,
+      "available": 6,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_286.png",
+          "to": "images/artworks/089/01.png",
+          "bytes": 1885150
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_287.png",
+          "to": "images/artworks/089/02.png",
+          "bytes": 2238122
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_288.png",
+          "to": "images/artworks/089/03.png",
+          "bytes": 3191761
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 90,
+      "title": "Angel with Arquebus, Asiel Timor Dei",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 4,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_294.png",
+          "to": "images/artworks/090/01.png",
+          "bytes": 1758687
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 91,
+      "title": "Las Meninas",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 1,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_301.png",
+          "to": "images/artworks/091/01.png",
+          "bytes": 2319889
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 92,
+      "title": "Woman Holding a Balance",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 5,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_307.png",
+          "to": "images/artworks/092/01.png",
+          "bytes": 2329892
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 93,
+      "title": "The Palace at Versailles",
+      "needed": 5,
+      "count_source": "notes-explicit",
+      "labeled_count": 5,
+      "json_count_before": 5,
+      "chosen": 5,
+      "available": 15,
+      "prev_repo_cached": 1,
+      "site_plan_included": true,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_316.png",
+          "to": "images/artworks/093/01.png",
+          "bytes": 1913354
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_317.png",
+          "to": "images/artworks/093/02.png",
+          "bytes": 1448602
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_323.png",
+          "to": "images/artworks/093/03.png",
+          "bytes": 1937499
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_318.png",
+          "to": "images/artworks/093/04.png",
+          "bytes": 2103869
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_319.png",
+          "to": "images/artworks/093/05.png",
+          "bytes": 1819441
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 94,
+      "title": "Screen with the Siege of Belgrade and hunting scene",
+      "needed": 2,
+      "count_source": "notes-explicit",
+      "labeled_count": 2,
+      "json_count_before": 2,
+      "chosen": 2,
+      "available": 8,
+      "prev_repo_cached": 3,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_338.png",
+          "to": "images/artworks/094/01.png",
+          "bytes": 1858568
+        },
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_339.png",
+          "to": "images/artworks/094/02.png",
+          "bytes": 1798740
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 95,
+      "title": "The Virgin of Guadalupe (Virgen de Guadalupe)",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 5,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_351.png",
+          "to": "images/artworks/095/01.png",
+          "bytes": 1965498
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 96,
+      "title": "Fruit and Insects",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 2,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_361.png",
+          "to": "images/artworks/096/01.png",
+          "bytes": 1483316
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 97,
+      "title": "Spaniard and Indian Produce a Mestizo",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 3,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_372.png",
+          "to": "images/artworks/097/01.png",
+          "bytes": 2111211
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    },
+    {
+      "id": 98,
+      "title": "The T\u00eate \u00e0 T\u00eate, from Marriage \u00e0 la Mode",
+      "needed": 1,
+      "count_source": "notes-default-1",
+      "labeled_count": null,
+      "json_count_before": 1,
+      "chosen": 1,
+      "available": 3,
+      "prev_repo_cached": 1,
+      "site_plan_included": false,
+      "files": [
+        {
+          "from": "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_377.png",
+          "to": "images/artworks/098/01.png",
+          "bytes": 2169672
+        }
+      ],
+      "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)"
+    }
+  ],
+  "missing": [
+    {
+      "id": 250,
+      "title": "St. Luke Drawing the Virgin",
+      "reason": "no attribution marker in converted markdown"
+    }
+  ],
+  "skipped_false_positive": []
+}

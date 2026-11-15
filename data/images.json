@@ -4,10 +4,10 @@
     "title": "Apollo 11 Stones",
     "images": [
       {
-        "src": "https://smarthistory.org/wp-content/uploads/2021/10/apollo-11-stone.jpg",
+        "src": "images/artworks/001/01.png",
         "alt": "Apollo 11 Stones (c. 25,500–25,300 BCE)",
-        "source": "Smarthistory: https://smarthistory.org/apollo-11-cave-stones-2/",
-        "local": false
+        "source": "Unit 1 Global Prehistory PowerPoint",
+        "local": true
       }
     ]
   },
@@ -16,10 +16,10 @@
     "title": "Great Hall of the Bulls",
     "images": [
       {
-        "src": "https://smarthistory.org/wp-content/uploads/2021/09/lascaux-II-1536x1046.jpg",
+        "src": "images/artworks/002/01.png",
         "alt": "Great Hall of the Bulls (15,000–13,000 BCE)",
-        "source": "Smarthistory: https://smarthistory.org/hall-of-bulls-lascaux/",
-        "local": false
+        "source": "Unit 1 Global Prehistory PowerPoint",
+        "local": true
       }
     ]
   },
@@ -28,10 +28,10 @@
     "title": "Camelid sacrum in the shape of a canine",
     "images": [
       {
-        "src": "https://smarthistory.org/wp-content/uploads/2020/12/MNA113.jpg",
+        "src": "images/artworks/003/01.png",
         "alt": "Camelid sacrum in the shape of a canine (14,000–7000 BCE)",
-        "source": "Smarthistory: https://smarthistory.org/camelid-sacrum-in-the-shape-of-a-canine/",
-        "local": false
+        "source": "Unit 1 Global Prehistory PowerPoint",
+        "local": true
       }
     ]
   },
@@ -40,10 +40,10 @@
     "title": "Running horned woman",
     "images": [
       {
-        "src": "https://smarthistory.org/wp-content/uploads/2021/09/enhanced.jpeg",
+        "src": "images/artworks/004/01.png",
         "alt": "Running horned woman (6000–4000 BCE)",
-        "source": "Smarthistory: https://smarthistory.org/running-horned-woman-tassili-najjer-algeria-2/",
-        "local": false
+        "source": "Unit 1 Global Prehistory PowerPoint",
+        "local": true
       }
     ]
   },
@@ -52,10 +52,10 @@
     "title": "Beaker with ibex motifs",
     "images": [
       {
-        "src": "https://smarthistory.org/wp-content/uploads/2018/06/ibex.jpg",
+        "src": "images/artworks/005/01.png",
         "alt": "Beaker with ibex motifs (4200–3500 BCE)",
-        "source": "Smarthistory: https://smarthistory.org/bushel-with-ibex-motifs/",
-        "local": false
+        "source": "Unit 1 Global Prehistory PowerPoint",
+        "local": true
       }
     ]
   },
@@ -64,10 +64,10 @@
     "title": "Anthropomorphic stele",
     "images": [
       {
-        "src": "https://smarthistory.org/wp-content/uploads/2021/09/anthro-stele-1000px.jpeg",
+        "src": "images/artworks/006/01.jpg",
         "alt": "Anthropomorphic stele (Fourth millennium BCE)",
-        "source": "Smarthistory: https://smarthistory.org/anthropomorphic-stele/",
-        "local": false
+        "source": "Unit 1 Global Prehistory PowerPoint",
+        "local": true
       }
     ]
   },
@@ -76,10 +76,10 @@
     "title": "Jade cong",
     "images": [
       {
-        "src": "https://smarthistory.org/wp-content/uploads/2018/06/jadecong.jpg",
+        "src": "images/artworks/007/01.png",
         "alt": "Jade cong (3300–2200 BCE)",
-        "source": "Smarthistory: https://smarthistory.org/jade-cong-2/",
-        "local": false
+        "source": "Unit 1 Global Prehistory PowerPoint",
+        "local": true
       }
     ]
   },
@@ -88,10 +88,16 @@
     "title": "Stonehenge",
     "images": [
       {
-        "src": "https://smarthistory.org/wp-content/uploads/2023/05/Stonehenge-1.jpg",
-        "alt": "Stonehenge (c. 2500–1600 BCE)",
-        "source": "Smarthistory: https://smarthistory.org/stonehenge/",
-        "local": false
+        "src": "images/artworks/008/01.png",
+        "alt": "Stonehenge — view 1 (c. 2500–1600 BCE)",
+        "source": "Unit 1 Global Prehistory PowerPoint",
+        "local": true
+      },
+      {
+        "src": "images/artworks/008/02.png",
+        "alt": "Stonehenge — view 2 (c. 2500–1600 BCE)",
+        "source": "Unit 1 Global Prehistory PowerPoint",
+        "local": true
       }
     ]
   },
@@ -100,10 +106,10 @@
     "title": "The Ambum stone",
     "images": [
       {
-        "src": "https://smarthistory.org/wp-content/uploads/2016/09/ambumnga.jpg",
+        "src": "images/artworks/009/01.png",
         "alt": "The Ambum stone (c. 1500 BCE)",
-        "source": "Smarthistory: https://smarthistory.org/ambum/",
-        "local": false
+        "source": "Unit 1 Global Prehistory PowerPoint",
+        "local": true
       }
     ]
   },
@@ -112,10 +118,10 @@
     "title": "Tlatilco female figurine",
     "images": [
       {
-        "src": "https://smarthistory.org/wp-content/uploads/2023/11/default-e1701372072437.jpg",
+        "src": "images/artworks/010/01.png",
         "alt": "Tlatilco female figurine (1200–900 BCE)",
-        "source": "Smarthistory: https://smarthistory.org/tlatilco-figurines/",
-        "local": false
+        "source": "Unit 1 Global Prehistory PowerPoint",
+        "local": true
       }
     ]
   },
@@ -124,10 +130,10 @@
     "title": "Terra cotta fragment",
     "images": [
       {
-        "src": "https://smarthistory.org/wp-content/uploads/2016/12/lapitafragment.jpg",
+        "src": "images/artworks/011/01.png",
         "alt": "Terra cotta fragment (1000 BCE)",
-        "source": "Smarthistory: https://smarthistory.org/lapita/",
-        "local": false
+        "source": "Unit 1 Global Prehistory PowerPoint",
+        "local": true
       }
     ]
   },
@@ -136,10 +142,16 @@
     "title": "White Temple and its ziggurat",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7530/15773819026_f99694b522_b.jpg",
-        "alt": "White Temple and its ziggurat (c. 3500–3000 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/012/01.png",
+        "alt": "White Temple and its ziggurat — view 1 (c. 3500–3000 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
+      },
+      {
+        "src": "images/artworks/012/02.png",
+        "alt": "White Temple and its ziggurat — view 2 (c. 3500–3000 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -148,22 +160,16 @@
     "title": "Palette of King Narmer",
     "images": [
       {
-        "src": "https://live.staticflickr.com/8611/15774189486_171dc1f28c_b.jpg",
-        "alt": "Palette of King Narmer (c. 3000–2920 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/013/01.jpg",
+        "alt": "Palette of King Narmer — view 1 (c. 3000–2920 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/5610/15178422513_2029239eb6_b.jpg",
-        "alt": "Palette of King Narmer (c. 3000–2920 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/5606/15612039269_9714be156e_b.jpg",
-        "alt": "Palette of King Narmer (c. 3000–2920 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/013/02.jpg",
+        "alt": "Palette of King Narmer — view 2 (c. 3000–2920 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -172,16 +178,10 @@
     "title": "Statues of votive figures, from the Square Temple at Eshnunna",
     "images": [
       {
-        "src": "https://live.staticflickr.com/3907/15324643576_4db954a9b1_b.jpg",
+        "src": "images/artworks/014/01.png",
         "alt": "Statues of votive figures, from the Square Temple at Eshnunna (c. 2700 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/2944/15344487461_8c28eb99a9_b.jpg",
-        "alt": "Statues of votive figures, from the Square Temple at Eshnunna (c. 2700 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -190,22 +190,10 @@
     "title": "Seated scribe",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7555/15775012706_cd2d5ae7f0_b.jpg",
+        "src": "images/artworks/015/01.png",
         "alt": "Seated scribe (c. 2620–2500 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/5615/15612861779_b61241686f_b.jpg",
-        "alt": "Seated scribe (c. 2620–2500 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7530/15612861729_3c6e22443b_b.jpg",
-        "alt": "Seated scribe (c. 2620–2500 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -214,28 +202,16 @@
     "title": "Standard of Ur from the Royal Tombs at Ur",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7084/7324389694_459ba6d344_b.jpg",
-        "alt": "Standard of Ur from the Royal Tombs at Ur (c. 2600–2400 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/016/01.png",
+        "alt": "Standard of Ur from the Royal Tombs at Ur — view 1 (c. 2600–2400 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/7083/7324379672_5aeb6cdfe5_b.jpg",
-        "alt": "Standard of Ur from the Royal Tombs at Ur (c. 2600–2400 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8158/7324397844_12cc2d6b95_b.jpg",
-        "alt": "Standard of Ur from the Royal Tombs at Ur (c. 2600–2400 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8153/7324396386_fba1cfe3af_b.jpg",
-        "alt": "Standard of Ur from the Royal Tombs at Ur (c. 2600–2400 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/016/02.png",
+        "alt": "Standard of Ur from the Royal Tombs at Ur — view 2 (c. 2600–2400 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -244,22 +220,16 @@
     "title": "Great Pyramids (Menkaura, Khafre, Khufu) and Great Sphinx",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7533/15613718217_d0c0c6178d.jpg",
-        "alt": "Great Pyramids (Menkaura, Khafre, Khufu) and Great Sphinx (c. 2550–2490 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/017/01.png",
+        "alt": "Great Pyramids (Menkaura, Khafre, Khufu) and Great Sphinx — view 1 (c. 2550–2490 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/7535/15179450153_34a96d48ed.jpg",
-        "alt": "Great Pyramids (Menkaura, Khafre, Khufu) and Great Sphinx (c. 2550–2490 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7551/15179450113_f92e408909.jpg",
-        "alt": "Great Pyramids (Menkaura, Khafre, Khufu) and Great Sphinx (c. 2550–2490 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/017/02.png",
+        "alt": "Great Pyramids (Menkaura, Khafre, Khufu) and Great Sphinx — view 2 (c. 2550–2490 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -268,16 +238,10 @@
     "title": "King Menkaura and queen",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7499/15179060794_7dc11a6d38_b.jpg",
+        "src": "images/artworks/018/01.jpg",
         "alt": "King Menkaura and queen (c. 2490–2472 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7557/15613188179_cf1174142e_b.jpg",
-        "alt": "King Menkaura and queen (c. 2490–2472 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -286,28 +250,10 @@
     "title": "The Code of Hammurabi",
     "images": [
       {
-        "src": "https://live.staticflickr.com/4221/34752049742_82696ca134_b.jpg",
+        "src": "images/artworks/019/01.png",
         "alt": "The Code of Hammurabi (c. 1792–1750 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/4202/34528460920_ce8a128b84_b.jpg",
-        "alt": "The Code of Hammurabi (c. 1792–1750 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/4276/34528463920_99cce583e3_b.jpg",
-        "alt": "The Code of Hammurabi (c. 1792–1750 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/4270/34528455910_821591e63f_b.jpg",
-        "alt": "The Code of Hammurabi (c. 1792–1750 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -316,28 +262,22 @@
     "title": "Temple of Amun-Re and Hypostyle Hall",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7466/15801060102_92f7dddfd2_b.jpg",
-        "alt": "Temple of Amun-Re and Hypostyle Hall (Temple: c. 1550 BCE; hall: c. 1250 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/020/01.png",
+        "alt": "Temple of Amun-Re and Hypostyle Hall — view 1 (Temple: c. 1550 BCE; hall: c. 1250 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/7521/15799491715_54e78d573c_b.jpg",
-        "alt": "Temple of Amun-Re and Hypostyle Hall (Temple: c. 1550 BCE; hall: c. 1250 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/020/02.png",
+        "alt": "Temple of Amun-Re and Hypostyle Hall — view 2 (Temple: c. 1550 BCE; hall: c. 1250 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/5610/15797719771_d9af4ca420_b.jpg",
-        "alt": "Temple of Amun-Re and Hypostyle Hall (Temple: c. 1550 BCE; hall: c. 1250 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7541/15614759390_9f9a11a2bc_b.jpg",
-        "alt": "Temple of Amun-Re and Hypostyle Hall (Temple: c. 1550 BCE; hall: c. 1250 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/020/03.png",
+        "alt": "Temple of Amun-Re and Hypostyle Hall — view 3 (Temple: c. 1550 BCE; hall: c. 1250 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -346,10 +286,16 @@
     "title": "Mortuary Temple of Hatshepsut",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7488/15776116906_f806c12c35_b.jpg",
-        "alt": "Mortuary Temple of Hatshepsut (c. 1473–1458 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/021/01.png",
+        "alt": "Mortuary Temple of Hatshepsut — view 1 (c. 1473–1458 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
+      },
+      {
+        "src": "images/artworks/021/02.png",
+        "alt": "Mortuary Temple of Hatshepsut — view 2 (c. 1473–1458 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -358,28 +304,10 @@
     "title": "Akhenaten, Nefertiti, and three daughters",
     "images": [
       {
-        "src": "https://live.staticflickr.com/8424/7670423810_60dca10f25_b.jpg",
+        "src": "images/artworks/022/01.png",
         "alt": "Akhenaten, Nefertiti, and three daughters (c. 1353–1335 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7128/7670401464_ecd4351647_b.jpg",
-        "alt": "Akhenaten, Nefertiti, and three daughters (c. 1353–1335 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8143/7670413792_5052607617_b.jpg",
-        "alt": "Akhenaten, Nefertiti, and three daughters (c. 1353–1335 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8165/7670404296_32b9b10637_b.jpg",
-        "alt": "Akhenaten, Nefertiti, and three daughters (c. 1353–1335 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -388,16 +316,10 @@
     "title": "Tutankhamun's tomb, innermost coffin",
     "images": [
       {
-        "src": "https://live.staticflickr.com/5615/15618376030_425dd41720_b.jpg",
+        "src": "images/artworks/023/01.png",
         "alt": "Tutankhamun's tomb, innermost coffin (c. 1323 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7493/15801346991_b8637d78db_b.jpg",
-        "alt": "Tutankhamun's tomb, innermost coffin (c. 1323 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -406,28 +328,10 @@
     "title": "Last judgment of Hunefer, from his tomb (page from the Book of the Dead)",
     "images": [
       {
-        "src": "https://live.staticflickr.com/3716/9395548313_2e0d44cd97_b.jpg",
+        "src": "images/artworks/024/01.png",
         "alt": "Last judgment of Hunefer, from his tomb (page from the Book of the Dead) (c. 1275 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/5464/9395528047_45704d9a76_b.jpg",
-        "alt": "Last judgment of Hunefer, from his tomb (page from the Book of the Dead) (c. 1275 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7305/9395530653_6734651a3d_b.jpg",
-        "alt": "Last judgment of Hunefer, from his tomb (page from the Book of the Dead) (c. 1275 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/3668/9398296854_5dcff17e11_b.jpg",
-        "alt": "Last judgment of Hunefer, from his tomb (page from the Book of the Dead) (c. 1275 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -436,22 +340,10 @@
     "title": "Lamassu from the citadel of Sargon II, Dur Sharrukin",
     "images": [
       {
-        "src": "https://live.staticflickr.com/3847/14581729882_9221bf5687_b.jpg",
+        "src": "images/artworks/025/01.png",
         "alt": "Lamassu from the citadel of Sargon II, Dur Sharrukin (c. 720–705 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/3854/14396096157_d14fe00e3b_b.jpg",
-        "alt": "Lamassu from the citadel of Sargon II, Dur Sharrukin (c. 720–705 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/3847/14559452516_7aee937941_b.jpg",
-        "alt": "Lamassu from the citadel of Sargon II, Dur Sharrukin (c. 720–705 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -460,22 +352,10 @@
     "title": "Athenian Agora",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7543/15784365296_fb88b5705e_b.jpg",
+        "src": "images/artworks/026/01.png",
         "alt": "Athenian Agora (600 BCE–150 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7560/15623178030_7a30accf85_b.jpg",
-        "alt": "Athenian Agora (600 BCE–150 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7521/15806143661_5b93434c8c_b.jpg",
-        "alt": "Athenian Agora (600 BCE–150 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -484,22 +364,10 @@
     "title": "Anavysos Kouros",
     "images": [
       {
-        "src": "https://live.staticflickr.com/3804/13200052054_1998e8faa5_b.jpg",
+        "src": "images/artworks/027/01.png",
         "alt": "Anavysos Kouros (c. 530 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/2889/13199718465_a4cde1913b_b.jpg",
-        "alt": "Anavysos Kouros (c. 530 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/3796/13199851933_5b7f73a474_b.jpg",
-        "alt": "Anavysos Kouros (c. 530 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -508,10 +376,10 @@
     "title": "Peplos Kore from the Acropolis",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7541/15808502755_42274b327d_b.jpg",
+        "src": "images/artworks/028/01.png",
         "alt": "Peplos Kore from the Acropolis (c. 530 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -520,28 +388,10 @@
     "title": "Sarcophagus of the Spouses",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7461/15623415937_ea32f3f6bb_b.jpg",
+        "src": "images/artworks/029/01.png",
         "alt": "Sarcophagus of the Spouses (c. 520 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8129/15623415987_fd61a528de_b.jpg",
-        "alt": "Sarcophagus of the Spouses (c. 520 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8589/15623416067_74353bf9ac_b.jpg",
-        "alt": "Sarcophagus of the Spouses (c. 520 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/5614/15622782629_c23d8d6eb9_b.jpg",
-        "alt": "Sarcophagus of the Spouses (c. 520 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -550,28 +400,16 @@
     "title": "Audience Hall (apadana) of Darius and Xerxes",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7386/12886128175_6e7692ae85_b.jpg",
-        "alt": "Audience Hall (apadana) of Darius and Xerxes (c. 520–465 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/030/01.png",
+        "alt": "Audience Hall (apadana) of Darius and Xerxes — view 1 (c. 520–465 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/7409/12886123855_99c050ba96_b.jpg",
-        "alt": "Audience Hall (apadana) of Darius and Xerxes (c. 520–465 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7386/12886600984_b4870234a8_b.jpg",
-        "alt": "Audience Hall (apadana) of Darius and Xerxes (c. 520–465 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8624/16126611004_77bf89507a_b.jpg",
-        "alt": "Audience Hall (apadana) of Darius and Xerxes (c. 520–465 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/030/02.png",
+        "alt": "Audience Hall (apadana) of Darius and Xerxes — view 2 (c. 520–465 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -580,28 +418,22 @@
     "title": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7597/16748028961_460bc86ac0_b.jpg",
-        "alt": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo (c. 510–500 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/031/01.png",
+        "alt": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo — view 1 (c. 510–500 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/8619/16748132902_1c6ce2f233_b.jpg",
-        "alt": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo (c. 510–500 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/031/02.png",
+        "alt": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo — view 2 (c. 510–500 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/8634/16541947547_62fe604d8c_b.jpg",
-        "alt": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo (c. 510–500 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8680/16748027571_918e1f2495_b.jpg",
-        "alt": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo (c. 510–500 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/031/03.png",
+        "alt": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo — view 3 (c. 510–500 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -610,10 +442,10 @@
     "title": "Tomb of the Triclinium",
     "images": [
       {
-        "src": "https://live.staticflickr.com/8571/16748187041_6418d3067d_b.jpg",
+        "src": "images/artworks/032/01.png",
         "alt": "Tomb of the Triclinium (c. 480–470 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -622,28 +454,16 @@
     "title": "Niobides Krater",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7373/14109737924_93c17b8369_b.jpg",
-        "alt": "Niobides Krater (c. 460–450 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/033/01.png",
+        "alt": "Niobides Krater — view 1 (c. 460–450 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/7341/13922754258_2fcabc4ea7_b.jpg",
-        "alt": "Niobides Krater (c. 460–450 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/2911/13922694587_59aa30fd25_b.jpg",
-        "alt": "Niobides Krater (c. 460–450 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/5574/14129418233_f2dba1fd39_b.jpg",
-        "alt": "Niobides Krater (c. 460–450 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/033/02.png",
+        "alt": "Niobides Krater — view 2 (c. 460–450 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -652,28 +472,10 @@
     "title": "Doryphoros (Spear Bearer)",
     "images": [
       {
-        "src": "https://live.staticflickr.com/8293/7751597926_15db8bdde6_b.jpg",
+        "src": "images/artworks/034/01.png",
         "alt": "Doryphoros (Spear Bearer) (Original c. 450–440 BCE; Roman copy 1st century BCE/CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7268/7751591568_8e7a0d3cb3_b.jpg",
-        "alt": "Doryphoros (Spear Bearer) (Original c. 450–440 BCE; Roman copy 1st century BCE/CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8443/7751589724_15121dd374_b.jpg",
-        "alt": "Doryphoros (Spear Bearer) (Original c. 450–440 BCE; Roman copy 1st century BCE/CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8441/7751593584_ce35134893_b.jpg",
-        "alt": "Doryphoros (Spear Bearer) (Original c. 450–440 BCE; Roman copy 1st century BCE/CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -682,28 +484,40 @@
     "title": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal)",
     "images": [
       {
-        "src": "https://live.staticflickr.com/5153/14296260440_f5276cc612_b.jpg",
-        "alt": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal) (c. 447–410 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/035/01.png",
+        "alt": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal) — view 1 (c. 447–410 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/3916/14296297438_7e7cbdb444_b.jpg",
-        "alt": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal) (c. 447–410 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/035/02.png",
+        "alt": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal) — view 2 (c. 447–410 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/2924/14296456947_1c480a59c2_b.jpg",
-        "alt": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal) (c. 447–410 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/035/03.png",
+        "alt": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal) — view 3 (c. 447–410 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/3800/12881144743_d2ffe2b65f_b.jpg",
-        "alt": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal) (c. 447–410 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/035/04.png",
+        "alt": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal) — view 4 (c. 447–410 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
+      },
+      {
+        "src": "images/artworks/035/05.png",
+        "alt": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal) — view 5 (c. 447–410 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
+      },
+      {
+        "src": "images/artworks/035/06.png",
+        "alt": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal) — view 6 (c. 447–410 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -712,28 +526,10 @@
     "title": "Grave stele of Hegeso",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7621/16723646646_71a19b6fba_b.jpg",
+        "src": "images/artworks/036/01.png",
         "alt": "Grave stele of Hegeso (c. 410 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8671/16563441969_299de0e3fe_b.jpg",
-        "alt": "Grave stele of Hegeso (c. 410 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7631/16127236534_c3ce6f85ef_b.jpg",
-        "alt": "Grave stele of Hegeso (c. 410 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7629/16723647476_6efb4985b7_b.jpg",
-        "alt": "Grave stele of Hegeso (c. 410 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -742,22 +538,10 @@
     "title": "Winged Victory of Samothrace",
     "images": [
       {
-        "src": "https://live.staticflickr.com/5061/5604970256_af3b8948e4_b.jpg",
+        "src": "images/artworks/037/01.jpg",
         "alt": "Winged Victory of Samothrace (c. 190 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/5023/5605181736_983b4b77e7_b.jpg",
-        "alt": "Winged Victory of Samothrace (c. 190 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/5144/5605177684_ff73dfa040_b.jpg",
-        "alt": "Winged Victory of Samothrace (c. 190 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -766,10 +550,22 @@
     "title": "Great Altar of Zeus and Athena at Pergamon",
     "images": [
       {
-        "src": "https://live.staticflickr.com/8037/7952983798_5da455144b.jpg",
-        "alt": "Great Altar of Zeus and Athena at Pergamon (c. 175 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/038/01.png",
+        "alt": "Great Altar of Zeus and Athena at Pergamon — view 1 (c. 175 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
+      },
+      {
+        "src": "images/artworks/038/02.png",
+        "alt": "Great Altar of Zeus and Athena at Pergamon — view 2 (c. 175 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
+      },
+      {
+        "src": "images/artworks/038/03.png",
+        "alt": "Great Altar of Zeus and Athena at Pergamon — view 3 (c. 175 BCE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -778,22 +574,22 @@
     "title": "House of the Vettii",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7623/16129743933_97d076ed3b.jpg",
-        "alt": "House of the Vettii (c. second century BCE; rebuilt 62–79 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/039/01.png",
+        "alt": "House of the Vettii — view 1 (c. second century BCE; rebuilt 62–79 CE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/7285/16748501091_2b95a76b4f_b.jpg",
-        "alt": "House of the Vettii (c. second century BCE; rebuilt 62–79 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/039/02.png",
+        "alt": "House of the Vettii — view 2 (c. second century BCE; rebuilt 62–79 CE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/8740/16723787626_1eee021974_b.jpg",
-        "alt": "House of the Vettii (c. second century BCE; rebuilt 62–79 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/039/03.png",
+        "alt": "House of the Vettii — view 3 (c. second century BCE; rebuilt 62–79 CE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -802,28 +598,10 @@
     "title": "Alexander Mosaic from the House of the Faun, Pompeii",
     "images": [
       {
-        "src": "https://live.staticflickr.com/8345/8215862030_62da30f94a_b.jpg",
+        "src": "images/artworks/040/01.png",
         "alt": "Alexander Mosaic from the House of the Faun, Pompeii (c. 100 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8337/8214776951_2e1b0c7b9a_b.jpg",
-        "alt": "Alexander Mosaic from the House of the Faun, Pompeii (c. 100 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8342/8215876046_0c9e90787b_b.jpg",
-        "alt": "Alexander Mosaic from the House of the Faun, Pompeii (c. 100 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8340/8215878366_6e5741ea26_b.jpg",
-        "alt": "Alexander Mosaic from the House of the Faun, Pompeii (c. 100 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -832,28 +610,10 @@
     "title": "Seated boxer (Boxer at Rest)",
     "images": [
       {
-        "src": "https://live.staticflickr.com/8281/7808850358_66ee0fe817_b.jpg",
+        "src": "images/artworks/041/01.png",
         "alt": "Seated boxer (Boxer at Rest) (c. 100 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8437/7808848184_0660df65e3_b.jpg",
-        "alt": "Seated boxer (Boxer at Rest) (c. 100 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8282/7808851660_c14aa92ae1_b.jpg",
-        "alt": "Seated boxer (Boxer at Rest) (c. 100 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8424/7808852254_d56d6786c4_b.jpg",
-        "alt": "Seated boxer (Boxer at Rest) (c. 100 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -862,10 +622,10 @@
     "title": "Head of a Roman patrician",
     "images": [
       {
-        "src": "https://live.staticflickr.com/65535/16748752172_37af22f24e_b.jpg",
+        "src": "images/artworks/042/01.png",
         "alt": "Head of a Roman patrician (c. 75–50 BCE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -874,28 +634,10 @@
     "title": "Augustus of Prima Porta",
     "images": [
       {
-        "src": "https://live.staticflickr.com/8423/7576026902_8af516fa1c_b.jpg",
+        "src": "images/artworks/043/01.jpg",
         "alt": "Augustus of Prima Porta (Early first century CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7280/7576041404_14c46de3bd_b.jpg",
-        "alt": "Augustus of Prima Porta (Early first century CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7252/7576050842_877fb42668_b.jpg",
-        "alt": "Augustus of Prima Porta (Early first century CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7131/7576046720_49cc6d2d0f_b.jpg",
-        "alt": "Augustus of Prima Porta (Early first century CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -904,28 +646,16 @@
     "title": "Colosseum (Flavian Amphitheater)",
     "images": [
       {
-        "src": "https://live.staticflickr.com/3360/4573419272_2aed5555be_b.jpg",
-        "alt": "Colosseum (Flavian Amphitheater) (70–80 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/044/01.png",
+        "alt": "Colosseum (Flavian Amphitheater) — view 1 (70–80 CE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/4025/4573419878_ca00dc26b3_b.jpg",
-        "alt": "Colosseum (Flavian Amphitheater) (70–80 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/4023/4572785657_d54ffaa119_b.jpg",
-        "alt": "Colosseum (Flavian Amphitheater) (70–80 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/3184/3017455273_48d3a3d21c_b.jpg",
-        "alt": "Colosseum (Flavian Amphitheater) (70–80 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/044/02.png",
+        "alt": "Colosseum (Flavian Amphitheater) — view 2 (70–80 CE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -934,28 +664,28 @@
     "title": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan)",
     "images": [
       {
-        "src": "https://live.staticflickr.com/4039/4630360337_f0dd6d125d_b.jpg",
-        "alt": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan) (Forum and markets: 106–112 CE; column: 113 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/045/01.png",
+        "alt": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan) — view 1 (Forum and markets: 106–112 CE; column: 113 CE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/4061/4630360635_cdeef5d35d_b.jpg",
-        "alt": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan) (Forum and markets: 106–112 CE; column: 113 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/045/02.png",
+        "alt": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan) — view 2 (Forum and markets: 106–112 CE; column: 113 CE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/3410/4630958882_67467a0986_b.jpg",
-        "alt": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan) (Forum and markets: 106–112 CE; column: 113 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/045/03.png",
+        "alt": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan) — view 3 (Forum and markets: 106–112 CE; column: 113 CE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/4041/4630360603_9275756984_b.jpg",
-        "alt": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan) (Forum and markets: 106–112 CE; column: 113 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/045/04.png",
+        "alt": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan) — view 4 (Forum and markets: 106–112 CE; column: 113 CE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -964,22 +694,16 @@
     "title": "Pantheon",
     "images": [
       {
-        "src": "https://live.staticflickr.com/3148/3032206257_05e86ce89a_b.jpg",
-        "alt": "Pantheon (118–125 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/046/01.png",
+        "alt": "Pantheon — view 1 (118–125 CE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/3042/3032204579_1aa4f47171_b.jpg",
-        "alt": "Pantheon (118–125 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/3040/3033046896_3b7571f80d_b.jpg",
-        "alt": "Pantheon (118–125 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/046/02.png",
+        "alt": "Pantheon — view 2 (118–125 CE)",
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -988,28 +712,10 @@
     "title": "Ludovisi Battle Sarcophagus",
     "images": [
       {
-        "src": "https://live.staticflickr.com/8355/8298134176_f15c060482_b.jpg",
+        "src": "images/artworks/047/01.png",
         "alt": "Ludovisi Battle Sarcophagus (c. 250 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8496/8297085689_43989d4848_b.jpg",
-        "alt": "Ludovisi Battle Sarcophagus (c. 250 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8081/8298136238_786d656db3_b.jpg",
-        "alt": "Ludovisi Battle Sarcophagus (c. 250 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8363/8298138870_59e79238c4_b.jpg",
-        "alt": "Ludovisi Battle Sarcophagus (c. 250 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 2 Ancient Mediterranean PowerPoint",
+        "local": true
       }
     ]
   },
@@ -1018,16 +724,22 @@
     "title": "Catacomb of Priscilla",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7627/16542782897_7dccb9f52f_b.jpg",
-        "alt": "Catacomb of Priscilla (c. 200–400 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/048/01.png",
+        "alt": "Catacomb of Priscilla — view 1 (c. 200–400 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/8753/16724149006_3d12e5fecc_b.jpg",
-        "alt": "Catacomb of Priscilla (c. 200–400 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/048/02.png",
+        "alt": "Catacomb of Priscilla — view 2 (c. 200–400 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/048/03.png",
+        "alt": "Catacomb of Priscilla — view 3 (c. 200–400 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1036,34 +748,22 @@
     "title": "Santa Sabina",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7645/16542925467_e6b2e6a6bf_b.jpg",
-        "alt": "Santa Sabina (c. 422–432 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/049/01.png",
+        "alt": "Santa Sabina — view 1 (c. 422–432 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/7635/16564087789_78a3fefbe7_b.jpg",
-        "alt": "Santa Sabina (c. 422–432 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/049/02.png",
+        "alt": "Santa Sabina — view 2 (c. 422–432 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/7615/16127884364_00abfe929d_b.jpg",
-        "alt": "Santa Sabina (c. 422–432 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8564/16724291766_e64dd8b9cd_b.jpg",
-        "alt": "Santa Sabina (c. 422–432 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7640/16562802720_69057c1d08_b.jpg",
-        "alt": "Santa Sabina (c. 422–432 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/049/03.png",
+        "alt": "Santa Sabina — view 3 (c. 422–432 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1072,16 +772,16 @@
     "title": "Vienna Genesis (Rebecca and Eliezer at the Well; Jacob Wrestling the Angel)",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7603/16564460399_cda13d3dce_b.jpg",
-        "alt": "Vienna Genesis (Rebecca and Eliezer at the Well; Jacob Wrestling the Angel) (Early sixth century CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/050/01.png",
+        "alt": "Vienna Genesis (Rebecca and Eliezer at the Well; Jacob Wrestling the Angel) — view 1 (Early sixth century CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/8674/16543301467_458df1f02e_b.jpg",
-        "alt": "Vienna Genesis (Rebecca and Eliezer at the Well; Jacob Wrestling the Angel) (Early sixth century CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/050/02.png",
+        "alt": "Vienna Genesis (Rebecca and Eliezer at the Well; Jacob Wrestling the Angel) — view 2 (Early sixth century CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1090,10 +790,34 @@
     "title": "San Vitale",
     "images": [
       {
-        "src": "https://live.staticflickr.com/8511/8552240295_b35dd9dd3d_b.jpg",
-        "alt": "San Vitale (c. 526–547 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/051/01.png",
+        "alt": "San Vitale — view 1 (c. 526–547 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/051/02.png",
+        "alt": "San Vitale — view 2 (c. 526–547 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/051/03.png",
+        "alt": "San Vitale — view 3 (c. 526–547 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/051/04.png",
+        "alt": "San Vitale — view 4 (c. 526–547 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/051/05.png",
+        "alt": "San Vitale — view 5 (c. 526–547 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1102,40 +826,22 @@
     "title": "Hagia Sophia",
     "images": [
       {
-        "src": "https://live.staticflickr.com/2908/14068334078_e8481bb12a_b.jpg",
-        "alt": "Hagia Sophia (532–537 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/052/01.png",
+        "alt": "Hagia Sophia — view 1 (532–537 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/2924/14275199463_9220b469cd_b.jpg",
-        "alt": "Hagia Sophia (532–537 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/052/02.png",
+        "alt": "Hagia Sophia — view 2 (532–537 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/5503/14231848946_3d2bc986fe_b.jpg",
-        "alt": "Hagia Sophia (532–537 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/2938/14231876576_1ef435f404_b.jpg",
-        "alt": "Hagia Sophia (532–537 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/3747/14068426300_250f84bf93_b.jpg",
-        "alt": "Hagia Sophia (532–537 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/3757/14068317039_ed837fda00_b.jpg",
-        "alt": "Hagia Sophia (532–537 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/052/03.png",
+        "alt": "Hagia Sophia — view 3 (532–537 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1144,10 +850,10 @@
     "title": "Merovingian looped fibulae",
     "images": [
       {
-        "src": "https://live.staticflickr.com/8675/16566209348_4bbfd310e2_b.jpg",
+        "src": "images/artworks/053/01.png",
         "alt": "Merovingian looped fibulae (Mid-sixth century CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1156,10 +862,10 @@
     "title": "Virgin (Theotokos) and Child between Saints Theodore and George",
     "images": [
       {
-        "src": "https://live.staticflickr.com/8695/16566613400_4dc0f5bbcd_b.jpg",
+        "src": "images/artworks/054/01.png",
         "alt": "Virgin (Theotokos) and Child between Saints Theodore and George (Sixth or early seventh century CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1168,22 +874,22 @@
     "title": "Lindisfarne Gospels (St. Matthew, cross-carpet page; St. Luke, incipit page)",
     "images": [
       {
-        "src": "https://live.staticflickr.com/8684/16547569107_b9ef14cea9_b.jpg",
-        "alt": "Lindisfarne Gospels (St. Matthew, cross-carpet page; St. Luke, incipit page) (c. 700 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/055/01.png",
+        "alt": "Lindisfarne Gospels (St. Matthew, cross-carpet page; St. Luke, incipit page) — view 1 (c. 700 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/7282/16728941946_2f1af7bffb_b.jpg",
-        "alt": "Lindisfarne Gospels (St. Matthew, cross-carpet page; St. Luke, incipit page) (c. 700 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/055/02.png",
+        "alt": "Lindisfarne Gospels (St. Matthew, cross-carpet page; St. Luke, incipit page) — view 2 (c. 700 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/7628/16754837515_4bc71555ec_b.jpg",
-        "alt": "Lindisfarne Gospels (St. Matthew, cross-carpet page; St. Luke, incipit page) (c. 700 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/055/03.png",
+        "alt": "Lindisfarne Gospels (St. Matthew, cross-carpet page; St. Luke, incipit page) — view 3 (c. 700 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1192,34 +898,34 @@
     "title": "Great Mosque of Córdoba",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7642/16756016875_c8f23a7c8c_b.jpg",
-        "alt": "Great Mosque of Córdoba (c. 785–786 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/056/01.png",
+        "alt": "Great Mosque of Córdoba — view 1 (c. 785–786 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/8729/16548735627_89f90aa9f3_b.jpg",
-        "alt": "Great Mosque of Córdoba (c. 785–786 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/056/02.png",
+        "alt": "Great Mosque of Córdoba — view 2 (c. 785–786 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/7598/16569881829_77efb5f9b9_b.jpg",
-        "alt": "Great Mosque of Córdoba (c. 785–786 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/056/03.png",
+        "alt": "Great Mosque of Córdoba — view 3 (c. 785–786 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/8656/16133694324_6e8c44aa45_b.jpg",
-        "alt": "Great Mosque of Córdoba (c. 785–786 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/056/04.png",
+        "alt": "Great Mosque of Córdoba — view 4 (c. 785–786 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/7640/16568609310_12524a3dac_b.jpg",
-        "alt": "Great Mosque of Córdoba (c. 785–786 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/056/05.png",
+        "alt": "Great Mosque of Córdoba — view 5 (c. 785–786 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1228,28 +934,10 @@
     "title": "Pyxis of al-Mughira",
     "images": [
       {
-        "src": "https://live.staticflickr.com/8678/16755798102_8218e27351_b.jpg",
+        "src": "images/artworks/057/01.png",
         "alt": "Pyxis of al-Mughira (968 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8584/16136921753_a7b40c13b4_b.jpg",
-        "alt": "Pyxis of al-Mughira (968 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/8607/16134557414_695376473e_b.jpg",
-        "alt": "Pyxis of al-Mughira (968 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/7605/16136932503_3be51b83ef_b.jpg",
-        "alt": "Pyxis of al-Mughira (968 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1258,16 +946,28 @@
     "title": "Church of Sainte-Foy",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Abbatiale_de_Conques_et_la_ville.JPG/1920px-Abbatiale_de_Conques_et_la_ville.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Church of Sainte-Foy (Church: c. 1050–1130 CE; Reliquary: ninth century CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Abbey Church of Saint Foy,Sainte-Foy Abbey,Conques)",
-        "local": false
+        "src": "images/artworks/058/01.png",
+        "alt": "Church of Sainte-Foy — view 1 (Church: c. 1050–1130 CE; Reliquary: ninth century CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       },
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Conques_JPG02.jpg/960px-Conques_JPG02.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20090503084402",
-        "alt": "Church of Sainte-Foy (Church: c. 1050–1130 CE; Reliquary: ninth century CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Abbey Church of Sainte-Foy)",
-        "local": false
+        "src": "images/artworks/058/02.png",
+        "alt": "Church of Sainte-Foy — view 2 (Church: c. 1050–1130 CE; Reliquary: ninth century CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/058/03.png",
+        "alt": "Church of Sainte-Foy — view 3 (Church: c. 1050–1130 CE; Reliquary: ninth century CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/058/04.png",
+        "alt": "Church of Sainte-Foy — view 4 (Church: c. 1050–1130 CE; Reliquary: ninth century CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1276,10 +976,16 @@
     "title": "Bayeux Tapestry",
     "images": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Odo_bayeux_tapestry.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Bayeux Tapestry (c. 1066–1080 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Bayeux Tapestry)",
-        "local": false
+        "src": "images/artworks/059/01.png",
+        "alt": "Bayeux Tapestry — view 1 (c. 1066–1080 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/059/02.png",
+        "alt": "Bayeux Tapestry — view 2 (c. 1066–1080 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1288,10 +994,40 @@
     "title": "Chartres Cathedral",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Notre_Dame_de_Chartres.jpg/1920px-Notre_Dame_de_Chartres.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Chartres Cathedral (Original construction c. 1145–1155 CE; reconstructed c. 1194–1220 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Chartres Cathedral)",
-        "local": false
+        "src": "images/artworks/060/01.png",
+        "alt": "Chartres Cathedral — view 1 (Original construction c. 1145–1155 CE; reconstructed c. 1194–1220 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/060/02.png",
+        "alt": "Chartres Cathedral — view 2 (Original construction c. 1145–1155 CE; reconstructed c. 1194–1220 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/060/03.png",
+        "alt": "Chartres Cathedral — view 3 (Original construction c. 1145–1155 CE; reconstructed c. 1194–1220 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/060/04.png",
+        "alt": "Chartres Cathedral — view 4 (Original construction c. 1145–1155 CE; reconstructed c. 1194–1220 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/060/05.png",
+        "alt": "Chartres Cathedral — view 5 (Original construction c. 1145–1155 CE; reconstructed c. 1194–1220 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/060/06.png",
+        "alt": "Chartres Cathedral — view 6 (Original construction c. 1145–1155 CE; reconstructed c. 1194–1220 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1300,10 +1036,16 @@
     "title": "Dedication Page with Blanche of Castile and King Louis IX of France, Scenes from the Apocalypse from Bibles moralisées",
     "images": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/God_the_Geometer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Dedication Page with Blanche of Castile and King Louis IX of France, Scenes from the Apocalypse from Bibles moralisées (c. 1225–1245 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Bible moralisée)",
-        "local": false
+        "src": "images/artworks/061/01.png",
+        "alt": "Dedication Page with Blanche of Castile and King Louis IX of France, Scenes from the Apocalypse from Bibles moralisées — view 1 (c. 1225–1245 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/061/02.png",
+        "alt": "Dedication Page with Blanche of Castile and King Louis IX of France, Scenes from the Apocalypse from Bibles moralisées — view 2 (c. 1225–1245 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1312,10 +1054,10 @@
     "title": "Röttgen Pietà",
     "images": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Piet%C3%A0_Roettgen.jpg",
+        "src": "images/artworks/062/01.png",
         "alt": "Röttgen Pietà (c. 1300–1325 CE)",
-        "source": "LVR-LandesMuseum Bonn / J. Vogel (via Wikimedia Commons, CC BY-SA 4.0): https://commons.wikimedia.org/wiki/File:Piet%C3%A0_Roettgen.jpg; Smarthistory guide: https://smarthistory.org/roettgen-pieta/",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1324,52 +1066,22 @@
     "title": "Arena (Scrovegni) Chapel, including Lamentation",
     "images": [
       {
-        "src": "https://live.staticflickr.com/65535/50182152351_4ce7105e6b_b.jpg",
-        "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/063/01.png",
+        "alt": "Arena (Scrovegni) Chapel, including Lamentation — view 1 (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/65535/50181583398_950540f7c0_b.jpg",
-        "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/063/02.png",
+        "alt": "Arena (Scrovegni) Chapel, including Lamentation — view 2 (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/65535/50182123776_5ac76216d1_b.jpg",
-        "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/50182148116_7cd6b128aa_b.jpg",
-        "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/50181593363_2918103bcb_b.jpg",
-        "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/50182390427_8ce7498a4e_b.jpg",
-        "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/50181596018_e81f4e6e6e_b.jpg",
-        "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/50181589608_50b4da63ce_b.jpg",
-        "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/063/03.png",
+        "alt": "Arena (Scrovegni) Chapel, including Lamentation — view 3 (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1378,10 +1090,22 @@
     "title": "Golden Haggadah (The Plagues of Egypt, Scenes of Liberation, Preparation for Passover)",
     "images": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Golden_Hag_BL_F60073-09b.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Golden Haggadah (The Plagues of Egypt, Scenes of Liberation, Preparation for Passover) (c. 1320 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Golden Haggadah)",
-        "local": false
+        "src": "images/artworks/064/01.png",
+        "alt": "Golden Haggadah (The Plagues of Egypt, Scenes of Liberation, Preparation for Passover) — view 1 (c. 1320 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/064/02.png",
+        "alt": "Golden Haggadah (The Plagues of Egypt, Scenes of Liberation, Preparation for Passover) — view 2 (c. 1320 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/064/03.png",
+        "alt": "Golden Haggadah (The Plagues of Egypt, Scenes of Liberation, Preparation for Passover) — view 3 (c. 1320 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1390,10 +1114,28 @@
     "title": "Alhambra",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg/1920px-Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Alhambra (1354–1391 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Alhambra)",
-        "local": false
+        "src": "images/artworks/065/01.png",
+        "alt": "Alhambra — view 1 (1354–1391 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/065/02.png",
+        "alt": "Alhambra — view 2 (1354–1391 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/065/03.png",
+        "alt": "Alhambra — view 3 (1354–1391 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/065/04.png",
+        "alt": "Alhambra — view 4 (1354–1391 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (1 of 2)",
+        "local": true
       }
     ]
   },
@@ -1402,10 +1144,10 @@
     "title": "Annunciation Triptych (Merode Altarpiece)",
     "images": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Robert_Campin_006.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "src": "images/artworks/066/01.png",
         "alt": "Annunciation Triptych (Merode Altarpiece) (1427–1432 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Mérode Altarpiece)",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1414,16 +1156,16 @@
     "title": "Pazzi Chapel",
     "images": [
       {
-        "src": "https://live.staticflickr.com/65535/52202640169_5a83ab24d5_b.jpg",
-        "alt": "Pazzi Chapel (c. 1429–1461 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/067/01.png",
+        "alt": "Pazzi Chapel — view 1 (c. 1429–1461 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/65535/52202875770_dd0a373547_b.jpg",
-        "alt": "Pazzi Chapel (c. 1429–1461 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/067/02.png",
+        "alt": "Pazzi Chapel — view 2 (c. 1429–1461 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1432,10 +1174,10 @@
     "title": "The Arnolfini Portrait",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/The_Arnolfini_portrait_%281434%29.jpg/1920px-The_Arnolfini_portrait_%281434%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "src": "images/artworks/068/01.png",
         "alt": "The Arnolfini Portrait (1434 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Arnolfini Portrait)",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1444,40 +1186,10 @@
     "title": "David",
     "images": [
       {
-        "src": "https://live.staticflickr.com/65535/50092521341_93d13d01c3_b.jpg",
+        "src": "images/artworks/069/01.png",
         "alt": "David (c. 1440–1460 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/50092522811_b543f874ac_b.jpg",
-        "alt": "David (c. 1440–1460 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/50092755122_025f042816_b.jpg",
-        "alt": "David (c. 1440–1460 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/50092754567_5927c1239c_b.jpg",
-        "alt": "David (c. 1440–1460 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/50092522726_7e27d9caeb_b.jpg",
-        "alt": "David (c. 1440–1460 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/50092522866_ba14714f22_b.jpg",
-        "alt": "David (c. 1440–1460 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1486,10 +1198,10 @@
     "title": "Palazzo Rucellai",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Via_della_Vigna_Nuova_18%2C_palazzo_rucellai%2C_02%2C0.jpg/1920px-Via_della_Vigna_Nuova_18%2C_palazzo_rucellai%2C_02%2C0.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "src": "images/artworks/070/01.png",
         "alt": "Palazzo Rucellai (c. 1450 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Palazzo Rucellai)",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1498,10 +1210,10 @@
     "title": "Madonna and Child with Two Angels",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Madonna_and_Child_with_two_Angels_%28by_Filippo_Lippi%29_%E2%80%93_Galleria_degli_Uffizi%2C_Florence.jpg/1920px-Madonna_and_Child_with_two_Angels_%28by_Filippo_Lippi%29_%E2%80%93_Galleria_degli_Uffizi%2C_Florence.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "src": "images/artworks/071/01.jpg",
         "alt": "Madonna and Child with Two Angels (c. 1465 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Madonna and Child (Lippi))",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1510,10 +1222,10 @@
     "title": "Birth of Venus",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1920px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "src": "images/artworks/072/01.png",
         "alt": "Birth of Venus (c. 1484–1486 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: The Birth of Venus)",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1522,40 +1234,10 @@
     "title": "Last Supper",
     "images": [
       {
-        "src": "https://live.staticflickr.com/65535/52083551814_7401be6ae7_b.jpg",
+        "src": "images/artworks/073/01.png",
         "alt": "Last Supper (c. 1494–1498 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/52083329163_e1bacc1fdf_b.jpg",
-        "alt": "Last Supper (c. 1494–1498 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/52083549539_df8b36205c_b.jpg",
-        "alt": "Last Supper (c. 1494–1498 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/52083548489_5f38fc5d8a_b.jpg",
-        "alt": "Last Supper (c. 1494–1498 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/52082273832_d8bde69dbc_b.jpg",
-        "alt": "Last Supper (c. 1494–1498 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/52083307206_c270f15013_b.jpg",
-        "alt": "Last Supper (c. 1494–1498 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1564,10 +1246,10 @@
     "title": "Adam and Eve",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Albrecht_D%C3%BCrer%2C_Adam_and_Eve%2C_1504%2C_Engraving.jpg/1920px-Albrecht_D%C3%BCrer%2C_Adam_and_Eve%2C_1504%2C_Engraving.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "src": "images/artworks/074/01.png",
         "alt": "Adam and Eve (1504 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Adam and Eve (Dürer))",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1576,10 +1258,28 @@
     "title": "Sistine Chapel ceiling and altar wall frescoes",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Sistine_Chapel_ceiling_02_%28brightened%29.jpg/1920px-Sistine_Chapel_ceiling_02_%28brightened%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Sistine Chapel ceiling and altar wall frescoes (Ceiling: 1508–1512 CE; altar wall: 1536–1541 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Sistine Chapel ceiling)",
-        "local": false
+        "src": "images/artworks/075/01.png",
+        "alt": "Sistine Chapel ceiling and altar wall frescoes — view 1 (Ceiling: 1508–1512 CE; altar wall: 1536–1541 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/075/02.png",
+        "alt": "Sistine Chapel ceiling and altar wall frescoes — view 2 (Ceiling: 1508–1512 CE; altar wall: 1536–1541 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/075/03.png",
+        "alt": "Sistine Chapel ceiling and altar wall frescoes — view 3 (Ceiling: 1508–1512 CE; altar wall: 1536–1541 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/075/04.jpg",
+        "alt": "Sistine Chapel ceiling and altar wall frescoes — view 4 (Ceiling: 1508–1512 CE; altar wall: 1536–1541 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1588,40 +1288,10 @@
     "title": "School of Athens",
     "images": [
       {
-        "src": "https://live.staticflickr.com/65535/52207103472_f066ebe82e_b.jpg",
+        "src": "images/artworks/076/01.png",
         "alt": "School of Athens (1509–1511 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/52208611385_cb267efa3a_b.jpg",
-        "alt": "School of Athens (1509–1511 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/52208112581_6799f8ab70_b.jpg",
-        "alt": "School of Athens (1509–1511 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/52208384069_d2ca518a8f_b.jpg",
-        "alt": "School of Athens (1509–1511 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/52208612075_322276eff8_b.jpg",
-        "alt": "School of Athens (1509–1511 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/52207105812_f37727776c_b.jpg",
-        "alt": "School of Athens (1509–1511 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1630,40 +1300,16 @@
     "title": "Isenheim altarpiece",
     "images": [
       {
-        "src": "https://live.staticflickr.com/65535/52826675020_5c17ee9d38_b.jpg",
-        "alt": "Isenheim altarpiece (c. 1512–1516 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/077/01.png",
+        "alt": "Isenheim altarpiece — view 1 (c. 1512–1516 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/65535/52825695287_c9f6bcc3b6_b.jpg",
-        "alt": "Isenheim altarpiece (c. 1512–1516 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/52826710273_e241cca171_b.jpg",
-        "alt": "Isenheim altarpiece (c. 1512–1516 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/52825695252_35f94d4cfb_b.jpg",
-        "alt": "Isenheim altarpiece (c. 1512–1516 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/52825694612_89358f604c_b.jpg",
-        "alt": "Isenheim altarpiece (c. 1512–1516 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/52826704713_37cdd9913d_b.jpg",
-        "alt": "Isenheim altarpiece (c. 1512–1516 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/077/02.png",
+        "alt": "Isenheim altarpiece — view 2 (c. 1512–1516 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1672,10 +1318,10 @@
     "title": "Entombment of Christ",
     "images": [
       {
-        "src": "https://live.staticflickr.com/65535/50360554558_f949939da4_b.jpg",
+        "src": "images/artworks/078/01.png",
         "alt": "Entombment of Christ (1525–1528 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1684,10 +1330,10 @@
     "title": "Allegory of Law and Grace",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/GOTHA-cranach-veljo.jpg/1920px-GOTHA-cranach-veljo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "src": "images/artworks/079/01.png",
         "alt": "Allegory of Law and Grace (c. 1530 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Law and Gospel (Cranach))",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1696,10 +1342,10 @@
     "title": "Venus of Urbino",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg/1920px-Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "src": "images/artworks/080/01.png",
         "alt": "Venus of Urbino (1538 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Venus of Urbino)",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1708,10 +1354,10 @@
     "title": "Frontispiece of the Codex Mendoza",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/CodexMendoza01.jpg/1920px-CodexMendoza01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "src": "images/artworks/081/01.png",
         "alt": "Frontispiece of the Codex Mendoza (c. 1541–1542 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Codex Mendoza)",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1720,40 +1366,22 @@
     "title": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco",
     "images": [
       {
-        "src": "https://live.staticflickr.com/65535/50987905341_8ebce9679a_b.jpg",
-        "alt": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco (Church: 1568–1584 CE; fresco: 1676–1679 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/082/01.png",
+        "alt": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco — view 1 (Church: 1568–1584 CE; fresco: 1676–1679 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/65535/50988012112_baa87ed6ed_b.jpg",
-        "alt": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco (Church: 1568–1584 CE; fresco: 1676–1679 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/082/02.png",
+        "alt": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco — view 2 (Church: 1568–1584 CE; fresco: 1676–1679 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/65535/50988015382_4033b20c15_b.jpg",
-        "alt": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco (Church: 1568–1584 CE; fresco: 1676–1679 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/50987197858_ee5d867d2c_b.jpg",
-        "alt": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco (Church: 1568–1584 CE; fresco: 1676–1679 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/50987921086_e730fa3d85_b.jpg",
-        "alt": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco (Church: 1568–1584 CE; fresco: 1676–1679 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/50988015012_280ec2160a_b.jpg",
-        "alt": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco (Church: 1568–1584 CE; fresco: 1676–1679 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/082/03.png",
+        "alt": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco — view 3 (Church: 1568–1584 CE; fresco: 1676–1679 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1762,10 +1390,10 @@
     "title": "Hunters in the Snow",
     "images": [
       {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_(Winter)_-_Google_Art_Project.jpg",
+        "src": "images/artworks/083/01.png",
         "alt": "Hunters in the Snow (1565 CE)",
-        "source": "Wikimedia Commons: Pieter Bruegel the Elder - Hunters in the Snow (Winter) - Google Art Project.jpg",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1774,22 +1402,22 @@
     "title": "Mosque of Selim II",
     "images": [
       {
-        "src": "https://smarthistory.org/wp-content/uploads/2021/11/selimiye-full-1536x1152.jpg",
-        "alt": "Mosque of Selim II (Selimiye Mosque), exterior view (1568–1575 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/mimar-sinan-mosque-of-selim-ii-edirne/",
-        "local": false
+        "src": "images/artworks/084/01.png",
+        "alt": "Mosque of Selim II — view 1 (1568–1575 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       },
       {
-        "src": "https://smarthistory.org/wp-content/uploads/2021/11/salimiye-dome-1536x1024.jpg",
-        "alt": "Mosque of Selim II (Selimiye Mosque), interior dome (1568–1575 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/mimar-sinan-mosque-of-selim-ii-edirne/",
-        "local": false
+        "src": "images/artworks/084/02.png",
+        "alt": "Mosque of Selim II — view 2 (1568–1575 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       },
       {
-        "src": "https://smarthistory.org/wp-content/uploads/2021/11/selimiye-altar-1536x1021.jpg",
-        "alt": "Mosque of Selim II (Selimiye Mosque), mihrab (1568–1575 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/mimar-sinan-mosque-of-selim-ii-edirne/",
-        "local": false
+        "src": "images/artworks/084/03.png",
+        "alt": "Mosque of Selim II — view 3 (1568–1575 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1798,10 +1426,10 @@
     "title": "Calling of Saint Matthew",
     "images": [
       {
-        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Calling-of-st-matthew.jpg",
+        "src": "images/artworks/085/01.png",
         "alt": "Calling of Saint Matthew (c. 1597–1601 CE)",
-        "source": "Wikimedia Commons: Calling-of-st-matthew.jpg",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1810,10 +1438,10 @@
     "title": "Henri IV Receives the Portrait of Marie de' Medici, from the Marie de' Medici Cycle",
     "images": [
       {
-        "src": "https://live.staticflickr.com/2909/14582410965_9052ed1131_b.jpg",
+        "src": "images/artworks/086/01.png",
         "alt": "Henri IV Receives the Portrait of Marie de' Medici, from the Marie de' Medici Cycle (1621–1625 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/14582410965; Smarthistory guide: https://smarthistory.org/rubens-the-presentation-of-the-portrait-of-marie-de-medici/",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1822,10 +1450,10 @@
     "title": "Self-Portrait with Saskia",
     "images": [
       {
-        "src": "https://smarthistory.org/wp-content/uploads/2018/07/Rembrandt-Self-portrait-with-Saskia-thumb.jpg",
+        "src": "images/artworks/087/01.png",
         "alt": "Self-Portrait with Saskia (1636 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/rembrandt-self-portrait-with-saskia/",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1834,40 +1462,22 @@
     "title": "San Carlo alle Quattro Fontane",
     "images": [
       {
-        "src": "https://live.staticflickr.com/65535/50052198792_640ef6c5b7_b.jpg",
-        "alt": "San Carlo alle Quattro Fontane (1638–1646 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/088/01.png",
+        "alt": "San Carlo alle Quattro Fontane — view 1 (1638–1646 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/65535/50051952636_21b73e9339_b.jpg",
-        "alt": "San Carlo alle Quattro Fontane (1638–1646 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/088/02.png",
+        "alt": "San Carlo alle Quattro Fontane — view 2 (1638–1646 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/65535/50052203437_1a1643b352_b.jpg",
-        "alt": "San Carlo alle Quattro Fontane (1638–1646 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/50051952961_9e309c3610_b.jpg",
-        "alt": "San Carlo alle Quattro Fontane (1638–1646 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/50051381583_22ebeb3eec_b.jpg",
-        "alt": "San Carlo alle Quattro Fontane (1638–1646 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/65535/50051381693_22b3a8a2d9_b.jpg",
-        "alt": "San Carlo alle Quattro Fontane (1638–1646 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/088/03.png",
+        "alt": "San Carlo alle Quattro Fontane — view 3 (1638–1646 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1876,10 +1486,22 @@
     "title": "Ecstasy of Saint Teresa",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Ecstasy_of_St._Teresa_HDR.jpg/1920px-Ecstasy_of_St._Teresa_HDR.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Ecstasy of Saint Teresa (1647–1652 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Ecstasy of Saint Teresa)",
-        "local": false
+        "src": "images/artworks/089/01.png",
+        "alt": "Ecstasy of Saint Teresa — view 1 (1647–1652 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/089/02.png",
+        "alt": "Ecstasy of Saint Teresa — view 2 (1647–1652 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/089/03.png",
+        "alt": "Ecstasy of Saint Teresa — view 3 (1647–1652 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1888,10 +1510,10 @@
     "title": "Angel with Arquebus, Asiel Timor Dei",
     "images": [
       {
-        "src": "https://smarthistory.org/wp-content/uploads/2018/08/Master-of-Calamarca-Angel-with-Arquebus.jpg",
+        "src": "images/artworks/090/01.png",
         "alt": "Angel with Arquebus, Asiel Timor Dei (c. 17th century CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/master-of-calamarca-angel-with-arquebus/",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1900,10 +1522,10 @@
     "title": "Las Meninas",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/1920px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "src": "images/artworks/091/01.png",
         "alt": "Las Meninas (1656 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Las Meninas)",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1912,10 +1534,10 @@
     "title": "Woman Holding a Balance",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Johannes_Vermeer_-_Woman_Holding_a_Balance_-_Google_Art_Project.jpg/1920px-Johannes_Vermeer_-_Woman_Holding_a_Balance_-_Google_Art_Project.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "src": "images/artworks/092/01.png",
         "alt": "Woman Holding a Balance (c. 1664 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Woman Holding a Balance)",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1924,10 +1546,34 @@
     "title": "The Palace at Versailles",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_081_%28cropped%29.jpg/1920px-Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_081_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "The Palace at Versailles (Begun 1669 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Palace of Versailles)",
-        "local": false
+        "src": "images/artworks/093/01.png",
+        "alt": "The Palace at Versailles — view 1 (Begun 1669 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/093/02.png",
+        "alt": "The Palace at Versailles — view 2 (Begun 1669 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/093/03.png",
+        "alt": "The Palace at Versailles — view 3 (Begun 1669 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/093/04.png",
+        "alt": "The Palace at Versailles — view 4 (Begun 1669 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
+      },
+      {
+        "src": "images/artworks/093/05.png",
+        "alt": "The Palace at Versailles — view 5 (Begun 1669 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1936,22 +1582,16 @@
     "title": "Screen with the Siege of Belgrade and hunting scene",
     "images": [
       {
-        "src": "https://live.staticflickr.com/5548/11917533145_210367a8fb_b.jpg",
-        "alt": "Screen with the Siege of Belgrade and hunting scene (c. 1697–1701 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/094/01.png",
+        "alt": "Screen with the Siege of Belgrade and hunting scene — view 1 (c. 1697–1701 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       },
       {
-        "src": "https://live.staticflickr.com/2840/11917907324_1d443eb8e8_b.jpg",
-        "alt": "Screen with the Siege of Belgrade and hunting scene (c. 1697–1701 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
-      },
-      {
-        "src": "https://live.staticflickr.com/3692/11917499895_eb9ffeede8_b.jpg",
-        "alt": "Screen with the Siege of Belgrade and hunting scene (c. 1697–1701 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
-        "local": false
+        "src": "images/artworks/094/02.png",
+        "alt": "Screen with the Siege of Belgrade and hunting scene — view 2 (c. 1697–1701 CE)",
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1960,10 +1600,10 @@
     "title": "The Virgin of Guadalupe (Virgen de Guadalupe)",
     "images": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Virgen_de_guadalupe1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "src": "images/artworks/095/01.png",
         "alt": "The Virgin of Guadalupe (Virgen de Guadalupe) (c. 1698 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Our Lady of Guadalupe)",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1972,10 +1612,10 @@
     "title": "Fruit and Insects",
     "images": [
       {
-        "src": "https://live.staticflickr.com/7341/13953706999_c4a9047501_b.jpg",
+        "src": "images/artworks/096/01.png",
         "alt": "Fruit and Insects (c. 1711 CE)",
-        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/13953706999; Smarthistory guide: https://smarthistory.org/rachel-ruysch-fruit-and-insects/",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1984,10 +1624,10 @@
     "title": "Spaniard and Indian Produce a Mestizo",
     "images": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Spaniard_and_Indian_Produce_a_Mestizo.jpg",
+        "src": "images/artworks/097/01.png",
         "alt": "Spaniard and Indian Produce a Mestizo (c. 1715 CE)",
-        "source": "Wikimedia Commons: Spaniard and Indian Produce a Mestizo.jpg; Smarthistory guide: https://smarthistory.org/spaniard-and-indian-produce-a-mestizo-attributed-to-juan-rodriguez/",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },
@@ -1996,10 +1636,10 @@
     "title": "The Tête à Tête, from Marriage à la Mode",
     "images": [
       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Marriage_A-la-Mode_2%2C_The_T%C3%AAte_%C3%A0_T%C3%AAte_-_William_Hogarth.jpg/1920px-Marriage_A-la-Mode_2%2C_The_T%C3%AAte_%C3%A0_T%C3%AAte_-_William_Hogarth.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "src": "images/artworks/098/01.jpg",
         "alt": "The Tête à Tête, from Marriage à la Mode (c. 1743 CE)",
-        "source": "Wikimedia Commons (via Wikipedia: Marriage A-la-Mode: 2. The Tête à Tête)",
-        "local": false
+        "source": "Unit 3 Early Europe & Colonial Americas PowerPoint (2 of 2)",
+        "local": true
       }
     ]
   },

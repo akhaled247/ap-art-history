@@ -1,0 +1,980 @@
+{
+  "ok": [
+    {
+      "id": 1,
+      "needed": 1,
+      "chosen": 1,
+      "available": 2,
+      "files": [
+        "images/artworks/001/01.png"
+      ]
+    },
+    {
+      "id": 2,
+      "needed": 1,
+      "chosen": 1,
+      "available": 2,
+      "files": [
+        "images/artworks/002/01.png"
+      ]
+    },
+    {
+      "id": 3,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/003/01.png"
+      ]
+    },
+    {
+      "id": 4,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/004/01.png"
+      ]
+    },
+    {
+      "id": 5,
+      "needed": 1,
+      "chosen": 1,
+      "available": 2,
+      "files": [
+        "images/artworks/005/01.png"
+      ]
+    },
+    {
+      "id": 6,
+      "needed": 1,
+      "chosen": 1,
+      "available": 0,
+      "files": [
+        "images/artworks/006/01.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/007/01.png"
+      ]
+    },
+    {
+      "id": 8,
+      "needed": 2,
+      "chosen": 2,
+      "available": 2,
+      "files": [
+        "images/artworks/008/01.png",
+        "images/artworks/008/02.png"
+      ]
+    },
+    {
+      "id": 9,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/009/01.png"
+      ]
+    },
+    {
+      "id": 10,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/010/01.png"
+      ]
+    },
+    {
+      "id": 11,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/011/01.png"
+      ]
+    },
+    {
+      "id": 12,
+      "needed": 2,
+      "chosen": 2,
+      "available": 2,
+      "files": [
+        "images/artworks/012/01.png",
+        "images/artworks/012/02.png"
+      ]
+    },
+    {
+      "id": 13,
+      "needed": 2,
+      "chosen": 2,
+      "available": 1,
+      "files": [
+        "images/artworks/013/01.jpg",
+        "images/artworks/013/02.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/014/01.png"
+      ]
+    },
+    {
+      "id": 15,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/015/01.png"
+      ]
+    },
+    {
+      "id": 16,
+      "needed": 2,
+      "chosen": 2,
+      "available": 2,
+      "files": [
+        "images/artworks/016/01.png",
+        "images/artworks/016/02.png"
+      ]
+    },
+    {
+      "id": 17,
+      "needed": 2,
+      "chosen": 2,
+      "available": 3,
+      "files": [
+        "images/artworks/017/01.png",
+        "images/artworks/017/02.png"
+      ]
+    },
+    {
+      "id": 18,
+      "needed": 1,
+      "chosen": 1,
+      "available": 0,
+      "files": [
+        "images/artworks/018/01.jpg"
+      ]
+    },
+    {
+      "id": 19,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/019/01.png"
+      ]
+    },
+    {
+      "id": 20,
+      "needed": 3,
+      "chosen": 3,
+      "available": 3,
+      "files": [
+        "images/artworks/020/01.png",
+        "images/artworks/020/02.png",
+        "images/artworks/020/03.png"
+      ]
+    },
+    {
+      "id": 21,
+      "needed": 2,
+      "chosen": 2,
+      "available": 2,
+      "files": [
+        "images/artworks/021/01.png",
+        "images/artworks/021/02.png"
+      ]
+    },
+    {
+      "id": 22,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/022/01.png"
+      ]
+    },
+    {
+      "id": 23,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/023/01.png"
+      ]
+    },
+    {
+      "id": 24,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/024/01.png"
+      ]
+    },
+    {
+      "id": 25,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/025/01.png"
+      ]
+    },
+    {
+      "id": 26,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/026/01.png"
+      ]
+    },
+    {
+      "id": 27,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/027/01.png"
+      ]
+    },
+    {
+      "id": 28,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/028/01.png"
+      ]
+    },
+    {
+      "id": 29,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/029/01.png"
+      ]
+    },
+    {
+      "id": 30,
+      "needed": 2,
+      "chosen": 2,
+      "available": 2,
+      "files": [
+        "images/artworks/030/01.png",
+        "images/artworks/030/02.png"
+      ]
+    },
+    {
+      "id": 31,
+      "needed": 3,
+      "chosen": 3,
+      "available": 3,
+      "files": [
+        "images/artworks/031/01.png",
+        "images/artworks/031/02.png",
+        "images/artworks/031/03.png"
+      ]
+    },
+    {
+      "id": 32,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/032/01.png"
+      ]
+    },
+    {
+      "id": 33,
+      "needed": 2,
+      "chosen": 2,
+      "available": 2,
+      "files": [
+        "images/artworks/033/01.png",
+        "images/artworks/033/02.png"
+      ]
+    },
+    {
+      "id": 34,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/034/01.png"
+      ]
+    },
+    {
+      "id": 35,
+      "needed": 6,
+      "chosen": 6,
+      "available": 6,
+      "files": [
+        "images/artworks/035/01.png",
+        "images/artworks/035/02.png",
+        "images/artworks/035/03.png",
+        "images/artworks/035/04.png",
+        "images/artworks/035/05.png",
+        "images/artworks/035/06.png"
+      ]
+    },
+    {
+      "id": 36,
+      "needed": 1,
+      "chosen": 1,
+      "available": 2,
+      "files": [
+        "images/artworks/036/01.png"
+      ]
+    },
+    {
+      "id": 37,
+      "needed": 1,
+      "chosen": 1,
+      "available": 0,
+      "files": [
+        "images/artworks/037/01.jpg"
+      ]
+    },
+    {
+      "id": 38,
+      "needed": 3,
+      "chosen": 3,
+      "available": 3,
+      "files": [
+        "images/artworks/038/01.png",
+        "images/artworks/038/02.png",
+        "images/artworks/038/03.png"
+      ]
+    },
+    {
+      "id": 39,
+      "needed": 3,
+      "chosen": 3,
+      "available": 3,
+      "files": [
+        "images/artworks/039/01.png",
+        "images/artworks/039/02.png",
+        "images/artworks/039/03.png"
+      ]
+    },
+    {
+      "id": 40,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/040/01.png"
+      ]
+    },
+    {
+      "id": 41,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/041/01.png"
+      ]
+    },
+    {
+      "id": 42,
+      "needed": 1,
+      "chosen": 1,
+      "available": 2,
+      "files": [
+        "images/artworks/042/01.png"
+      ]
+    },
+    {
+      "id": 43,
+      "needed": 1,
+      "chosen": 1,
+      "available": 0,
+      "files": [
+        "images/artworks/043/01.jpg"
+      ]
+    },
+    {
+      "id": 44,
+      "needed": 2,
+      "chosen": 2,
+      "available": 2,
+      "files": [
+        "images/artworks/044/01.png",
+        "images/artworks/044/02.png"
+      ]
+    },
+    {
+      "id": 45,
+      "needed": 4,
+      "chosen": 4,
+      "available": 4,
+      "files": [
+        "images/artworks/045/01.png",
+        "images/artworks/045/02.png",
+        "images/artworks/045/03.png",
+        "images/artworks/045/04.png"
+      ]
+    },
+    {
+      "id": 46,
+      "needed": 2,
+      "chosen": 2,
+      "available": 2,
+      "files": [
+        "images/artworks/046/01.png",
+        "images/artworks/046/02.png"
+      ]
+    },
+    {
+      "id": 47,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/047/01.png"
+      ]
+    },
+    {
+      "id": 48,
+      "needed": 3,
+      "chosen": 3,
+      "available": 3,
+      "files": [
+        "images/artworks/048/01.png",
+        "images/artworks/048/02.png",
+        "images/artworks/048/03.png"
+      ]
+    },
+    {
+      "id": 49,
+      "needed": 3,
+      "chosen": 3,
+      "available": 3,
+      "files": [
+        "images/artworks/049/01.png",
+        "images/artworks/049/02.png",
+        "images/artworks/049/03.png"
+      ]
+    },
+    {
+      "id": 50,
+      "needed": 2,
+      "chosen": 2,
+      "available": 2,
+      "files": [
+        "images/artworks/050/01.png",
+        "images/artworks/050/02.png"
+      ]
+    },
+    {
+      "id": 51,
+      "needed": 5,
+      "chosen": 5,
+      "available": 8,
+      "files": [
+        "images/artworks/051/01.png",
+        "images/artworks/051/02.png",
+        "images/artworks/051/03.png",
+        "images/artworks/051/04.png",
+        "images/artworks/051/05.png"
+      ]
+    },
+    {
+      "id": 52,
+      "needed": 3,
+      "chosen": 3,
+      "available": 3,
+      "files": [
+        "images/artworks/052/01.png",
+        "images/artworks/052/02.png",
+        "images/artworks/052/03.png"
+      ]
+    },
+    {
+      "id": 53,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/053/01.png"
+      ]
+    },
+    {
+      "id": 54,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/054/01.png"
+      ]
+    },
+    {
+      "id": 55,
+      "needed": 3,
+      "chosen": 3,
+      "available": 3,
+      "files": [
+        "images/artworks/055/01.png",
+        "images/artworks/055/02.png",
+        "images/artworks/055/03.png"
+      ]
+    },
+    {
+      "id": 56,
+      "needed": 5,
+      "chosen": 5,
+      "available": 5,
+      "files": [
+        "images/artworks/056/01.png",
+        "images/artworks/056/02.png",
+        "images/artworks/056/03.png",
+        "images/artworks/056/04.png",
+        "images/artworks/056/05.png"
+      ]
+    },
+    {
+      "id": 57,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/057/01.png"
+      ]
+    },
+    {
+      "id": 58,
+      "needed": 4,
+      "chosen": 4,
+      "available": 5,
+      "files": [
+        "images/artworks/058/01.png",
+        "images/artworks/058/02.png",
+        "images/artworks/058/03.png",
+        "images/artworks/058/04.png"
+      ]
+    },
+    {
+      "id": 59,
+      "needed": 2,
+      "chosen": 2,
+      "available": 2,
+      "files": [
+        "images/artworks/059/01.png",
+        "images/artworks/059/02.png"
+      ]
+    },
+    {
+      "id": 60,
+      "needed": 6,
+      "chosen": 6,
+      "available": 6,
+      "files": [
+        "images/artworks/060/01.png",
+        "images/artworks/060/02.png",
+        "images/artworks/060/03.png",
+        "images/artworks/060/04.png",
+        "images/artworks/060/05.png",
+        "images/artworks/060/06.png"
+      ]
+    },
+    {
+      "id": 61,
+      "needed": 2,
+      "chosen": 2,
+      "available": 2,
+      "files": [
+        "images/artworks/061/01.png",
+        "images/artworks/061/02.png"
+      ]
+    },
+    {
+      "id": 62,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/062/01.png"
+      ]
+    },
+    {
+      "id": 63,
+      "needed": 3,
+      "chosen": 3,
+      "available": 3,
+      "files": [
+        "images/artworks/063/01.png",
+        "images/artworks/063/02.png",
+        "images/artworks/063/03.png"
+      ]
+    },
+    {
+      "id": 64,
+      "needed": 3,
+      "chosen": 3,
+      "available": 3,
+      "files": [
+        "images/artworks/064/01.png",
+        "images/artworks/064/02.png",
+        "images/artworks/064/03.png"
+      ]
+    },
+    {
+      "id": 65,
+      "needed": 4,
+      "chosen": 4,
+      "available": 4,
+      "files": [
+        "images/artworks/065/01.png",
+        "images/artworks/065/02.png",
+        "images/artworks/065/03.png",
+        "images/artworks/065/04.png"
+      ]
+    },
+    {
+      "id": 66,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/066/01.png"
+      ]
+    },
+    {
+      "id": 67,
+      "needed": 2,
+      "chosen": 2,
+      "available": 2,
+      "files": [
+        "images/artworks/067/01.png",
+        "images/artworks/067/02.png"
+      ]
+    },
+    {
+      "id": 68,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/068/01.png"
+      ]
+    },
+    {
+      "id": 69,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/069/01.png"
+      ]
+    },
+    {
+      "id": 70,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/070/01.png"
+      ]
+    },
+    {
+      "id": 71,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/071/01.jpg"
+      ]
+    },
+    {
+      "id": 72,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/072/01.png"
+      ]
+    },
+    {
+      "id": 73,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/073/01.png"
+      ]
+    },
+    {
+      "id": 74,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/074/01.png"
+      ]
+    },
+    {
+      "id": 75,
+      "needed": 4,
+      "chosen": 4,
+      "available": 3,
+      "files": [
+        "images/artworks/075/01.png",
+        "images/artworks/075/02.png",
+        "images/artworks/075/03.png",
+        "images/artworks/075/04.jpg"
+      ]
+    },
+    {
+      "id": 76,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/076/01.png"
+      ]
+    },
+    {
+      "id": 77,
+      "needed": 2,
+      "chosen": 2,
+      "available": 2,
+      "files": [
+        "images/artworks/077/01.png",
+        "images/artworks/077/02.png"
+      ]
+    },
+    {
+      "id": 78,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/078/01.png"
+      ]
+    },
+    {
+      "id": 79,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/079/01.png"
+      ]
+    },
+    {
+      "id": 80,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/080/01.png"
+      ]
+    },
+    {
+      "id": 81,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/081/01.png"
+      ]
+    },
+    {
+      "id": 82,
+      "needed": 3,
+      "chosen": 3,
+      "available": 4,
+      "files": [
+        "images/artworks/082/01.png",
+        "images/artworks/082/02.png",
+        "images/artworks/082/03.png"
+      ]
+    },
+    {
+      "id": 83,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/083/01.png"
+      ]
+    },
+    {
+      "id": 84,
+      "needed": 3,
+      "chosen": 3,
+      "available": 3,
+      "files": [
+        "images/artworks/084/01.png",
+        "images/artworks/084/02.png",
+        "images/artworks/084/03.png"
+      ]
+    },
+    {
+      "id": 85,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/085/01.png"
+      ]
+    },
+    {
+      "id": 86,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/086/01.png"
+      ]
+    },
+    {
+      "id": 87,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/087/01.png"
+      ]
+    },
+    {
+      "id": 88,
+      "needed": 3,
+      "chosen": 3,
+      "available": 3,
+      "files": [
+        "images/artworks/088/01.png",
+        "images/artworks/088/02.png",
+        "images/artworks/088/03.png"
+      ]
+    },
+    {
+      "id": 89,
+      "needed": 3,
+      "chosen": 3,
+      "available": 3,
+      "files": [
+        "images/artworks/089/01.png",
+        "images/artworks/089/02.png",
+        "images/artworks/089/03.png"
+      ]
+    },
+    {
+      "id": 90,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/090/01.png"
+      ]
+    },
+    {
+      "id": 91,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/091/01.png"
+      ]
+    },
+    {
+      "id": 92,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/092/01.png"
+      ]
+    },
+    {
+      "id": 93,
+      "needed": 5,
+      "chosen": 5,
+      "available": 5,
+      "files": [
+        "images/artworks/093/01.png",
+        "images/artworks/093/02.png",
+        "images/artworks/093/03.png",
+        "images/artworks/093/04.png",
+        "images/artworks/093/05.png"
+      ]
+    },
+    {
+      "id": 94,
+      "needed": 2,
+      "chosen": 2,
+      "available": 2,
+      "files": [
+        "images/artworks/094/01.png",
+        "images/artworks/094/02.png"
+      ]
+    },
+    {
+      "id": 95,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/095/01.png"
+      ]
+    },
+    {
+      "id": 96,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/096/01.png"
+      ]
+    },
+    {
+      "id": 97,
+      "needed": 1,
+      "chosen": 1,
+      "available": 1,
+      "files": [
+        "images/artworks/097/01.png"
+      ]
+    },
+    {
+      "id": 98,
+      "needed": 1,
+      "chosen": 1,
+      "available": 0,
+      "files": [
+        "images/artworks/098/01.jpg"
+      ]
+    }
+  ],
+  "short": [],
+  "unused_left": [
+    "source\\pptx-md\\unit-1\\img\\__Unit 1 Global Prehistory_0.png",
+    "source\\pptx-md\\unit-1\\img\\__Unit 1 Global Prehistory_12.png",
+    "source\\pptx-md\\unit-1\\img\\__Unit 1 Global Prehistory_4.png",
+    "source\\pptx-md\\unit-1\\img\\__Unit 1 Global Prehistory_43.png",
+    "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_315.png",
+    "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_371.png",
+    "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_39.jpg",
+    "source\\pptx-md\\unit-2\\img\\__UNIT 2 Ancient Mediterranean_81.png",
+    "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_238.png",
+    "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_95.png",
+    "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_96.png",
+    "source\\pptx-md\\unit-3a\\img\\1of2 __Unit 3 Early Europe & Colonial Americas_97.jpg",
+    "source\\pptx-md\\unit-3b\\img\\2of2 __Unit 3 Early Europe & Colonial Americas_204.png"
+  ]
+}
