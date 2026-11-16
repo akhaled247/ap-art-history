@@ -161,6 +161,24 @@ window.ArtworkQuiz = (function () {
     return arr[Math.floor(random() * arr.length)];
   }
 
+  function orderArtworksForBuild(pool, preferredArtworkId, rng) {
+    var ordered = shuffle(pool, rng);
+    if (preferredArtworkId == null) return ordered;
+    var preferred = [];
+    var rest = [];
+    ordered.forEach(function (artwork) {
+      if (artwork.id === preferredArtworkId) preferred.push(artwork);
+      else rest.push(artwork);
+    });
+    return preferred.concat(rest);
+  }
+
+  function orderModesForBuild(preferredMode, rng) {
+    if (!preferredMode) return shuffle(MODES.slice(), rng);
+    var rest = MODES.filter(function (m) { return m !== preferredMode; });
+    return [preferredMode].concat(shuffle(rest, rng));
+  }
+
   function pickFourChoices(correct, distinctValues, rng) {
     if (distinctValues.length < 4) return null;
     var correctTrim = (correct || '').trim();
@@ -214,10 +232,22 @@ window.ArtworkQuiz = (function () {
     });
     if (!eligible.length) return null;
 
-    var artwork = pickRandom(eligible, random);
-    var correct = getQuizAnswer(artwork, fieldKey).trim();
-    var choices = pickFourChoices(correct, distinct, random);
-    if (!choices) return null;
+    var ordered = orderArtworksForBuild(
+      eligible,
+      options && options.preferredArtworkId,
+      random
+    );
+    var artwork = null;
+    var correct = '';
+    var choices = null;
+    var ai;
+    for (ai = 0; ai < ordered.length; ai++) {
+      artwork = ordered[ai];
+      correct = getQuizAnswer(artwork, fieldKey).trim();
+      choices = pickFourChoices(correct, distinct, random);
+      if (choices) break;
+    }
+    if (!choices || !artwork) return null;
 
     var meta = FIELD_META[fieldKey] || {};
     var prompt;
@@ -243,41 +273,82 @@ window.ArtworkQuiz = (function () {
     };
   }
 
-  function buildImageToFieldQuestion(pool, rng) {
+  function buildImageToFieldQuestion(pool, rng, buildOptions) {
     var random = rng || Math.random;
     var fieldOrder = shuffle(imageFieldKeysForPool(pool), random);
     var i;
     for (i = 0; i < fieldOrder.length; i++) {
       var q = buildFieldValueQuestion(pool, fieldOrder[i], random, {
         mode: 'imageToField',
-        showImage: true
+        showImage: true,
+        preferredArtworkId: buildOptions && buildOptions.preferredArtworkId
       });
       if (q) return q;
     }
     return null;
   }
 
-  function buildTitleToFieldQuestion(pool, rng) {
+  function buildTitleToFieldQuestion(pool, rng, buildOptions) {
     var random = rng || Math.random;
     var fieldOrder = shuffle(askableKeysForPool(pool), random);
     var i;
     for (i = 0; i < fieldOrder.length; i++) {
       var q = buildFieldValueQuestion(pool, fieldOrder[i], random, {
         mode: 'titleToField',
-        showImage: false
+        showImage: false,
+        preferredArtworkId: buildOptions && buildOptions.preferredArtworkId
       });
       if (q) return q;
     }
     return null;
   }
 
-  function buildFieldToTitleQuestion(pool, rng) {
+  function buildFieldToTitleQuestion(pool, rng, buildOptions) {
     if (getDistinctAnswers(pool, 'title').length < 4) return null;
 
     var random = rng || Math.random;
+    var preferredId = buildOptions && buildOptions.preferredArtworkId;
+    var keys = askableKeysForPool(pool);
+
+    if (preferredId != null) {
+      var preferredArt = null;
+      var pi;
+      for (pi = 0; pi < pool.length; pi++) {
+        if (pool[pi].id === preferredId) {
+          preferredArt = pool[pi];
+          break;
+        }
+      }
+      if (preferredArt) {
+        var fieldOrder = shuffle(keys, random);
+        var fk;
+        for (fk = 0; fk < fieldOrder.length; fk++) {
+          var fieldKey = fieldOrder[fk];
+          if (!canQuizField(preferredArt, fieldKey)) continue;
+          var clue = getQuizAnswer(preferredArt, fieldKey).trim();
+          if (!isUniqueClue(pool, fieldKey, clue)) continue;
+          var correctTitle = preferredArt.title.trim();
+          var titleDistinct = getDistinctAnswers(pool, 'title');
+          var choiceList = pickFourChoices(correctTitle, titleDistinct, random);
+          if (!choiceList) continue;
+          var meta = FIELD_META[fieldKey] || {};
+          return {
+            mode: 'fieldToTitle',
+            showImage: false,
+            artwork: preferredArt,
+            fieldKey: fieldKey,
+            prompt: fillTemplate(meta.fieldToTitleTemplate || 'Which artwork matches {value}?', {
+              value: clue
+            }),
+            correctAnswer: correctTitle,
+            choices: choiceList
+          };
+        }
+      }
+    }
+
     var maxAttempts = 40;
     var attempt;
-    var keys = askableKeysForPool(pool);
     for (attempt = 0; attempt < maxAttempts; attempt++) {
       var fieldKey = pickRandom(keys, random);
       var withField = pool.filter(function (a) { return canQuizField(a, fieldKey); });
@@ -310,22 +381,23 @@ window.ArtworkQuiz = (function () {
     return null;
   }
 
-  function buildQuestion(pool, rng) {
+  function buildQuestion(pool, rng, buildOptions) {
     if (!pool || pool.length < 4) {
       return { error: 'pool_too_small' };
     }
 
     var random = rng || Math.random;
-    var modeOrder = shuffle(MODES.slice(), random);
+    var preferredMode = buildOptions && buildOptions.preferredMode;
+    var modeOrder = orderModesForBuild(preferredMode, random);
     var i;
     for (i = 0; i < modeOrder.length; i++) {
       var q = null;
       if (modeOrder[i] === 'imageToField') {
-        q = buildImageToFieldQuestion(pool, random);
+        q = buildImageToFieldQuestion(pool, random, buildOptions);
       } else if (modeOrder[i] === 'titleToField') {
-        q = buildTitleToFieldQuestion(pool, random);
+        q = buildTitleToFieldQuestion(pool, random, buildOptions);
       } else if (modeOrder[i] === 'fieldToTitle') {
-        q = buildFieldToTitleQuestion(pool, random);
+        q = buildFieldToTitleQuestion(pool, random, buildOptions);
       }
       if (q) return q;
     }

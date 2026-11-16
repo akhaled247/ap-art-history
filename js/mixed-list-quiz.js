@@ -20,7 +20,12 @@ window.MixedListQuiz = (function () {
 
     function buildAttribution() {
       if (!window.ArtworkQuiz) return null;
-      var q = window.ArtworkQuiz.buildQuestion(pool, random);
+      var q = null;
+      if (options && typeof options.buildAttribution === 'function') {
+        q = options.buildAttribution(pool);
+      } else {
+        q = window.ArtworkQuiz.buildQuestion(pool, random);
+      }
       if (q && !q.error) return Object.assign({ quizType: 'attribution' }, q);
       return null;
     }
@@ -51,7 +56,14 @@ window.MixedListQuiz = (function () {
         : { error: 'insufficient_concepts' };
     }
 
-    var attr = window.ArtworkQuiz ? window.ArtworkQuiz.buildQuestion(pool, random) : { error: 'pool_too_small' };
+    var attr = null;
+    if (options && typeof options.buildAttribution === 'function') {
+      attr = options.buildAttribution(pool);
+    } else if (window.ArtworkQuiz) {
+      attr = window.ArtworkQuiz.buildQuestion(pool, random);
+    } else {
+      attr = { error: 'pool_too_small' };
+    }
     if (attr && !attr.error) return Object.assign({ quizType: 'attribution' }, attr);
     return window.ArtworkAssociationQuiz
       ? window.ArtworkAssociationQuiz.buildQuestion(pool, random, options)

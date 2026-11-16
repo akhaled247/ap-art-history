@@ -10,6 +10,7 @@
   var _quizAnswered = false;
   var _selectedUnit = 'all';
   var _dataReady = false;
+  var _attributionSession = null;
 
   document.addEventListener('DOMContentLoaded', function () {
     var quizPanel = document.getElementById('list-quiz-panel');
@@ -35,6 +36,20 @@
     setupQuizNext();
   });
 
+  function getAttributionSession() {
+    if (!window.ListAttributionQuizSession) return null;
+    if (!_attributionSession) {
+      _attributionSession = window.ListAttributionQuizSession.forScope('list-attribution');
+      _attributionSession.configure(getQuizPool);
+    }
+    return _attributionSession;
+  }
+
+  function resetAttributionQuizDeck() {
+    var session = getAttributionSession();
+    if (session) session.reset();
+  }
+
   function setupUnitSync() {
     var nav = document.getElementById('list-unit-nav');
     if (!nav) return;
@@ -43,6 +58,7 @@
       var btn = e.target.closest('.unit-tab');
       if (!btn) return;
       _selectedUnit = btn.getAttribute('data-unit') || 'all';
+      resetAttributionQuizDeck();
       if (window.ListViewTabs && window.ListViewTabs.getView() === 'quiz' && _dataReady) {
         startQuizQuestion();
       }
@@ -65,8 +81,11 @@
   }
 
   function resolveAssetPath(src) {
-    if (!src || /^https?:\/\//i.test(src)) return src;
-    return '../' + src.replace(/^\//, '');
+    if (!src || /^https?:\/\//i.test(src) || src.startsWith('//')) return src;
+    if (window.DataLoader && typeof window.DataLoader.resolveSitePath === 'function') {
+      return window.DataLoader.resolveSitePath(src);
+    }
+    return src.replace(/^\//, '');
   }
 
   function startQuizQuestion() {
@@ -89,8 +108,10 @@
       return;
     }
 
-    var pool = getQuizPool();
-    var built = window.ArtworkQuiz.buildQuestion(pool);
+    var session = getAttributionSession();
+    var built = session
+      ? session.buildQuestion()
+      : window.ArtworkQuiz.buildQuestion(getQuizPool());
 
     if (built && built.error) {
       if (imgEl) imgEl.hidden = true;
@@ -168,6 +189,10 @@
     _quizScore.total += 1;
     var isCorrect = btn.getAttribute('data-correct') === 'true';
     if (isCorrect) _quizScore.correct += 1;
+    else {
+      var session = getAttributionSession();
+      if (session) session.onMissed(built);
+    }
 
     optionsEl.querySelectorAll('.vocab-quiz-option').forEach(function (opt) {
       opt.disabled = true;

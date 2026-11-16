@@ -11,6 +11,7 @@
   var _dataReady = false;
   var _selectedUnits = 'all';
   var _includeAttribution = false;
+  var _connectAttributionSession = null;
 
   document.addEventListener('DOMContentLoaded', function () {
     var connectPanel = document.getElementById('list-connect-panel');
@@ -107,6 +108,7 @@
 
       savePrefs();
       resetScore();
+      resetConnectAttributionDeck();
       if (window.ListViewTabs && window.ListViewTabs.getView() === 'connect' && _dataReady) {
         startConnectQuestion();
       }
@@ -139,6 +141,7 @@
       _includeAttribution = attrEl.checked;
       savePrefs();
       resetScore();
+      resetConnectAttributionDeck();
       if (window.ListViewTabs && window.ListViewTabs.getView() === 'connect' && _dataReady) {
         startConnectQuestion();
       }
@@ -146,8 +149,11 @@
   }
 
   function resolveAssetPath(src) {
-    if (!src || /^https?:\/\//i.test(src)) return src;
-    return '../' + src.replace(/^\//, '');
+    if (!src || /^https?:\/\//i.test(src) || src.startsWith('//')) return src;
+    if (window.DataLoader && typeof window.DataLoader.resolveSitePath === 'function') {
+      return window.DataLoader.resolveSitePath(src);
+    }
+    return src.replace(/^\//, '');
   }
 
   function updateConnectQuestionImage(built) {
@@ -198,6 +204,20 @@
     });
   }
 
+  function getConnectAttributionSession() {
+    if (!window.ListAttributionQuizSession) return null;
+    if (!_connectAttributionSession) {
+      _connectAttributionSession = window.ListAttributionQuizSession.forScope('list-connect');
+      _connectAttributionSession.configure(getConnectPool);
+    }
+    return _connectAttributionSession;
+  }
+
+  function resetConnectAttributionDeck() {
+    var session = getConnectAttributionSession();
+    if (session) session.reset();
+  }
+
   function startConnectQuestion() {
     _quizAnswered = false;
     var promptEl = document.getElementById('list-connect-prompt');
@@ -220,8 +240,17 @@
     }
 
     var pool = getConnectPool();
+    var connectAttrSession = getConnectAttributionSession();
+    var mixOpts = {
+      includeAttribution: _includeAttribution,
+      buildAttribution: connectAttrSession
+        ? function () {
+          return connectAttrSession.buildQuestion();
+        }
+        : null
+    };
     var built = window.MixedListQuiz
-      ? window.MixedListQuiz.buildMixedQuestion(pool, { includeAttribution: _includeAttribution })
+      ? window.MixedListQuiz.buildMixedQuestion(pool, mixOpts)
       : window.ArtworkAssociationQuiz.buildQuestion(pool);
 
     if (built && built.error) {
@@ -287,6 +316,10 @@
     _quizScore.total += 1;
     var isCorrect = btn.getAttribute('data-correct') === 'true';
     if (isCorrect) _quizScore.correct += 1;
+    else if (built.quizType === 'attribution') {
+      var attrSession = getConnectAttributionSession();
+      if (attrSession) attrSession.onMissed(built);
+    }
 
     optionsEl.querySelectorAll('.vocab-quiz-option').forEach(function (opt) {
       opt.disabled = true;
